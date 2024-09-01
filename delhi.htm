@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bus Route Visualization</title>
+  <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.css" />
+  <style>
+    #map { height: 600px; }
+    #form { margin-bottom: 20px; }
+  </style>
+</head>
+<body>
+  <div id="form">
+    <input type="text" id="start-location" placeholder="Start Location" value="India Gate, New Delhi" />
+    <input type="text" id="end-location" placeholder="End Location" value="Qutub Minar, New Delhi" />
+    <button onclick="showRoute()">Show Route</button>
+  </div>
+  <div id="map"></div>
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.js"></script>
+  <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+  <script>
+    // Initialize the map centered on New Delhi
+    var map = L.map('map').setView([28.6139, 77.2090], 13);
+
+    // Add OSM tile layer
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    // Define major routes with different colors
+    var majorRoutes = [
+      {
+        name: 'Route 1: Anand Vihar ISBT to Badarpur Border',
+        waypoints: [
+          [28.6506, 77.3152], // Anand Vihar ISBT
+          [28.4944, 77.2971]  // Badarpur Border
+        ],
+        color: 'red'
+      },
+      {
+        name: 'Route 2: Nehru Place to Uttam Nagar Terminal',
+        waypoints: [
+          [28.5497, 77.2518], // Nehru Place
+          [28.6219, 77.0730]  // Uttam Nagar Terminal
+        ],
+        color: 'blue'
+      },
+      {
+        name: 'Route 3: Azadpur to Nizamuddin Railway Station',
+        waypoints: [
+          [28.7164, 77.1730], // Azadpur
+          [28.5886, 77.2506]  // Nizamuddin Railway Station
+        ],
+        color: 'green'
+      },
+      {
+        name: 'Route 4: Mehrauli to Mori Gate',
+        waypoints: [
+          [28.5273, 77.1839], // Mehrauli
+          [28.6680, 77.2299]  // Mori Gate
+        ],
+        color: 'orange'
+      },
+      {
+        name: 'Route 5: Uttam Nagar Terminal to Anand Vihar ISBT',
+        waypoints: [
+          [28.6219, 77.0730], // Uttam Nagar Terminal
+          [28.6506, 77.3152]  // Anand Vihar ISBT
+        ],
+        color: 'purple'
+      },
+      {
+        name: 'Route 6: Dhaula Kuan to Badarpur Border',
+        waypoints: [
+          [28.5950, 77.1629], // Dhaula Kuan
+          [28.4944, 77.2971]  // Badarpur Border
+        ],
+        color: 'brown'
+      },
+      {
+        name: 'Route 7: Janakpuri West to Shivaji Stadium',
+        waypoints: [
+          [28.6210, 77.0922], // Janakpuri West
+          [28.6261, 77.2106]  // Shivaji Stadium
+        ],
+        color: 'pink'
+      },
+      {
+        name: 'Route 8: Saket to Narela',
+        waypoints: [
+          [28.5225, 77.2107], // Saket
+          [28.8523, 77.0929]  // Narela
+        ],
+        color: 'cyan'
+      },
+      {
+        name: 'Route 9: Mayur Vihar Phase 3 to Safdarjung Terminal',
+        waypoints: [
+          [28.6169, 77.3353], // Mayur Vihar Phase 3
+          [28.5651, 77.2013]  // Safdarjung Terminal
+        ],
+        color: 'magenta'
+      },
+      {
+        name: 'Route 10: Lajpat Nagar to Jahangirpuri',
+        waypoints: [
+          [28.5687, 77.2433], // Lajpat Nagar
+          [28.7250, 77.1729]  // Jahangirpuri
+        ],
+        color: 'violet'
+      },
+      {
+        name: 'Route 11: Mukherjee Nagar to Nehru Place',
+        waypoints: [
+          [28.7016, 77.2102], // Mukherjee Nagar
+          [28.5497, 77.2518]  // Nehru Place
+        ],
+        color: 'yellow'
+      },
+      {
+        name: 'Route 12: Uttam Nagar Terminal to ISBT Kashmere Gate',
+        waypoints: [
+          [28.6219, 77.0730], // Uttam Nagar Terminal
+          [28.6674, 77.2274]  // ISBT Kashmere Gate
+        ],
+        color: 'lime'
+      },
+      {
+        name: 'Route 13: Azadpur to Malviya Nagar',
+        waypoints: [
+          [28.7164, 77.1730], // Azadpur
+          [28.5273, 77.2206]  // Malviya Nagar
+        ],
+        color: 'teal'
+      },
+      {
+        name: 'Route 14: Mayur Vihar Phase 3 to Badarpur Border',
+        waypoints: [
+          [28.6169, 77.3353], // Mayur Vihar Phase 3
+          [28.4944, 77.2971]  // Badarpur Border
+        ],
+        color: 'silver'
+      },
+      {
+        name: 'Route 15: Kashmere Gate ISBT to Saket',
+        waypoints: [
+          [28.6674, 77.2274], // Kashmere Gate ISBT
+          [28.5225, 77.2107]  // Saket
+        ],
+        color: 'gold'
+      },
+      {
+        name: 'Route 16: Dhaula Kuan to Dwarka Sector 10',
+        waypoints: [
+          [28.5950, 77.1629], // Dhaula Kuan
+          [28.5947, 77.0466]  // Dwarka Sector 10
+        ],
+        color: 'indigo'
+      },
+      {
+        name: 'Route 17: Rohini Sector 22 to AIIMS',
+        waypoints: [
+          [28.7375, 77.1135], // Rohini Sector 22
+          [28.5672, 77.2100]  // AIIMS
+        ],
+        color: 'brown'
+      },
+      {
+        name: 'Route 18: Vasant Kunj to ISBT Anand Vihar',
+        waypoints: [
+          [28.5208, 77.1692], // Vasant Kunj
+          [28.6506, 77.3152]  // ISBT Anand Vihar
+        ],
+        color: 'crimson'
+      },
+      {
+        name: 'Route 19: Mehrauli to ISBT Kashmere Gate',
+        waypoints: [
+          [28.5273, 77.1839], // Mehrauli
+          [28.6674, 77.2274]  // ISBT Kashmere Gate
+        ],
+        color: 'darkblue'
+      },
+      {
+        name: 'Route 20: Vasant Vihar to ISBT Kashmere Gate',
+        waypoints: [
+          [28.5708, 77.1570], // Vasant Vihar
+          [28.6674, 77.2274]  // ISBT Kashmere Gate
+        ],
+        color: 'darkgreen'
+      }
+    ];
+
+    // Add routes to the map
+    majorRoutes.forEach(function(route) {
+      L.Routing.control({
+        waypoints: route.waypoints.map(function(latlng) {
+          return L.latLng(latlng[0], latlng[1]);
+        }),
+        routeWhileDragging: true,
+        createMarker: function() { return null; }, // Hide default markers
+        lineOptions: {
+          styles: [{ color: route.color, weight: 5 }]
+        }
+      }).addTo(map);
+    });
+
+    // Function to show route based on user input
+    function showRoute() {
+      var startLocation = document.getElementById('start-location').value;
+      var endLocation = document.getElementById('end-location').value;
+
+      if (startLocation && endLocation) {
+        L.Control.Geocoder.nominatim().geocode(startLocation, function (results) {
+          if (results.length > 0) {
+            var startLatLng = results[0].center;
+
+            L.Control.Geocoder.nominatim().geocode(endLocation, function (results) {
+              if (results.length > 0) {
+                var endLatLng = results[0].center;
+
+                // Clear existing routes
+                map.eachLayer(function(layer) {
+                  if (layer instanceof L.Routing.Control) {
+                    map.removeLayer(layer);
+                  }
+                });
+
+                // Set waypoints and update the route
+                L.Routing.control({
+                  waypoints: [
+                    L.latLng(startLatLng.lat, startLatLng.lng),
+                    L.latLng(endLatLng.lat, endLatLng.lng)
+                  ],
+                  routeWhileDragging: true,
+                  createMarker: function() { return null; }, // Hide default markers
+                  lineOptions: {
+                    styles: [{ color: 'purple', weight: 5 }] // Color for user input route
+                  }
+                }).addTo(map);
+
+                // Center the map to fit the route
+                map.fitBounds([
+                  L.latLng(startLatLng.lat, startLatLng.lng),
+                  L.latLng(endLatLng.lat, endLatLng.lng)
+                ]);
+              } else {
+                alert('End location not found.');
+              }
+            });
+          } else {
+            alert('Start location not found.');
+          }
+        });
+      } else {
+        alert('Please enter both start and end locations.');
+      }
+    }
+  </script>
+</body>
+</html>
