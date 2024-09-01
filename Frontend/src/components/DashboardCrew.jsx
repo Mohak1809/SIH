@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
+import GIS from './About/GIS/gis';
 
 function DashboardCrew() {
   const [data, setData] = useState([]);
@@ -46,6 +47,7 @@ function DashboardCrew() {
         </div>
       ))}
     </div>
+      <GIS />
     </>
   );
 }
