@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 const DashboardManager = () => {
   const [data, setData] = useState([]);
@@ -92,6 +93,12 @@ const DashboardManager = () => {
           >
             Clear
           </button>
+          <Link
+          to="/add-bus"
+            className="ml-4 px-4 py-2 bg-[#55AD9B] text-white rounded-lg hover:bg-[#95D2B3]"
+          >
+            Add Buses
+          </Link>
         </div>
         <table className="w-[90%] table-auto">
           <thead>

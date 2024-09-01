@@ -9,6 +9,7 @@ import Contact from './components/Contact/Contact';
 import AboutPage from './components/About/about';
 import SimpleOutlet from './components/SimpleOutlet';
 import BusInfo from './components/Bus Info/BusInfo';
+import AddBus from './components/AddBus/AddBus';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         {/* Layout with Header and Footer */}
         <Route element={<Layout />}>
           <Route path="/dashboard-manager" element={<DashboardManager />} />
+          <Route path="/add-bus" element={<AddBus />} />
           <Route path="/dashboard-crew/:id" element={<DashboardCrew />} /> {/* Corrected Route */}
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<AboutPage />} />
