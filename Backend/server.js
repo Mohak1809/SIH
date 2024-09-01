@@ -27,19 +27,19 @@ app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 
 
 
-// // const express = require('express');
-// const path = require('path');
-// // const app = express();
-// const port = 3000;
+//const express = require('express');
+const path = require('path');
+// const app = express();
+const port = 3000;
 
-// // Serve JSON data
-// app.get('/api/crewMembers', (req, res) => {
-//     const filePath = path.join(__dirname, 'mockCrewMembers.json');
-//     res.sendFile(filePath);
-// });
+// Serve JSON data
+app.get('/api/crewMembers', (req, res) => {
+    const filePath = path.join(__dirname, 'mockCrewMembers.json');
+    res.sendFile(filePath);
+});
 
-// app.listen(port, () => {
-//     console.log(`Server running at http://localhost:${port}`);
-// });
+app.listen(port, () => {
+    console.log(`Server running at http://localhost:${port}`);
+});
 
 

@@ -2,7 +2,8 @@ const bcrypt = require('bcrypt');
 const User = require('../models/User');
 const jwt = require('jsonwebtoken');
 const secretKey = 'schedule_line_crew&manager:999';
-
+const AssignedDB=require("../models/AssignedDB")
+const BusRoute=require("../models/BusRoute")
 // Handle user registration
 async function handleRegisterUser(req, res) {
   try {
@@ -108,18 +109,18 @@ async function handleLoginUser(req, res) {
   }
 }
 
+//Fetching the crew details
 async function getDashboardCrewId(req, res) {
   try {
       const crewId = req.params.id;
 
-      // Find the crew member by ID and populate the AssignedDB field
-      const crewMember = await Crew.findById(crewId).populate('AssignedDB').exec();
+      // Find the crew member by ID 
+      const crewMember = await AssignedDB.findById(crewId);
       
       if (!crewMember) {
           return res.status(404).json({ message: 'Crew member not found' });
       }
 
-      // Respond with the crew member data including AssignedDB
       res.status(200).json(crewMember);
   } catch (error) {
       console.error('Error fetching crew member:', error);
@@ -127,8 +128,116 @@ async function getDashboardCrewId(req, res) {
   }
 }
 
+//Adding the new crew details
+async function addCrewToDashBoard(req, res) {
+  try {
+    const { 
+      userId,
+      crewRole,
+      busNumber,
+      routeId,
+      routeShortName,
+      startPoint,
+      endPoint,
+      distance,
+      shift,
+      startTime,
+      expectedTime
+    } = req.body; // This is expected to be an object matching the `AssignedDB` schema
+
+    // Creating a new instance of AssignedDB with the extracted details
+    const newAssignment = new AssignedDB({
+      userId,
+      crewRole,
+      busNumber,
+      routeId,
+      routeShortName,
+      startPoint,
+      endPoint,
+      distance,
+      shift,
+      startTime,
+      expectedTime
+    });
+
+    // Saving the new assignment to the database
+    await newAssignment.save();
+
+    // Responding with the saved assignment
+    res.status(200).json(newAssignment);
+  } catch (error) {
+    console.error('Error in adding crew member:', error);
+    res.status(500).json({ message: 'Internal Server Error' });
+  }
+}
+
+//Deleting the given crew details
+async function deleteCrewToDashBoard(req, res) {
+  try {
+    console.log(req.body);
+    const { userId } = req.body; // Expecting the user ID of the assignment to delete
+
+    // Find the assignment with the given user ID
+    const result = await AssignedDB.findOneAndDelete({ userId: userId });
+
+    if (!result) {
+      return res.status(404).json({ message: 'Assignment not found' });
+    }
+
+    res.status(200).json({ message: 'Assignment deleted successfully' });
+  } catch (error) {
+    console.error('Error deleting crew assignment:', error);
+    res.status(500).json({ message: 'Internal Server Error' });
+  }
+}
+
+async function addNewBus(req, res) {
+  try {
+    const {
+      routeID,
+      agencyID,
+      routeShortName,
+      routeDesc,
+      startPoint,
+      endPoint,
+      routeDifficulty,
+      distance,
+      expectedTime,
+      busNumbers
+    } = req.body;
+
+    // Validate that all required fields are present
+    if (!routeID || !agencyID || !routeShortName || !routeDesc || !startPoint || !endPoint || !routeDifficulty || !distance || !expectedTime || !busNumbers) {
+      return res.status(400).json({ message: 'All fields are required' });
+    }
+
+    // Create a new BusRoute document
+    const newBusRoute = new BusRoute({
+      routeID,
+      agencyID,
+      routeShortName,
+      routeDesc,
+      startPoint,
+      endPoint,
+      routeDifficulty,
+      distance,
+      expectedTime,
+      busNumbers
+    });
+
+    await newBusRoute.save();
+    res.status(200).json({ message: 'Bus route added successfully', busRoute: newBusRoute });
+  } catch (error) {
+    console.error('Error adding bus route:', error);
+    res.status(500).json({ message: 'Internal Server Error' });
+  }
+};
+
 module.exports = {
   handleRegisterUser,
   handleLoginUser,
-  getDashboardCrewId,  
+  getDashboardCrewId,
+  addCrewToDashBoard,
+  deleteCrewToDashBoard,
+  addNewBus  
 };
