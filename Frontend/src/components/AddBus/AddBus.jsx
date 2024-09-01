@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-// import config from '../config';
+import config from '../../config';
 
 const AddBus = () => {
   const [formData, setFormData] = useState({
@@ -39,7 +39,7 @@ const AddBus = () => {
     }
 
     try {
-      const response = await axios.post(`${config.apiUrl}/bus/add`, {
+      const response = await axios.post(`${config.apiUrl}/auth/add-bus`, {
         routeID,
         agencyID,
         routeShortName,
@@ -60,7 +60,6 @@ const AddBus = () => {
 
       console.log('Bus added successfully:', response.data);
       alert('Bus added successfully!');
-      navigate('/bus-list'); // Change this to your desired route after adding the bus
     } catch (error) {
       console.error('Error adding bus:', error);
       alert('Failed to add bus: ' + (error.response?.data?.message || error.message));

@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { handleRegisterUser, handleLoginUser, getDashboardCrewId, addCrewToDashBoard , deleteCrewToDashBoard, addNewBus} = require('../controllers/authController');
+const { handleRegisterUser,getDashboardManagerDetails, handleLoginUser, getDashboardCrewId, addCrewToDashBoard , deleteCrewToDashBoard, addNewBus} = require('../controllers/authController');
 const verifyToken = require('../middlewares/authMiddleware');
 
 // Registration endpoint
@@ -10,7 +10,7 @@ router.post('/register', handleRegisterUser);
 router.post('/login', handleLoginUser);
 
 
-router.get('/dashboard-manager', getDashboardManagerDetails, verifyToken );
+router.get('/dashboard-manager', getDashboardManagerDetails );
 
 router.get('/dashboard-crew/:id', getDashboardCrewId);
 router.post('/add-bus', addNewBus);

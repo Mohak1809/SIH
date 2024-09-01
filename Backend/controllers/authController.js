@@ -2,13 +2,9 @@ const bcrypt = require('bcrypt');
 const User = require('../models/User');
 const jwt = require('jsonwebtoken');
 const secretKey = 'schedule_line_crew&manager:999';
-<<<<<<< HEAD
 const AssignedDB=require("../models/AssignedDB")
 const BusRoute=require("../models/BusRoute")
-=======
-const AssignedDB = require("../models/AssignedDB");
 
->>>>>>> 76da1f08ddd9aeb96c1b9afad83ef4f533b6a1b0
 // Handle user registration
 async function handleRegisterUser(req, res) {
   try {
@@ -116,11 +112,7 @@ async function handleLoginUser(req, res) {
   }
 }
 
-<<<<<<< HEAD
-//Fetching the crew details
-=======
 
->>>>>>> 76da1f08ddd9aeb96c1b9afad83ef4f533b6a1b0
 async function getDashboardCrewId(req, res) {
   console.log(req);
   
@@ -128,13 +120,8 @@ async function getDashboardCrewId(req, res) {
       const crewId = req.params.id;
       
 
-<<<<<<< HEAD
-      // Find the crew member by ID 
-      const crewMember = await AssignedDB.findById(crewId);
-=======
       // Find the crew member by ID and populate the AssignedDB field
       const crewMember = await AssignedDB.find({userId:crewId});;
->>>>>>> 76da1f08ddd9aeb96c1b9afad83ef4f533b6a1b0
       
       if (!crewMember) {
           return res.status(404).json({ message: 'Crew member not found' });
@@ -147,7 +134,6 @@ async function getDashboardCrewId(req, res) {
   }
 }
 
-<<<<<<< HEAD
 //Adding the new crew details
 async function addCrewToDashBoard(req, res) {
   try {
@@ -253,14 +239,6 @@ async function addNewBus(req, res) {
   }
 };
 
-module.exports = {
-  handleRegisterUser,
-  handleLoginUser,
-  getDashboardCrewId,
-  addCrewToDashBoard,
-  deleteCrewToDashBoard,
-  addNewBus  
-=======
 async function getDashboardManagerDetails(req, res) {
   try {
     // Fetch all records from the AssignedDB collection
@@ -285,14 +263,12 @@ async function getDashboardManagerDetails(req, res) {
 
   }
 }
-
 module.exports = {
   handleRegisterUser,
   handleLoginUser,
-
-  getDashboardCrewId,  
-
-  getDashboardManagerDetails ,
-
->>>>>>> 76da1f08ddd9aeb96c1b9afad83ef4f533b6a1b0
+  getDashboardCrewId,
+  getDashboardManagerDetails,
+  addCrewToDashBoard,
+  deleteCrewToDashBoard,
+  addNewBus  
 };

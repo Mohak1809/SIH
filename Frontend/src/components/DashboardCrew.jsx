@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
-import GIS from './About/GIS/gis';
+import BusRouteVisualization from './BusRouteVisualisation/BusRouteVisualisation';
+
 
 function DashboardCrew() {
   const [data, setData] = useState([]);
@@ -34,7 +35,6 @@ function DashboardCrew() {
 
   return (
     <>
-
       <h1 className='text-center text-4xl font-medium mt-4 text-green-500'>
         {data[0].name}
       </h1>
@@ -58,6 +58,7 @@ function DashboardCrew() {
           );
         })}
       </div>
+      < BusRouteVisualization />
     </>
   );
 }

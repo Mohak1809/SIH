@@ -95,7 +95,7 @@ const DashboardManager = () => {
           </button>
           <Link
           to="/add-bus"
-            className="ml-4 px-4 py-2 bg-[#55AD9B] text-white rounded-lg hover:bg-[#95D2B3]"
+            className="ml-4 w-32 px-4 py-2 bg-[#55AD9B] text-white rounded-lg hover:bg-[#95D2B3]"
           >
             Add Buses
           </Link>
