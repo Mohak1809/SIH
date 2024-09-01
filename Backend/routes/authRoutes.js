@@ -10,10 +10,7 @@ router.post('/register', handleRegisterUser);
 router.post('/login', handleLoginUser);
 
 
-router.get('/dashboard-manager', verifyToken , (req, res) => {
-    const assignmentData = assignBusToCrew();
-    res.json(assignmentData);
-});
+router.get('/dashboard-manager', getDashboardManagerDetails, verifyToken );
 
 router.get('/dashboard-crew/:id', getDashboardCrewId);
 router.post('/add-bus', addNewBus);

@@ -1,0 +1,1247 @@
+_id,name,userId,crewRole,busNumber,routeId,routeShortName,startPoint,endPoint,distance,shift,startTime,expectedTime,__v
+66d3db8753e52b692a1f776e,Trevor Mason,DTC793XMS,conductor,DL55 L 4436,1,445,Anand Vihar ISBT,Badarpur Border,15.4,morning,8:00 AM,54.35,0
+66d3db8753e52b692a1f7770,Andrew Hardy,DTC598NKZ,driver,DL55 L 4436,1,445,Anand Vihar ISBT,Badarpur Border,15.4,morning,8:00 AM,54.35,0
+66d3db8753e52b692a1f7774,Sharon Diaz,DTC145IAA,conductor,DL64 Z 6205,1,445,Anand Vihar ISBT,Badarpur Border,15.4,morning,10:00 AM,54.35,0
+66d3db8753e52b692a1f7776,Linda Anderson,DTC303IYB,driver,DL64 Z 6205,1,445,Anand Vihar ISBT,Badarpur Border,15.4,morning,10:00 AM,54.35,0
+66d3db8753e52b692a1f777a,Theresa Cruz,DTC714EKG,conductor,DL78 P 9060,1,445,Anand Vihar ISBT,Badarpur Border,15.4,morning,5:00 AM,54.35,0
+66d3db8753e52b692a1f777c,Elizabeth Cole,DTC416PSG,driver,DL78 P 9060,1,445,Anand Vihar ISBT,Badarpur Border,15.4,morning,5:00 AM,54.35,0
+66d3db8853e52b692a1f7780,Linda Green,DTC868TRQ,conductor,DL59 R 5470,1,445,Anand Vihar ISBT,Badarpur Border,15.4,morning,6:00 AM,54.35,0
+66d3db8853e52b692a1f7782,Mrs. Julie Thomas,DTC736JMM,driver,DL59 R 5470,1,445,Anand Vihar ISBT,Badarpur Border,15.4,morning,6:00 AM,54.35,0
+66d3db8853e52b692a1f7786,Monique White,DTC518FNC,conductor,DL58 I 4974,1,445,Anand Vihar ISBT,Badarpur Border,15.4,afternoon,2:00 PM,54.35,0
+66d3db8853e52b692a1f7788,Allison Krueger,DTC528BAC,driver,DL58 I 4974,1,445,Anand Vihar ISBT,Badarpur Border,15.4,afternoon,2:00 PM,54.35,0
+66d3db8853e52b692a1f778c,Mike Rogers,DTC857MBA,conductor,DL26 J 8739,1,445,Anand Vihar ISBT,Badarpur Border,15.4,afternoon,6:00 PM,54.35,0
+66d3db8853e52b692a1f778e,Ashley Ayala,DTC524LTN,driver,DL26 J 8739,1,445,Anand Vihar ISBT,Badarpur Border,15.4,afternoon,6:00 PM,54.35,0
+66d3db8853e52b692a1f7792,Susan Hoffman,DTC338IJW,conductor,DL80 H 9576,1,445,Anand Vihar ISBT,Badarpur Border,15.4,afternoon,6:00 PM,54.35,0
+66d3db8853e52b692a1f7794,Michael Powers,DTC966HFW,driver,DL80 H 9576,1,445,Anand Vihar ISBT,Badarpur Border,15.4,afternoon,6:00 PM,54.35,0
+66d3db8853e52b692a1f7798,Thomas Browning,DTC133NBJ,conductor,DL34 Q 9212,1,445,Anand Vihar ISBT,Badarpur Border,15.4,afternoon,6:00 PM,54.35,0
+66d3db8853e52b692a1f779a,Jeffrey Smith,DTC680DDR,driver,DL34 Q 9212,1,445,Anand Vihar ISBT,Badarpur Border,15.4,afternoon,6:00 PM,54.35,0
+66d3db8853e52b692a1f779e,Cody Roberts DDS,DTC835AOC,conductor,DL53 P 7750,1,445,Anand Vihar ISBT,Badarpur Border,15.4,evening,3:00 AM,54.35,0
+66d3db8953e52b692a1f77a0,Larry Mcgee,DTC532PNG,driver,DL53 P 7750,1,445,Anand Vihar ISBT,Badarpur Border,15.4,evening,3:00 AM,54.35,0
+66d3db8953e52b692a1f77a4,Diane Freeman,DTC861JQM,conductor,DL65 C 3609,1,445,Anand Vihar ISBT,Badarpur Border,15.4,evening,10:00 PM,54.35,0
+66d3db8953e52b692a1f77a6,Frances Carey,DTC108CWZ,driver,DL65 C 3609,1,445,Anand Vihar ISBT,Badarpur Border,15.4,evening,10:00 PM,54.35,0
+66d3db8953e52b692a1f77aa,Joseph Francis,DTC857AKC,conductor,DL12 X 9382,1,445,Anand Vihar ISBT,Badarpur Border,15.4,evening,4:00 AM,54.35,0
+66d3db8953e52b692a1f77ac,James Moon,DTC922IIU,driver,DL12 X 9382,1,445,Anand Vihar ISBT,Badarpur Border,15.4,evening,4:00 AM,54.35,0
+66d3db8953e52b692a1f77b0,Juan Andrade,DTC186QNU,conductor,DL63 W 3957,1,445,Anand Vihar ISBT,Badarpur Border,15.4,evening,11:00 PM,54.35,0
+66d3db8953e52b692a1f77b2,Michelle Rice,DTC041IST,driver,DL63 W 3957,1,445,Anand Vihar ISBT,Badarpur Border,15.4,evening,11:00 PM,54.35,0
+66d3db8953e52b692a1f77b6,Jordan Chandler,DTC306XHB,conductor,DL43 A 1864,2,623,Nehru Place,Uttam Nagar Terminal,17.3,morning,6:00 AM,61.06,0
+66d3db8953e52b692a1f77b8,Cindy Martinez,DTC981ZUB,driver,DL43 A 1864,2,623,Nehru Place,Uttam Nagar Terminal,17.3,morning,6:00 AM,61.06,0
+66d3db8953e52b692a1f77bc,Chad Kelly,DTC349YCM,conductor,DL26 T 7911,2,623,Nehru Place,Uttam Nagar Terminal,17.3,morning,9:00 AM,61.06,0
+66d3db8953e52b692a1f77be,John Singleton,DTC689ZWH,driver,DL26 T 7911,2,623,Nehru Place,Uttam Nagar Terminal,17.3,morning,9:00 AM,61.06,0
+66d3db8a53e52b692a1f77c2,Lauren Smith,DTC929OST,conductor,DL66 V 9187,2,623,Nehru Place,Uttam Nagar Terminal,17.3,morning,11:00 AM,61.06,0
+66d3db8a53e52b692a1f77c4,Melody Klein,DTC722FCK,driver,DL66 V 9187,2,623,Nehru Place,Uttam Nagar Terminal,17.3,morning,11:00 AM,61.06,0
+66d3db8a53e52b692a1f77c8,John Fuller,DTC519OCP,conductor,DL93 O 8875,2,623,Nehru Place,Uttam Nagar Terminal,17.3,morning,8:00 AM,61.06,0
+66d3db8a53e52b692a1f77ca,William Burns,DTC382FNW,driver,DL93 O 8875,2,623,Nehru Place,Uttam Nagar Terminal,17.3,morning,8:00 AM,61.06,0
+66d3db8a53e52b692a1f77ce,Jessica Fischer,DTC153FOO,conductor,DL74 S 5493,2,623,Nehru Place,Uttam Nagar Terminal,17.3,morning,7:00 AM,61.06,0
+66d3db8a53e52b692a1f77d0,Kenneth Allen,DTC277QCE,driver,DL74 S 5493,2,623,Nehru Place,Uttam Nagar Terminal,17.3,morning,7:00 AM,61.06,0
+66d3db8a53e52b692a1f77d4,Luis Kelly,DTC884ERD,conductor,DL45 E 8443,2,623,Nehru Place,Uttam Nagar Terminal,17.3,morning,10:00 AM,61.06,0
+66d3db8a53e52b692a1f77d6,Sandra Johnson,DTC033KZK,driver,DL45 E 8443,2,623,Nehru Place,Uttam Nagar Terminal,17.3,morning,10:00 AM,61.06,0
+66d3db8a53e52b692a1f77da,Jessica Miller,DTC665VTR,conductor,DL71 M 6775,2,623,Nehru Place,Uttam Nagar Terminal,17.3,morning,11:00 AM,61.06,0
+66d3db8a53e52b692a1f77dc,Stephen Williams,DTC564MRI,driver,DL71 M 6775,2,623,Nehru Place,Uttam Nagar Terminal,17.3,morning,11:00 AM,61.06,0
+66d3db8a53e52b692a1f77e0,Kimberly Mendez,DTC437LBL,conductor,DL81 H 1591,2,623,Nehru Place,Uttam Nagar Terminal,17.3,morning,9:00 AM,61.06,0
+66d3db8b53e52b692a1f77e2,Elizabeth Johnston,DTC741PXG,driver,DL81 H 1591,2,623,Nehru Place,Uttam Nagar Terminal,17.3,morning,9:00 AM,61.06,0
+66d3db8b53e52b692a1f77e6,Caitlin Rodriguez,DTC261IOF,conductor,DL33 H 8629,2,623,Nehru Place,Uttam Nagar Terminal,17.3,afternoon,7:00 PM,61.06,0
+66d3db8b53e52b692a1f77e8,Kimberly Wells,DTC467YZE,driver,DL33 H 8629,2,623,Nehru Place,Uttam Nagar Terminal,17.3,afternoon,7:00 PM,61.06,0
+66d3db8b53e52b692a1f77ec,Dawn Mendez,DTC349SLK,conductor,DL14 I 5512,2,623,Nehru Place,Uttam Nagar Terminal,17.3,afternoon,8:00 PM,61.06,0
+66d3db8b53e52b692a1f77ee,Danielle Roberts,DTC041EWE,driver,DL14 I 5512,2,623,Nehru Place,Uttam Nagar Terminal,17.3,afternoon,8:00 PM,61.06,0
+66d3db8b53e52b692a1f77f2,Vanessa Sullivan,DTC120QRX,conductor,DL67 X 9288,2,623,Nehru Place,Uttam Nagar Terminal,17.3,afternoon,5:00 PM,61.06,0
+66d3db8b53e52b692a1f77f4,Jesse Santana,DTC993FYB,driver,DL67 X 9288,2,623,Nehru Place,Uttam Nagar Terminal,17.3,afternoon,5:00 PM,61.06,0
+66d3db8b53e52b692a1f77f8,Jeffrey Murray,DTC945JGE,conductor,DL63 M 4688,2,623,Nehru Place,Uttam Nagar Terminal,17.3,afternoon,1:00 PM,61.06,0
+66d3db8b53e52b692a1f77fa,Adam Moore,DTC315MMZ,driver,DL63 M 4688,2,623,Nehru Place,Uttam Nagar Terminal,17.3,afternoon,1:00 PM,61.06,0
+66d3db8b53e52b692a1f77fe,Virginia Sanders,DTC756YER,conductor,DL33 X 5668,2,623,Nehru Place,Uttam Nagar Terminal,17.3,afternoon,6:00 PM,61.06,0
+66d3db8b53e52b692a1f7800,Katrina Valencia,DTC340KHC,driver,DL33 X 5668,2,623,Nehru Place,Uttam Nagar Terminal,17.3,afternoon,6:00 PM,61.06,0
+66d3db8c53e52b692a1f7804,Bobby Manning,DTC118VDF,conductor,DL81 C 2753,2,623,Nehru Place,Uttam Nagar Terminal,17.3,afternoon,7:00 PM,61.06,0
+66d3db8c53e52b692a1f7806,Jeffrey Mason,DTC032BTH,driver,DL81 C 2753,2,623,Nehru Place,Uttam Nagar Terminal,17.3,afternoon,7:00 PM,61.06,0
+66d3db8c53e52b692a1f780a,Travis Thompson,DTC975WHJ,conductor,DL49 A 2844,2,623,Nehru Place,Uttam Nagar Terminal,17.3,afternoon,2:00 PM,61.06,0
+66d3db8c53e52b692a1f780c,Robert Mitchell,DTC591SQB,driver,DL49 A 2844,2,623,Nehru Place,Uttam Nagar Terminal,17.3,afternoon,2:00 PM,61.06,0
+66d3db8c53e52b692a1f7810,Pamela White,DTC675PDO,conductor,DL55 W 5519,2,623,Nehru Place,Uttam Nagar Terminal,17.3,afternoon,2:00 PM,61.06,0
+66d3db8c53e52b692a1f7812,Emma Peterson,DTC881HKD,driver,DL55 W 5519,2,623,Nehru Place,Uttam Nagar Terminal,17.3,afternoon,2:00 PM,61.06,0
+66d3db8c53e52b692a1f7816,Matthew Mora,DTC352DSR,conductor,DL22 K 5379,2,623,Nehru Place,Uttam Nagar Terminal,17.3,evening,1:00 AM,61.06,0
+66d3db8c53e52b692a1f7818,Philip Calderon,DTC547NVQ,driver,DL22 K 5379,2,623,Nehru Place,Uttam Nagar Terminal,17.3,evening,1:00 AM,61.06,0
+66d3db8c53e52b692a1f781c,Shane Riley,DTC174OAN,conductor,DL36 O 9785,2,623,Nehru Place,Uttam Nagar Terminal,17.3,evening,8:00 PM,61.06,0
+66d3db8c53e52b692a1f781e,Leslie Chan,DTC058GVL,driver,DL36 O 9785,2,623,Nehru Place,Uttam Nagar Terminal,17.3,evening,8:00 PM,61.06,0
+66d3db8d53e52b692a1f7822,Diane Green,DTC716BGK,conductor,DL28 X 9817,2,623,Nehru Place,Uttam Nagar Terminal,17.3,evening,11:00 PM,61.06,0
+66d3db8d53e52b692a1f7824,Angela Franklin,DTC748MIL,driver,DL28 X 9817,2,623,Nehru Place,Uttam Nagar Terminal,17.3,evening,11:00 PM,61.06,0
+66d3db8d53e52b692a1f7828,Maria Taylor,DTC515GBB,conductor,DL19 P 6984,2,623,Nehru Place,Uttam Nagar Terminal,17.3,evening,2:00 AM,61.06,0
+66d3db8d53e52b692a1f782a,Gregory Horton,DTC362VGE,driver,DL19 P 6984,2,623,Nehru Place,Uttam Nagar Terminal,17.3,evening,2:00 AM,61.06,0
+66d3db8d53e52b692a1f782e,Jessica Davis,DTC065XOO,conductor,DL29 I 4338,3,610,Azadpur,Nizamuddin Railway Station,12.5,morning,11:00 AM,44.12,0
+66d3db8d53e52b692a1f7830,Jordan Lynch,DTC229GPN,driver,DL29 I 4338,3,610,Azadpur,Nizamuddin Railway Station,12.5,morning,11:00 AM,44.12,0
+66d3db8d53e52b692a1f7834,Meghan Stewart MD,DTC213FZC,conductor,DL99 U 6575,3,610,Azadpur,Nizamuddin Railway Station,12.5,morning,6:00 AM,44.12,0
+66d3db8d53e52b692a1f7836,Emily Barnes,DTC301LBX,driver,DL99 U 6575,3,610,Azadpur,Nizamuddin Railway Station,12.5,morning,6:00 AM,44.12,0
+66d3db8e53e52b692a1f783a,Jonathan Koch,DTC439WYL,conductor,DL23 Z 2136,3,610,Azadpur,Nizamuddin Railway Station,12.5,morning,7:00 AM,44.12,0
+66d3db8e53e52b692a1f783c,Shelley Brown,DTC605LDD,driver,DL23 Z 2136,3,610,Azadpur,Nizamuddin Railway Station,12.5,morning,7:00 AM,44.12,0
+66d3db8e53e52b692a1f7840,Kendra Ryan,DTC768NOQ,conductor,DL22 E 3955,3,610,Azadpur,Nizamuddin Railway Station,12.5,morning,8:00 AM,44.12,0
+66d3db8e53e52b692a1f7842,Amber Anderson,DTC316IGI,driver,DL22 E 3955,3,610,Azadpur,Nizamuddin Railway Station,12.5,morning,8:00 AM,44.12,0
+66d3db8e53e52b692a1f7846,Justin Hernandez,DTC053BXS,conductor,DL85 U 3290,3,610,Azadpur,Nizamuddin Railway Station,12.5,morning,11:00 AM,44.12,0
+66d3db8f53e52b692a1f7848,Judith Carpenter,DTC680VHJ,driver,DL85 U 3290,3,610,Azadpur,Nizamuddin Railway Station,12.5,morning,11:00 AM,44.12,0
+66d3db8f53e52b692a1f784c,Anthony Morris,DTC649ZXW,conductor,DL42 Y 1642,3,610,Azadpur,Nizamuddin Railway Station,12.5,morning,10:00 AM,44.12,0
+66d3db8f53e52b692a1f784e,Catherine Johnson,DTC357JJS,driver,DL42 Y 1642,3,610,Azadpur,Nizamuddin Railway Station,12.5,morning,10:00 AM,44.12,0
+66d3db8f53e52b692a1f7852,Julie English,DTC707DWO,conductor,DL27 H 4235,3,610,Azadpur,Nizamuddin Railway Station,12.5,morning,5:00 AM,44.12,0
+66d3db8f53e52b692a1f7854,Jesse Hill,DTC929PIS,driver,DL27 H 4235,3,610,Azadpur,Nizamuddin Railway Station,12.5,morning,5:00 AM,44.12,0
+66d3db8f53e52b692a1f7858,Kenneth Walker,DTC039ZKO,conductor,DL53 N 1670,3,610,Azadpur,Nizamuddin Railway Station,12.5,morning,12:00 PM,44.12,0
+66d3db8f53e52b692a1f785a,Emily Mosley,DTC141GYJ,driver,DL53 N 1670,3,610,Azadpur,Nizamuddin Railway Station,12.5,morning,12:00 PM,44.12,0
+66d3db8f53e52b692a1f785e,James Benitez,DTC511XVN,conductor,DL96 O 3014,3,610,Azadpur,Nizamuddin Railway Station,12.5,afternoon,1:00 PM,44.12,0
+66d3db8f53e52b692a1f7860,Melvin Simmons,DTC889IVZ,driver,DL96 O 3014,3,610,Azadpur,Nizamuddin Railway Station,12.5,afternoon,1:00 PM,44.12,0
+66d3db8f53e52b692a1f7864,Johnny Howard,DTC474ZVI,conductor,DL23 C 4970,3,610,Azadpur,Nizamuddin Railway Station,12.5,afternoon,8:00 PM,44.12,0
+66d3db8f53e52b692a1f7866,Darren Fernandez,DTC108EEF,driver,DL23 C 4970,3,610,Azadpur,Nizamuddin Railway Station,12.5,afternoon,8:00 PM,44.12,0
+66d3db9053e52b692a1f786a,Diana Russell,DTC156KSF,conductor,DL66 S 5562,3,610,Azadpur,Nizamuddin Railway Station,12.5,afternoon,8:00 PM,44.12,0
+66d3db9053e52b692a1f786c,Matthew Gonzalez,DTC955KEN,driver,DL66 S 5562,3,610,Azadpur,Nizamuddin Railway Station,12.5,afternoon,8:00 PM,44.12,0
+66d3db9053e52b692a1f7870,Mathew Richmond,DTC081WUR,conductor,DL59 M 9581,3,610,Azadpur,Nizamuddin Railway Station,12.5,afternoon,3:00 PM,44.12,0
+66d3db9053e52b692a1f7872,Mark Oliver,DTC459WMU,driver,DL59 M 9581,3,610,Azadpur,Nizamuddin Railway Station,12.5,afternoon,3:00 PM,44.12,0
+66d3db9053e52b692a1f7876,Christy Grant,DTC007ZNB,conductor,DL37 C 6074,3,610,Azadpur,Nizamuddin Railway Station,12.5,afternoon,12:00 PM,44.12,0
+66d3db9053e52b692a1f7878,Stephen Davis,DTC957RNJ,driver,DL37 C 6074,3,610,Azadpur,Nizamuddin Railway Station,12.5,afternoon,12:00 PM,44.12,0
+66d3db9053e52b692a1f787c,Katherine Williams,DTC738SVR,conductor,DL65 D 9729,3,610,Azadpur,Nizamuddin Railway Station,12.5,afternoon,2:00 PM,44.12,0
+66d3db9053e52b692a1f787e,Shane Lucas,DTC823TZO,driver,DL65 D 9729,3,610,Azadpur,Nizamuddin Railway Station,12.5,afternoon,2:00 PM,44.12,0
+66d3db9053e52b692a1f7882,Cynthia Martin,DTC917CRI,conductor,DL22 E 9349,3,610,Azadpur,Nizamuddin Railway Station,12.5,afternoon,12:00 PM,44.12,0
+66d3db9053e52b692a1f7884,Jason Hubbard,DTC236VFR,driver,DL22 E 9349,3,610,Azadpur,Nizamuddin Railway Station,12.5,afternoon,12:00 PM,44.12,0
+66d3db9153e52b692a1f7888,Jacob Norris,DTC423KHQ,conductor,DL73 W 8771,3,610,Azadpur,Nizamuddin Railway Station,12.5,afternoon,5:00 PM,44.12,0
+66d3db9153e52b692a1f788a,Diana Andrews,DTC137QXR,driver,DL73 W 8771,3,610,Azadpur,Nizamuddin Railway Station,12.5,afternoon,5:00 PM,44.12,0
+66d3db9153e52b692a1f788e,Daniel Beasley,DTC202GPA,conductor,DL43 U 2343,3,610,Azadpur,Nizamuddin Railway Station,12.5,evening,12:00 AM,44.12,0
+66d3db9153e52b692a1f7890,Tammy Thompson,DTC230UFK,driver,DL43 U 2343,3,610,Azadpur,Nizamuddin Railway Station,12.5,evening,12:00 AM,44.12,0
+66d3db9153e52b692a1f7894,Matthew Williams,DTC555YJD,conductor,DL62 R 2946,3,610,Azadpur,Nizamuddin Railway Station,12.5,evening,3:00 AM,44.12,0
+66d3db9153e52b692a1f7896,Kyle Boyer MD,DTC192QLF,driver,DL62 R 2946,3,610,Azadpur,Nizamuddin Railway Station,12.5,evening,3:00 AM,44.12,0
+66d3db9153e52b692a1f789a,Jake Lee,DTC138QDD,conductor,DL39 C 5263,3,610,Azadpur,Nizamuddin Railway Station,12.5,evening,1:00 AM,44.12,0
+66d3db9153e52b692a1f789c,Alicia Delgado,DTC022KMA,driver,DL39 C 5263,3,610,Azadpur,Nizamuddin Railway Station,12.5,evening,1:00 AM,44.12,0
+66d3db9153e52b692a1f78a0,James Roberts,DTC230TGA,conductor,DL27 K 1153,3,610,Azadpur,Nizamuddin Railway Station,12.5,evening,12:00 AM,44.12,0
+66d3db9153e52b692a1f78a2,Christopher Walls,DTC793SYN,driver,DL27 K 1153,3,610,Azadpur,Nizamuddin Railway Station,12.5,evening,12:00 AM,44.12,0
+66d3db9153e52b692a1f78a6,Cheryl Silva,DTC358HHH,conductor,DL31 X 2075,3,610,Azadpur,Nizamuddin Railway Station,12.5,evening,1:00 AM,44.12,0
+66d3db9153e52b692a1f78a8,Cynthia Perez,DTC755JIT,driver,DL31 X 2075,3,610,Azadpur,Nizamuddin Railway Station,12.5,evening,1:00 AM,44.12,0
+66d3db9253e52b692a1f78ac,Amy Brown,DTC156FJR,conductor,DL17 Y 8152,3,610,Azadpur,Nizamuddin Railway Station,12.5,evening,11:00 PM,44.12,0
+66d3db9253e52b692a1f78ae,Veronica Landry,DTC211QHA,driver,DL17 Y 8152,3,610,Azadpur,Nizamuddin Railway Station,12.5,evening,11:00 PM,44.12,0
+66d3db9253e52b692a1f78b2,Jonathan Stein,DTC854ELK,conductor,DL86 S 8869,4,522,Mehrauli,Mori Gate,8.7,morning,7:00 AM,30.71,0
+66d3db9253e52b692a1f78b4,Lori Santiago,DTC768EWW,driver,DL86 S 8869,4,522,Mehrauli,Mori Gate,8.7,morning,7:00 AM,30.71,0
+66d3db9253e52b692a1f78b8,Cynthia Suarez,DTC696HNF,conductor,DL52 D 5020,4,522,Mehrauli,Mori Gate,8.7,morning,6:00 AM,30.71,0
+66d3db9253e52b692a1f78ba,Amy Moore,DTC764KZC,driver,DL52 D 5020,4,522,Mehrauli,Mori Gate,8.7,morning,6:00 AM,30.71,0
+66d3db9253e52b692a1f78be,Meagan Estrada,DTC923PUM,conductor,DL13 Y 3854,4,522,Mehrauli,Mori Gate,8.7,morning,11:00 AM,30.71,0
+66d3db9253e52b692a1f78c0,Dawn Guerrero,DTC501YTS,driver,DL13 Y 3854,4,522,Mehrauli,Mori Gate,8.7,morning,11:00 AM,30.71,0
+66d3db9453e52b692a1f78c4,Alexander Buchanan,DTC567JPU,conductor,DL52 I 7776,4,522,Mehrauli,Mori Gate,8.7,morning,7:00 AM,30.71,0
+66d3db9453e52b692a1f78c6,Christopher Curtis DDS,DTC744QLC,driver,DL52 I 7776,4,522,Mehrauli,Mori Gate,8.7,morning,7:00 AM,30.71,0
+66d3db9453e52b692a1f78ca,Sharon Kelley MD,DTC996OVP,conductor,DL15 V 7355,4,522,Mehrauli,Mori Gate,8.7,morning,5:00 AM,30.71,0
+66d3db9553e52b692a1f78cc,Rose Fernandez,DTC452EWA,driver,DL15 V 7355,4,522,Mehrauli,Mori Gate,8.7,morning,5:00 AM,30.71,0
+66d3db9753e52b692a1f78d0,Gregory Reed,DTC975PSZ,conductor,DL94 J 6250,4,522,Mehrauli,Mori Gate,8.7,morning,6:00 AM,30.71,0
+66d3db9853e52b692a1f78d2,Ricardo Richardson,DTC588RXR,driver,DL94 J 6250,4,522,Mehrauli,Mori Gate,8.7,morning,6:00 AM,30.71,0
+66d3db9953e52b692a1f78d6,Amber Ellison,DTC289JSE,conductor,DL61 H 7612,4,522,Mehrauli,Mori Gate,8.7,morning,10:00 AM,30.71,0
+66d3db9953e52b692a1f78d8,Joseph Peck,DTC092XEH,driver,DL61 H 7612,4,522,Mehrauli,Mori Gate,8.7,morning,10:00 AM,30.71,0
+66d3db9953e52b692a1f78dc,Krista Orozco,DTC749MGA,conductor,DL73 S 6827,4,522,Mehrauli,Mori Gate,8.7,afternoon,12:00 PM,30.71,0
+66d3db9953e52b692a1f78de,Zachary Reyes,DTC738NYW,driver,DL73 S 6827,4,522,Mehrauli,Mori Gate,8.7,afternoon,12:00 PM,30.71,0
+66d3db9953e52b692a1f78e2,Joseph Morrison,DTC193LIN,conductor,DL56 T 1281,4,522,Mehrauli,Mori Gate,8.7,afternoon,2:00 PM,30.71,0
+66d3db9953e52b692a1f78e4,Audrey Kent,DTC151CAI,driver,DL56 T 1281,4,522,Mehrauli,Mori Gate,8.7,afternoon,2:00 PM,30.71,0
+66d3db9953e52b692a1f78e8,Angela Serrano,DTC252IMF,conductor,DL70 E 4295,4,522,Mehrauli,Mori Gate,8.7,afternoon,3:00 PM,30.71,0
+66d3db9953e52b692a1f78ea,Elizabeth Pena,DTC298ZEF,driver,DL70 E 4295,4,522,Mehrauli,Mori Gate,8.7,afternoon,3:00 PM,30.71,0
+66d3db9953e52b692a1f78ee,Carrie Knapp,DTC034OLN,conductor,DL97 O 4873,4,522,Mehrauli,Mori Gate,8.7,afternoon,4:00 PM,30.71,0
+66d3db9953e52b692a1f78f0,Edward Hawkins,DTC772WAD,driver,DL97 O 4873,4,522,Mehrauli,Mori Gate,8.7,afternoon,4:00 PM,30.71,0
+66d3db9a53e52b692a1f78f4,Stanley Phillips,DTC821UIC,conductor,DL52 P 7334,4,522,Mehrauli,Mori Gate,8.7,afternoon,4:00 PM,30.71,0
+66d3db9a53e52b692a1f78f6,Ronald Beltran,DTC236QEH,driver,DL52 P 7334,4,522,Mehrauli,Mori Gate,8.7,afternoon,4:00 PM,30.71,0
+66d3db9a53e52b692a1f78fa,Robert Fisher,DTC617WCQ,conductor,DL52 D 4923,4,522,Mehrauli,Mori Gate,8.7,afternoon,2:00 PM,30.71,0
+66d3db9a53e52b692a1f78fc,James Green,DTC461RNO,driver,DL52 D 4923,4,522,Mehrauli,Mori Gate,8.7,afternoon,2:00 PM,30.71,0
+66d3db9a53e52b692a1f7900,Bobby Miller,DTC822VVI,conductor,DL82 P 9828,4,522,Mehrauli,Mori Gate,8.7,afternoon,5:00 PM,30.71,0
+66d3db9a53e52b692a1f7902,Andrew Chang,DTC611HXA,driver,DL82 P 9828,4,522,Mehrauli,Mori Gate,8.7,afternoon,5:00 PM,30.71,0
+66d3db9a53e52b692a1f7906,Jessica Foster,DTC190IHD,conductor,DL89 R 8371,4,522,Mehrauli,Mori Gate,8.7,evening,10:00 PM,30.71,0
+66d3db9a53e52b692a1f7908,Kathryn Kelley,DTC074FJG,driver,DL89 R 8371,4,522,Mehrauli,Mori Gate,8.7,evening,10:00 PM,30.71,0
+66d3db9a53e52b692a1f790c,Brian Gardner Jr.,DTC656SKR,conductor,DL40 C 6330,4,522,Mehrauli,Mori Gate,8.7,evening,8:00 PM,30.71,0
+66d3db9a53e52b692a1f790e,Justin Dean,DTC717VEK,driver,DL40 C 6330,4,522,Mehrauli,Mori Gate,8.7,evening,8:00 PM,30.71,0
+66d3db9a53e52b692a1f7912,Dawn Fields,DTC660QXZ,conductor,DL33 L 5366,4,522,Mehrauli,Mori Gate,8.7,evening,4:00 AM,30.71,0
+66d3db9a53e52b692a1f7914,Yolanda Anderson,DTC953OTG,driver,DL33 L 5366,4,522,Mehrauli,Mori Gate,8.7,evening,4:00 AM,30.71,0
+66d3db9b53e52b692a1f7918,Joseph Andrews,DTC880RBD,conductor,DL76 M 3894,4,522,Mehrauli,Mori Gate,8.7,evening,12:00 AM,30.71,0
+66d3db9b53e52b692a1f791a,Wayne Martinez,DTC195QUN,driver,DL76 M 3894,4,522,Mehrauli,Mori Gate,8.7,evening,12:00 AM,30.71,0
+66d3db9b53e52b692a1f791e,Chad Bray,DTC824OXP,conductor,DL60 R 4574,5,703,Uttam Nagar Terminal,Anand Vihar ISBT,22.1,morning,8:00 AM,78,0
+66d3db9b53e52b692a1f7920,Danielle Scott,DTC490KHL,driver,DL60 R 4574,5,703,Uttam Nagar Terminal,Anand Vihar ISBT,22.1,morning,8:00 AM,78,0
+66d3db9b53e52b692a1f7924,Dennis Butler,DTC695ZUX,conductor,DL47 M 9711,5,703,Uttam Nagar Terminal,Anand Vihar ISBT,22.1,morning,8:00 AM,78,0
+66d3db9b53e52b692a1f7926,Megan Parker,DTC097EXQ,driver,DL47 M 9711,5,703,Uttam Nagar Terminal,Anand Vihar ISBT,22.1,morning,8:00 AM,78,0
+66d3db9b53e52b692a1f792a,Dawn Young,DTC554SXK,conductor,DL32 M 1643,5,703,Uttam Nagar Terminal,Anand Vihar ISBT,22.1,morning,7:00 AM,78,0
+66d3db9b53e52b692a1f792c,Lori Lee,DTC646MER,driver,DL32 M 1643,5,703,Uttam Nagar Terminal,Anand Vihar ISBT,22.1,morning,7:00 AM,78,0
+66d3db9b53e52b692a1f7930,Victoria Smith,DTC208SAG,conductor,DL21 P 4566,5,703,Uttam Nagar Terminal,Anand Vihar ISBT,22.1,morning,12:00 PM,78,0
+66d3db9b53e52b692a1f7932,Jodi Lawson,DTC934OXS,driver,DL21 P 4566,5,703,Uttam Nagar Terminal,Anand Vihar ISBT,22.1,morning,12:00 PM,78,0
+66d3db9b53e52b692a1f7936,Philip Berg,DTC324JVS,conductor,DL69 H 5540,5,703,Uttam Nagar Terminal,Anand Vihar ISBT,22.1,morning,6:00 AM,78,0
+66d3db9c53e52b692a1f7938,Alexander Hendricks,DTC434OFS,driver,DL69 H 5540,5,703,Uttam Nagar Terminal,Anand Vihar ISBT,22.1,morning,6:00 AM,78,0
+66d3db9c53e52b692a1f793c,Jill Weber,DTC931FSM,conductor,DL70 E 2099,5,703,Uttam Nagar Terminal,Anand Vihar ISBT,22.1,morning,11:00 AM,78,0
+66d3db9c53e52b692a1f793e,Peter Crawford,DTC378FUC,driver,DL70 E 2099,5,703,Uttam Nagar Terminal,Anand Vihar ISBT,22.1,morning,11:00 AM,78,0
+66d3db9c53e52b692a1f7942,James Lam,DTC904WMX,conductor,DL38 H 6673,5,703,Uttam Nagar Terminal,Anand Vihar ISBT,22.1,morning,6:00 AM,78,0
+66d3db9c53e52b692a1f7944,Donald Bernard,DTC381DHH,driver,DL38 H 6673,5,703,Uttam Nagar Terminal,Anand Vihar ISBT,22.1,morning,6:00 AM,78,0
+66d3db9c53e52b692a1f7948,Krystal Zimmerman,DTC176MOO,conductor,DL87 H 9894,5,703,Uttam Nagar Terminal,Anand Vihar ISBT,22.1,morning,11:00 AM,78,0
+66d3db9c53e52b692a1f794a,Audrey Lewis,DTC870GBG,driver,DL87 H 9894,5,703,Uttam Nagar Terminal,Anand Vihar ISBT,22.1,morning,11:00 AM,78,0
+66d3db9c53e52b692a1f794e,Jeanne Obrien,DTC926GGC,conductor,DL63 B 7656,5,703,Uttam Nagar Terminal,Anand Vihar ISBT,22.1,afternoon,3:00 PM,78,0
+66d3db9c53e52b692a1f7950,Jordan Flores,DTC542IRP,driver,DL63 B 7656,5,703,Uttam Nagar Terminal,Anand Vihar ISBT,22.1,afternoon,3:00 PM,78,0
+66d3db9c53e52b692a1f7954,Deborah Kelly,DTC343QYU,conductor,DL91 K 7445,5,703,Uttam Nagar Terminal,Anand Vihar ISBT,22.1,afternoon,2:00 PM,78,0
+66d3db9c53e52b692a1f7956,Craig Lewis,DTC085SIG,driver,DL91 K 7445,5,703,Uttam Nagar Terminal,Anand Vihar ISBT,22.1,afternoon,2:00 PM,78,0
+66d3db9d53e52b692a1f795a,Carol Miller,DTC725OEG,conductor,DL91 D 3489,5,703,Uttam Nagar Terminal,Anand Vihar ISBT,22.1,afternoon,12:00 PM,78,0
+66d3db9d53e52b692a1f795c,Kimberly Hartman,DTC415MMM,driver,DL91 D 3489,5,703,Uttam Nagar Terminal,Anand Vihar ISBT,22.1,afternoon,12:00 PM,78,0
+66d3db9d53e52b692a1f7960,Jennifer Cross,DTC371YNT,conductor,DL82 M 3977,5,703,Uttam Nagar Terminal,Anand Vihar ISBT,22.1,afternoon,8:00 PM,78,0
+66d3db9d53e52b692a1f7962,Bryan Crosby,DTC054HWE,driver,DL82 M 3977,5,703,Uttam Nagar Terminal,Anand Vihar ISBT,22.1,afternoon,8:00 PM,78,0
+66d3db9d53e52b692a1f7966,Ryan Mcdaniel,DTC470KQK,conductor,DL28 X 3408,5,703,Uttam Nagar Terminal,Anand Vihar ISBT,22.1,afternoon,1:00 PM,78,0
+66d3db9d53e52b692a1f7968,David Rivera,DTC612RKS,driver,DL28 X 3408,5,703,Uttam Nagar Terminal,Anand Vihar ISBT,22.1,afternoon,1:00 PM,78,0
+66d3db9d53e52b692a1f796c,Mrs. Renee Moore,DTC451USD,conductor,DL79 R 5187,5,703,Uttam Nagar Terminal,Anand Vihar ISBT,22.1,afternoon,1:00 PM,78,0
+66d3db9d53e52b692a1f796e,Heather Tran,DTC455KDW,driver,DL79 R 5187,5,703,Uttam Nagar Terminal,Anand Vihar ISBT,22.1,afternoon,1:00 PM,78,0
+66d3db9d53e52b692a1f7972,Michael Acosta,DTC738BPK,conductor,DL32 T 2919,5,703,Uttam Nagar Terminal,Anand Vihar ISBT,22.1,afternoon,7:00 PM,78,0
+66d3db9d53e52b692a1f7974,Heather Clay,DTC441TNE,driver,DL32 T 2919,5,703,Uttam Nagar Terminal,Anand Vihar ISBT,22.1,afternoon,7:00 PM,78,0
+66d3db9d53e52b692a1f7978,Sarah Elliott,DTC070UDV,conductor,DL12 H 9110,5,703,Uttam Nagar Terminal,Anand Vihar ISBT,22.1,afternoon,1:00 PM,78,0
+66d3db9e53e52b692a1f797a,Kimberly Cordova,DTC198EEM,driver,DL12 H 9110,5,703,Uttam Nagar Terminal,Anand Vihar ISBT,22.1,afternoon,1:00 PM,78,0
+66d3db9e53e52b692a1f797e,Tiffany Robbins,DTC667DND,conductor,DL39 G 7618,5,703,Uttam Nagar Terminal,Anand Vihar ISBT,22.1,evening,4:00 AM,78,0
+66d3db9e53e52b692a1f7980,George Carroll,DTC263KHN,driver,DL39 G 7618,5,703,Uttam Nagar Terminal,Anand Vihar ISBT,22.1,evening,4:00 AM,78,0
+66d3db9e53e52b692a1f7984,Sandra Kane,DTC302KAF,conductor,DL98 J 1321,5,703,Uttam Nagar Terminal,Anand Vihar ISBT,22.1,evening,2:00 AM,78,0
+66d3db9e53e52b692a1f7986,Jasmine Walker,DTC970FQX,driver,DL98 J 1321,5,703,Uttam Nagar Terminal,Anand Vihar ISBT,22.1,evening,2:00 AM,78,0
+66d3db9e53e52b692a1f798a,Stephen Jones,DTC997LOS,conductor,DL79 T 8382,5,703,Uttam Nagar Terminal,Anand Vihar ISBT,22.1,evening,8:00 PM,78,0
+66d3db9e53e52b692a1f798c,Cassandra Moore,DTC711WPR,driver,DL79 T 8382,5,703,Uttam Nagar Terminal,Anand Vihar ISBT,22.1,evening,8:00 PM,78,0
+66d3db9e53e52b692a1f7990,Jonathan Green,DTC907JPQ,conductor,DL45 J 8539,5,703,Uttam Nagar Terminal,Anand Vihar ISBT,22.1,evening,11:00 PM,78,0
+66d3db9e53e52b692a1f7992,Catherine Johnson,DTC976LPB,driver,DL45 J 8539,5,703,Uttam Nagar Terminal,Anand Vihar ISBT,22.1,evening,11:00 PM,78,0
+66d3db9e53e52b692a1f7996,Heidi Blackwell,DTC138VUM,conductor,DL28 D 6420,6,728,Dhaula Kuan,Badarpur Border,14.8,morning,8:00 AM,52.24,0
+66d3db9e53e52b692a1f7998,Jeanette Gardner,DTC925AKX,driver,DL28 D 6420,6,728,Dhaula Kuan,Badarpur Border,14.8,morning,8:00 AM,52.24,0
+66d3db9f53e52b692a1f799c,Jody Rodgers,DTC865JEH,conductor,DL34 O 1047,6,728,Dhaula Kuan,Badarpur Border,14.8,morning,8:00 AM,52.24,0
+66d3db9f53e52b692a1f799e,Stephen Hall,DTC120CNF,driver,DL34 O 1047,6,728,Dhaula Kuan,Badarpur Border,14.8,morning,8:00 AM,52.24,0
+66d3db9f53e52b692a1f79a2,Wesley Adams,DTC803PFA,conductor,DL50 I 1075,6,728,Dhaula Kuan,Badarpur Border,14.8,morning,12:00 PM,52.24,0
+66d3db9f53e52b692a1f79a4,James Vance,DTC404PIX,driver,DL50 I 1075,6,728,Dhaula Kuan,Badarpur Border,14.8,morning,12:00 PM,52.24,0
+66d3db9f53e52b692a1f79a8,Dr. Nancy Mooney,DTC876UHH,conductor,DL75 G 5957,6,728,Dhaula Kuan,Badarpur Border,14.8,afternoon,8:00 PM,52.24,0
+66d3db9f53e52b692a1f79aa,Jessica Durham,DTC675ULP,driver,DL75 G 5957,6,728,Dhaula Kuan,Badarpur Border,14.8,afternoon,8:00 PM,52.24,0
+66d3db9f53e52b692a1f79ae,Nathan Fritz,DTC025ZWK,conductor,DL80 O 5963,6,728,Dhaula Kuan,Badarpur Border,14.8,afternoon,6:00 PM,52.24,0
+66d3db9f53e52b692a1f79b0,Susan Hartman,DTC595TSY,driver,DL80 O 5963,6,728,Dhaula Kuan,Badarpur Border,14.8,afternoon,6:00 PM,52.24,0
+66d3db9f53e52b692a1f79b4,Logan Williams,DTC818WTV,conductor,DL81 Y 8432,6,728,Dhaula Kuan,Badarpur Border,14.8,afternoon,1:00 PM,52.24,0
+66d3db9f53e52b692a1f79b6,Jesse Hess,DTC362ZEK,driver,DL81 Y 8432,6,728,Dhaula Kuan,Badarpur Border,14.8,afternoon,1:00 PM,52.24,0
+66d3db9f53e52b692a1f79ba,Timothy Bailey,DTC659XHT,conductor,DL86 N 8834,6,728,Dhaula Kuan,Badarpur Border,14.8,evening,8:00 PM,52.24,0
+66d3db9f53e52b692a1f79bc,Jacob Wilson,DTC554HHL,driver,DL86 N 8834,6,728,Dhaula Kuan,Badarpur Border,14.8,evening,8:00 PM,52.24,0
+66d3dba053e52b692a1f79c0,Laura Garcia,DTC596SVR,conductor,DL48 Y 2702,6,728,Dhaula Kuan,Badarpur Border,14.8,evening,9:00 PM,52.24,0
+66d3dba053e52b692a1f79c2,Christopher Roberts,DTC682KUJ,driver,DL48 Y 2702,6,728,Dhaula Kuan,Badarpur Border,14.8,evening,9:00 PM,52.24,0
+66d3dba053e52b692a1f79c6,Charles Griffith,DTC557AWC,conductor,DL55 F 1353,7,871,Janakpuri West,Shivaji Stadium,10.9,morning,6:00 AM,38.47,0
+66d3dba053e52b692a1f79c8,Jesse Jones,DTC851SSG,driver,DL55 F 1353,7,871,Janakpuri West,Shivaji Stadium,10.9,morning,6:00 AM,38.47,0
+66d3dba053e52b692a1f79cc,Robert Walker,DTC845WZT,conductor,DL29 R 3239,7,871,Janakpuri West,Shivaji Stadium,10.9,morning,7:00 AM,38.47,0
+66d3dba053e52b692a1f79ce,Levi Ramsey,DTC495XVY,driver,DL29 R 3239,7,871,Janakpuri West,Shivaji Stadium,10.9,morning,7:00 AM,38.47,0
+66d3dba053e52b692a1f79d2,John Salazar,DTC153KAA,conductor,DL68 V 6344,7,871,Janakpuri West,Shivaji Stadium,10.9,morning,5:00 AM,38.47,0
+66d3dba053e52b692a1f79d4,William Nixon,DTC296ABW,driver,DL68 V 6344,7,871,Janakpuri West,Shivaji Stadium,10.9,morning,5:00 AM,38.47,0
+66d3dba053e52b692a1f79d8,Margaret Holmes,DTC282LFK,conductor,DL79 F 7919,7,871,Janakpuri West,Shivaji Stadium,10.9,morning,12:00 PM,38.47,0
+66d3dba053e52b692a1f79da,Mark Evans,DTC091NHM,driver,DL79 F 7919,7,871,Janakpuri West,Shivaji Stadium,10.9,morning,12:00 PM,38.47,0
+66d3dba153e52b692a1f79de,Jennifer Simpson,DTC506SIF,conductor,DL51 O 8595,7,871,Janakpuri West,Shivaji Stadium,10.9,morning,9:00 AM,38.47,0
+66d3dba153e52b692a1f79e0,William Underwood,DTC479LFU,driver,DL51 O 8595,7,871,Janakpuri West,Shivaji Stadium,10.9,morning,9:00 AM,38.47,0
+66d3dba153e52b692a1f79e4,Andrew Brown,DTC336HVD,conductor,DL54 X 2122,7,871,Janakpuri West,Shivaji Stadium,10.9,morning,12:00 PM,38.47,0
+66d3dba153e52b692a1f79e6,Andrew Luna,DTC832GXK,driver,DL54 X 2122,7,871,Janakpuri West,Shivaji Stadium,10.9,morning,12:00 PM,38.47,0
+66d3dba153e52b692a1f79ea,Michael Ramos,DTC696TQI,conductor,DL32 R 9990,7,871,Janakpuri West,Shivaji Stadium,10.9,morning,11:00 AM,38.47,0
+66d3dba153e52b692a1f79ec,Trevor Larson,DTC668KVI,driver,DL32 R 9990,7,871,Janakpuri West,Shivaji Stadium,10.9,morning,11:00 AM,38.47,0
+66d3dba153e52b692a1f79f0,Tammy Richards,DTC598AFO,conductor,DL25 C 6331,7,871,Janakpuri West,Shivaji Stadium,10.9,morning,5:00 AM,38.47,0
+66d3dba153e52b692a1f79f2,Joshua Watts,DTC150OZG,driver,DL25 C 6331,7,871,Janakpuri West,Shivaji Stadium,10.9,morning,5:00 AM,38.47,0
+66d3dba153e52b692a1f79f6,Benjamin Nguyen,DTC717PWC,conductor,DL47 P 2220,7,871,Janakpuri West,Shivaji Stadium,10.9,morning,6:00 AM,38.47,0
+66d3dba153e52b692a1f79f8,Daniel Luna,DTC327BFQ,driver,DL47 P 2220,7,871,Janakpuri West,Shivaji Stadium,10.9,morning,6:00 AM,38.47,0
+66d3dba153e52b692a1f79fc,Paul Payne,DTC951NHA,conductor,DL98 B 5510,7,871,Janakpuri West,Shivaji Stadium,10.9,afternoon,7:00 PM,38.47,0
+66d3dba153e52b692a1f79fe,Devon Garcia,DTC400MQE,driver,DL98 B 5510,7,871,Janakpuri West,Shivaji Stadium,10.9,afternoon,7:00 PM,38.47,0
+66d3dba253e52b692a1f7a02,Julia Barnes,DTC392KDP,conductor,DL51 A 9093,7,871,Janakpuri West,Shivaji Stadium,10.9,afternoon,7:00 PM,38.47,0
+66d3dba253e52b692a1f7a04,Courtney Williams,DTC580WQO,driver,DL51 A 9093,7,871,Janakpuri West,Shivaji Stadium,10.9,afternoon,7:00 PM,38.47,0
+66d3dba253e52b692a1f7a08,Juan Garcia,DTC586FFO,conductor,DL52 V 9631,7,871,Janakpuri West,Shivaji Stadium,10.9,afternoon,5:00 PM,38.47,0
+66d3dba253e52b692a1f7a0a,John Mitchell,DTC679JJD,driver,DL52 V 9631,7,871,Janakpuri West,Shivaji Stadium,10.9,afternoon,5:00 PM,38.47,0
+66d3dba253e52b692a1f7a0e,Jennifer Anderson,DTC709GXJ,conductor,DL28 V 7820,7,871,Janakpuri West,Shivaji Stadium,10.9,afternoon,4:00 PM,38.47,0
+66d3dba253e52b692a1f7a10,David Brown,DTC316AHP,driver,DL28 V 7820,7,871,Janakpuri West,Shivaji Stadium,10.9,afternoon,4:00 PM,38.47,0
+66d3dba253e52b692a1f7a14,Linda Mann,DTC400WHW,conductor,DL88 G 8122,7,871,Janakpuri West,Shivaji Stadium,10.9,afternoon,6:00 PM,38.47,0
+66d3dba253e52b692a1f7a16,Traci Wood,DTC262RLC,driver,DL88 G 8122,7,871,Janakpuri West,Shivaji Stadium,10.9,afternoon,6:00 PM,38.47,0
+66d3dba253e52b692a1f7a1a,Johnny Sparks,DTC802CNI,conductor,DL50 Z 4328,7,871,Janakpuri West,Shivaji Stadium,10.9,afternoon,2:00 PM,38.47,0
+66d3dba253e52b692a1f7a1c,Jonathan Myers,DTC436EIO,driver,DL50 Z 4328,7,871,Janakpuri West,Shivaji Stadium,10.9,afternoon,2:00 PM,38.47,0
+66d3dba353e52b692a1f7a20,Erica Ramos,DTC802FSQ,conductor,DL40 A 9319,7,871,Janakpuri West,Shivaji Stadium,10.9,afternoon,6:00 PM,38.47,0
+66d3dba353e52b692a1f7a22,Alison Wade,DTC382RKM,driver,DL40 A 9319,7,871,Janakpuri West,Shivaji Stadium,10.9,afternoon,6:00 PM,38.47,0
+66d3dba353e52b692a1f7a26,Garrett Morgan,DTC054NIS,conductor,DL29 N 1223,7,871,Janakpuri West,Shivaji Stadium,10.9,afternoon,1:00 PM,38.47,0
+66d3dba353e52b692a1f7a28,Richard Walker,DTC821HST,driver,DL29 N 1223,7,871,Janakpuri West,Shivaji Stadium,10.9,afternoon,1:00 PM,38.47,0
+66d3dba353e52b692a1f7a2c,Andre Miller,DTC461TVS,conductor,DL78 A 8247,7,871,Janakpuri West,Shivaji Stadium,10.9,afternoon,2:00 PM,38.47,0
+66d3dba353e52b692a1f7a2e,Justin Moore,DTC590JKQ,driver,DL78 A 8247,7,871,Janakpuri West,Shivaji Stadium,10.9,afternoon,2:00 PM,38.47,0
+66d3dba353e52b692a1f7a32,William Brown,DTC157UAA,conductor,DL82 E 7819,7,871,Janakpuri West,Shivaji Stadium,10.9,evening,4:00 AM,38.47,0
+66d3dba353e52b692a1f7a34,Yvonne Fischer,DTC850WUS,driver,DL82 E 7819,7,871,Janakpuri West,Shivaji Stadium,10.9,evening,4:00 AM,38.47,0
+66d3dba353e52b692a1f7a38,Desiree Hawkins,DTC932OJU,conductor,DL81 Z 9663,7,871,Janakpuri West,Shivaji Stadium,10.9,evening,10:00 PM,38.47,0
+66d3dba353e52b692a1f7a3a,Kimberly Lee,DTC969LKK,driver,DL81 Z 9663,7,871,Janakpuri West,Shivaji Stadium,10.9,evening,10:00 PM,38.47,0
+66d3dba353e52b692a1f7a3e,Jonathan Henderson,DTC358IPY,conductor,DL87 X 2949,7,871,Janakpuri West,Shivaji Stadium,10.9,evening,11:00 PM,38.47,0
+66d3dba353e52b692a1f7a40,Gabriella Martinez,DTC398TDZ,driver,DL87 X 2949,7,871,Janakpuri West,Shivaji Stadium,10.9,evening,11:00 PM,38.47,0
+66d3dba453e52b692a1f7a44,Amber Pollard,DTC666MLO,conductor,DL76 X 3833,7,871,Janakpuri West,Shivaji Stadium,10.9,evening,3:00 AM,38.47,0
+66d3dba453e52b692a1f7a46,Tommy Evans,DTC391SWW,driver,DL76 X 3833,7,871,Janakpuri West,Shivaji Stadium,10.9,evening,3:00 AM,38.47,0
+66d3dba453e52b692a1f7a4a,Billy Hernandez,DTC978UTD,conductor,DL88 X 1998,7,871,Janakpuri West,Shivaji Stadium,10.9,evening,10:00 PM,38.47,0
+66d3dba453e52b692a1f7a4c,Michael Booth,DTC911MMP,driver,DL88 X 1998,7,871,Janakpuri West,Shivaji Stadium,10.9,evening,10:00 PM,38.47,0
+66d3dba453e52b692a1f7a50,Veronica Jenkins,DTC636FHV,conductor,DL36 A 4486,8,849,Saket,Narela,19.4,morning,9:00 AM,68.47,0
+66d3dba453e52b692a1f7a52,Michael Roberts,DTC327ZAW,driver,DL36 A 4486,8,849,Saket,Narela,19.4,morning,9:00 AM,68.47,0
+66d3dba453e52b692a1f7a56,Christina Burke,DTC067LLM,conductor,DL48 M 8795,8,849,Saket,Narela,19.4,morning,8:00 AM,68.47,0
+66d3dba453e52b692a1f7a58,Angela Rhodes,DTC927DLT,driver,DL48 M 8795,8,849,Saket,Narela,19.4,morning,8:00 AM,68.47,0
+66d3dba453e52b692a1f7a5c,Martha Holden,DTC932BPG,conductor,DL90 Z 3284,8,849,Saket,Narela,19.4,morning,10:00 AM,68.47,0
+66d3dba453e52b692a1f7a5e,Scott Page,DTC061AAO,driver,DL90 Z 3284,8,849,Saket,Narela,19.4,morning,10:00 AM,68.47,0
+66d3dba453e52b692a1f7a62,Michelle Fritz,DTC181KHX,conductor,DL77 R 4314,8,849,Saket,Narela,19.4,morning,10:00 AM,68.47,0
+66d3dba553e52b692a1f7a64,Lisa Cook,DTC124JRD,driver,DL77 R 4314,8,849,Saket,Narela,19.4,morning,10:00 AM,68.47,0
+66d3dba553e52b692a1f7a68,Gina Ingram,DTC162HRN,conductor,DL20 I 2425,8,849,Saket,Narela,19.4,morning,7:00 AM,68.47,0
+66d3dba553e52b692a1f7a6a,Jason Ferrell,DTC526YYK,driver,DL20 I 2425,8,849,Saket,Narela,19.4,morning,7:00 AM,68.47,0
+66d3dba553e52b692a1f7a6e,Michael Gomez,DTC121IIW,conductor,DL47 B 8287,8,849,Saket,Narela,19.4,morning,11:00 AM,68.47,0
+66d3dba553e52b692a1f7a70,Veronica Bernard,DTC728KCA,driver,DL47 B 8287,8,849,Saket,Narela,19.4,morning,11:00 AM,68.47,0
+66d3dba553e52b692a1f7a74,Connie Morgan,DTC384XQC,conductor,DL27 H 2353,8,849,Saket,Narela,19.4,morning,10:00 AM,68.47,0
+66d3dba553e52b692a1f7a76,James Alexander,DTC303UHP,driver,DL27 H 2353,8,849,Saket,Narela,19.4,morning,10:00 AM,68.47,0
+66d3dba553e52b692a1f7a7a,Regina Maynard,DTC835BWK,conductor,DL14 F 5943,8,849,Saket,Narela,19.4,morning,12:00 PM,68.47,0
+66d3dba553e52b692a1f7a7c,Luis Torres,DTC279WFK,driver,DL14 F 5943,8,849,Saket,Narela,19.4,morning,12:00 PM,68.47,0
+66d3dba653e52b692a1f7a80,Brian Stanton,DTC328IML,conductor,DL82 G 2554,8,849,Saket,Narela,19.4,morning,8:00 AM,68.47,0
+66d3dba653e52b692a1f7a82,Steven Lara,DTC110SGC,driver,DL82 G 2554,8,849,Saket,Narela,19.4,morning,8:00 AM,68.47,0
+66d3dba653e52b692a1f7a86,Alexander Henry,DTC168NZT,conductor,DL84 B 4910,8,849,Saket,Narela,19.4,morning,12:00 PM,68.47,0
+66d3dba653e52b692a1f7a88,Daniel Yang,DTC670SZX,driver,DL84 B 4910,8,849,Saket,Narela,19.4,morning,12:00 PM,68.47,0
+66d3dba653e52b692a1f7a8c,Jordan Bowman,DTC443KKT,conductor,DL17 V 5201,8,849,Saket,Narela,19.4,afternoon,8:00 PM,68.47,0
+66d3dba653e52b692a1f7a8e,Robert Luna,DTC114SXN,driver,DL17 V 5201,8,849,Saket,Narela,19.4,afternoon,8:00 PM,68.47,0
+66d3dba653e52b692a1f7a92,Megan Jones,DTC388UHQ,conductor,DL93 Q 2334,8,849,Saket,Narela,19.4,afternoon,4:00 PM,68.47,0
+66d3dba653e52b692a1f7a94,Shawn Mckee,DTC075WIA,driver,DL93 Q 2334,8,849,Saket,Narela,19.4,afternoon,4:00 PM,68.47,0
+66d3dba653e52b692a1f7a98,Kristen Moore,DTC571UNL,conductor,DL33 A 1168,8,849,Saket,Narela,19.4,afternoon,7:00 PM,68.47,0
+66d3dba653e52b692a1f7a9a,Carrie Swanson,DTC966COG,driver,DL33 A 1168,8,849,Saket,Narela,19.4,afternoon,7:00 PM,68.47,0
+66d3dba653e52b692a1f7a9e,Phyllis Parrish,DTC419CLD,conductor,DL84 O 3724,8,849,Saket,Narela,19.4,afternoon,1:00 PM,68.47,0
+66d3dba753e52b692a1f7aa0,Danielle Chang,DTC013TFE,driver,DL84 O 3724,8,849,Saket,Narela,19.4,afternoon,1:00 PM,68.47,0
+66d3dba753e52b692a1f7aa4,Mr. Marc Marshall,DTC681WNA,conductor,DL52 X 5247,8,849,Saket,Narela,19.4,afternoon,12:00 PM,68.47,0
+66d3dba753e52b692a1f7aa6,Joseph Elliott,DTC316XSO,driver,DL52 X 5247,8,849,Saket,Narela,19.4,afternoon,12:00 PM,68.47,0
+66d3dba753e52b692a1f7aaa,Victoria Poole,DTC283KOD,conductor,DL61 X 9744,8,849,Saket,Narela,19.4,afternoon,5:00 PM,68.47,0
+66d3dba753e52b692a1f7aac,Joseph Harrison,DTC072BAN,driver,DL61 X 9744,8,849,Saket,Narela,19.4,afternoon,5:00 PM,68.47,0
+66d3dba753e52b692a1f7ab0,Bill West,DTC290MNZ,conductor,DL10 M 2777,8,849,Saket,Narela,19.4,afternoon,6:00 PM,68.47,0
+66d3dba753e52b692a1f7ab2,Andres Wiggins,DTC767JJJ,driver,DL10 M 2777,8,849,Saket,Narela,19.4,afternoon,6:00 PM,68.47,0
+66d3dba753e52b692a1f7ab6,Xavier Davidson MD,DTC947BUS,conductor,DL81 K 9012,8,849,Saket,Narela,19.4,afternoon,7:00 PM,68.47,0
+66d3dba753e52b692a1f7ab8,Christina Bailey,DTC629PGA,driver,DL81 K 9012,8,849,Saket,Narela,19.4,afternoon,7:00 PM,68.47,0
+66d3dba753e52b692a1f7abc,Jonathan Brown,DTC077MIM,conductor,DL78 R 8265,8,849,Saket,Narela,19.4,afternoon,6:00 PM,68.47,0
+66d3dba753e52b692a1f7abe,Nathan Benjamin,DTC591TTK,driver,DL78 R 8265,8,849,Saket,Narela,19.4,afternoon,6:00 PM,68.47,0
+66d3dba853e52b692a1f7ac2,Andres Gross,DTC669PLU,conductor,DL22 I 3120,8,849,Saket,Narela,19.4,afternoon,5:00 PM,68.47,0
+66d3dba853e52b692a1f7ac4,Kristin Rogers,DTC920MFA,driver,DL22 I 3120,8,849,Saket,Narela,19.4,afternoon,5:00 PM,68.47,0
+66d3dba853e52b692a1f7ac8,Joshua Holt,DTC472OGY,conductor,DL82 K 7845,8,849,Saket,Narela,19.4,evening,3:00 AM,68.47,0
+66d3dba853e52b692a1f7aca,Frederick Garner,DTC010VLE,driver,DL82 K 7845,8,849,Saket,Narela,19.4,evening,3:00 AM,68.47,0
+66d3dba853e52b692a1f7ace,Steven Stevens,DTC530MKE,conductor,DL82 E 7427,8,849,Saket,Narela,19.4,evening,3:00 AM,68.47,0
+66d3dba853e52b692a1f7ad0,Antonio Chavez,DTC786HTF,driver,DL82 E 7427,8,849,Saket,Narela,19.4,evening,3:00 AM,68.47,0
+66d3dba853e52b692a1f7ad4,Brittany Howard,DTC010HCO,conductor,DL75 H 5829,8,849,Saket,Narela,19.4,evening,3:00 AM,68.47,0
+66d3dba853e52b692a1f7ad6,Andrea Fisher,DTC288SSV,driver,DL75 H 5829,8,849,Saket,Narela,19.4,evening,3:00 AM,68.47,0
+66d3dba853e52b692a1f7ada,Michael Murphy,DTC906YGB,conductor,DL45 N 6614,8,849,Saket,Narela,19.4,evening,8:00 PM,68.47,0
+66d3dba853e52b692a1f7adc,Sherry Nguyen,DTC336DHC,driver,DL45 N 6614,8,849,Saket,Narela,19.4,evening,8:00 PM,68.47,0
+66d3dba953e52b692a1f7ae0,Tina Knapp,DTC881MTD,conductor,DL99 E 7643,8,849,Saket,Narela,19.4,evening,1:00 AM,68.47,0
+66d3dba953e52b692a1f7ae2,Erika Maldonado,DTC857KFD,driver,DL99 E 7643,8,849,Saket,Narela,19.4,evening,1:00 AM,68.47,0
+66d3dba953e52b692a1f7ae6,Ashley Suarez,DTC375OGB,conductor,DL55 D 5611,9,534,Mayur Vihar Phase 3,Safdarjung Terminal,16.7,morning,11:00 AM,58.94,0
+66d3dba953e52b692a1f7ae8,Joseph Lam,DTC327TON,driver,DL55 D 5611,9,534,Mayur Vihar Phase 3,Safdarjung Terminal,16.7,morning,11:00 AM,58.94,0
+66d3dba953e52b692a1f7aec,Joann Smith,DTC886FNH,conductor,DL61 B 7372,9,534,Mayur Vihar Phase 3,Safdarjung Terminal,16.7,morning,7:00 AM,58.94,0
+66d3dba953e52b692a1f7aee,Lisa Thompson,DTC828PFQ,driver,DL61 B 7372,9,534,Mayur Vihar Phase 3,Safdarjung Terminal,16.7,morning,7:00 AM,58.94,0
+66d3dba953e52b692a1f7af2,Rachel Singleton,DTC718EJX,conductor,DL97 C 6148,9,534,Mayur Vihar Phase 3,Safdarjung Terminal,16.7,morning,5:00 AM,58.94,0
+66d3dba953e52b692a1f7af4,Angel Garcia,DTC914BUI,driver,DL97 C 6148,9,534,Mayur Vihar Phase 3,Safdarjung Terminal,16.7,morning,5:00 AM,58.94,0
+66d3dba953e52b692a1f7af8,Jeffrey Hall,DTC252EGF,conductor,DL31 X 8450,9,534,Mayur Vihar Phase 3,Safdarjung Terminal,16.7,morning,7:00 AM,58.94,0
+66d3dba953e52b692a1f7afa,Todd Mueller,DTC673NSI,driver,DL31 X 8450,9,534,Mayur Vihar Phase 3,Safdarjung Terminal,16.7,morning,7:00 AM,58.94,0
+66d3dbaa53e52b692a1f7afe,Melissa Morgan,DTC452ZKJ,conductor,DL80 H 4554,9,534,Mayur Vihar Phase 3,Safdarjung Terminal,16.7,morning,7:00 AM,58.94,0
+66d3dbaa53e52b692a1f7b00,Jessica Hamilton,DTC317NEX,driver,DL80 H 4554,9,534,Mayur Vihar Phase 3,Safdarjung Terminal,16.7,morning,7:00 AM,58.94,0
+66d3dbaa53e52b692a1f7b04,Angela Williamson,DTC618SDU,conductor,DL45 T 5469,9,534,Mayur Vihar Phase 3,Safdarjung Terminal,16.7,morning,8:00 AM,58.94,0
+66d3dbaa53e52b692a1f7b06,Tyler Harrison,DTC703JSF,driver,DL45 T 5469,9,534,Mayur Vihar Phase 3,Safdarjung Terminal,16.7,morning,8:00 AM,58.94,0
+66d3dbaa53e52b692a1f7b0a,Robert Caldwell,DTC789JAW,conductor,DL93 V 4605,9,534,Mayur Vihar Phase 3,Safdarjung Terminal,16.7,morning,9:00 AM,58.94,0
+66d3dbaa53e52b692a1f7b0c,Jerry Hester,DTC039MFB,driver,DL93 V 4605,9,534,Mayur Vihar Phase 3,Safdarjung Terminal,16.7,morning,9:00 AM,58.94,0
+66d3dbaa53e52b692a1f7b10,Patricia Briggs,DTC742EVQ,conductor,DL92 Z 6394,9,534,Mayur Vihar Phase 3,Safdarjung Terminal,16.7,morning,9:00 AM,58.94,0
+66d3dbaa53e52b692a1f7b12,Haley Reed,DTC605UXT,driver,DL92 Z 6394,9,534,Mayur Vihar Phase 3,Safdarjung Terminal,16.7,morning,9:00 AM,58.94,0
+66d3dbaa53e52b692a1f7b16,Jason Pollard,DTC053WEO,conductor,DL94 S 3221,9,534,Mayur Vihar Phase 3,Safdarjung Terminal,16.7,afternoon,4:00 PM,58.94,0
+66d3dbaa53e52b692a1f7b18,Brad Short,DTC642SFE,driver,DL94 S 3221,9,534,Mayur Vihar Phase 3,Safdarjung Terminal,16.7,afternoon,4:00 PM,58.94,0
+66d3dbaa53e52b692a1f7b1c,Joseph Anderson,DTC560ZDQ,conductor,DL83 O 5098,9,534,Mayur Vihar Phase 3,Safdarjung Terminal,16.7,afternoon,7:00 PM,58.94,0
+66d3dbab53e52b692a1f7b1e,Amanda Duke,DTC390WHR,driver,DL83 O 5098,9,534,Mayur Vihar Phase 3,Safdarjung Terminal,16.7,afternoon,7:00 PM,58.94,0
+66d3dbab53e52b692a1f7b22,Mackenzie Price,DTC528HOX,conductor,DL66 Q 1765,9,534,Mayur Vihar Phase 3,Safdarjung Terminal,16.7,afternoon,1:00 PM,58.94,0
+66d3dbab53e52b692a1f7b24,Gloria Johnson,DTC586ZHM,driver,DL66 Q 1765,9,534,Mayur Vihar Phase 3,Safdarjung Terminal,16.7,afternoon,1:00 PM,58.94,0
+66d3dbab53e52b692a1f7b28,Jennifer Drake,DTC020OAL,conductor,DL43 H 5236,9,534,Mayur Vihar Phase 3,Safdarjung Terminal,16.7,afternoon,6:00 PM,58.94,0
+66d3dbab53e52b692a1f7b2a,Stephanie Hughes,DTC933XYK,driver,DL43 H 5236,9,534,Mayur Vihar Phase 3,Safdarjung Terminal,16.7,afternoon,6:00 PM,58.94,0
+66d3dbab53e52b692a1f7b2e,Ernest Walton,DTC452XOB,conductor,DL22 E 3252,9,534,Mayur Vihar Phase 3,Safdarjung Terminal,16.7,afternoon,3:00 PM,58.94,0
+66d3dbab53e52b692a1f7b30,Sharon Moore,DTC150NZD,driver,DL22 E 3252,9,534,Mayur Vihar Phase 3,Safdarjung Terminal,16.7,afternoon,3:00 PM,58.94,0
+66d3dbab53e52b692a1f7b34,Patrick Stevens,DTC186LBL,conductor,DL25 Z 5423,9,534,Mayur Vihar Phase 3,Safdarjung Terminal,16.7,afternoon,8:00 PM,58.94,0
+66d3dbab53e52b692a1f7b36,David Chambers,DTC627PCM,driver,DL25 Z 5423,9,534,Mayur Vihar Phase 3,Safdarjung Terminal,16.7,afternoon,8:00 PM,58.94,0
+66d3dbab53e52b692a1f7b3a,Heather Jones,DTC305NAN,conductor,DL67 K 1476,9,534,Mayur Vihar Phase 3,Safdarjung Terminal,16.7,afternoon,1:00 PM,58.94,0
+66d3dbab53e52b692a1f7b3c,Samantha Freeman,DTC594YQN,driver,DL67 K 1476,9,534,Mayur Vihar Phase 3,Safdarjung Terminal,16.7,afternoon,1:00 PM,58.94,0
+66d3dbac53e52b692a1f7b40,Michael Diaz,DTC877JME,conductor,DL39 H 4602,9,534,Mayur Vihar Phase 3,Safdarjung Terminal,16.7,afternoon,7:00 PM,58.94,0
+66d3dbac53e52b692a1f7b42,Joseph Schneider,DTC842DGG,driver,DL39 H 4602,9,534,Mayur Vihar Phase 3,Safdarjung Terminal,16.7,afternoon,7:00 PM,58.94,0
+66d3dbac53e52b692a1f7b46,Marvin Torres,DTC107MFB,conductor,DL13 G 7206,9,534,Mayur Vihar Phase 3,Safdarjung Terminal,16.7,evening,9:00 PM,58.94,0
+66d3dbac53e52b692a1f7b48,Lindsey Mendoza,DTC840XMB,driver,DL13 G 7206,9,534,Mayur Vihar Phase 3,Safdarjung Terminal,16.7,evening,9:00 PM,58.94,0
+66d3dbac53e52b692a1f7b4c,Bruce Pierce,DTC473SUJ,conductor,DL72 S 5032,9,534,Mayur Vihar Phase 3,Safdarjung Terminal,16.7,evening,3:00 AM,58.94,0
+66d3dbac53e52b692a1f7b4e,Brett Berger,DTC338ULE,driver,DL72 S 5032,9,534,Mayur Vihar Phase 3,Safdarjung Terminal,16.7,evening,3:00 AM,58.94,0
+66d3dbac53e52b692a1f7b52,Amy Gardner,DTC539SME,conductor,DL62 U 5748,9,534,Mayur Vihar Phase 3,Safdarjung Terminal,16.7,evening,9:00 PM,58.94,0
+66d3dbac53e52b692a1f7b54,Sarah Morris,DTC413JEF,driver,DL62 U 5748,9,534,Mayur Vihar Phase 3,Safdarjung Terminal,16.7,evening,9:00 PM,58.94,0
+66d3dbac53e52b692a1f7b58,Ronald Robles,DTC963YDO,conductor,DL83 S 2026,9,534,Mayur Vihar Phase 3,Safdarjung Terminal,16.7,evening,4:00 AM,58.94,0
+66d3dbac53e52b692a1f7b5a,Tyler Shah,DTC739DTS,driver,DL83 S 2026,9,534,Mayur Vihar Phase 3,Safdarjung Terminal,16.7,evening,4:00 AM,58.94,0
+66d3dbac53e52b692a1f7b5e,Diana Mason,DTC996DVE,conductor,DL39 V 4694,10,615,Lajpat Nagar,Jahangirpuri,11.2,morning,6:00 AM,39.53,0
+66d3dbac53e52b692a1f7b60,Brad Hines,DTC105AHY,driver,DL39 V 4694,10,615,Lajpat Nagar,Jahangirpuri,11.2,morning,6:00 AM,39.53,0
+66d3dbad53e52b692a1f7b64,Vicki Hunt,DTC363QVF,conductor,DL64 V 7766,10,615,Lajpat Nagar,Jahangirpuri,11.2,morning,6:00 AM,39.53,0
+66d3dbad53e52b692a1f7b66,William Bautista,DTC006XJZ,driver,DL64 V 7766,10,615,Lajpat Nagar,Jahangirpuri,11.2,morning,6:00 AM,39.53,0
+66d3dbad53e52b692a1f7b6a,Amanda Kirby,DTC260NLW,conductor,DL70 I 9249,10,615,Lajpat Nagar,Jahangirpuri,11.2,morning,5:00 AM,39.53,0
+66d3dbad53e52b692a1f7b6c,Thomas Whitney,DTC691FDP,driver,DL70 I 9249,10,615,Lajpat Nagar,Jahangirpuri,11.2,morning,5:00 AM,39.53,0
+66d3dbad53e52b692a1f7b70,Ronald Shields,DTC484BWY,conductor,DL89 Y 4162,10,615,Lajpat Nagar,Jahangirpuri,11.2,morning,12:00 PM,39.53,0
+66d3dbad53e52b692a1f7b72,Joshua Gibson,DTC544UWC,driver,DL89 Y 4162,10,615,Lajpat Nagar,Jahangirpuri,11.2,morning,12:00 PM,39.53,0
+66d3dbad53e52b692a1f7b76,William Cox,DTC936FMM,conductor,DL65 Z 9500,10,615,Lajpat Nagar,Jahangirpuri,11.2,morning,9:00 AM,39.53,0
+66d3dbad53e52b692a1f7b78,Amy Davis,DTC338FZP,driver,DL65 Z 9500,10,615,Lajpat Nagar,Jahangirpuri,11.2,morning,9:00 AM,39.53,0
+66d3dbad53e52b692a1f7b7c,Kelly Morgan,DTC245IBG,conductor,DL51 K 9164,10,615,Lajpat Nagar,Jahangirpuri,11.2,morning,10:00 AM,39.53,0
+66d3dbad53e52b692a1f7b7e,Darren Kennedy,DTC146IHS,driver,DL51 K 9164,10,615,Lajpat Nagar,Jahangirpuri,11.2,morning,10:00 AM,39.53,0
+66d3dbad53e52b692a1f7b82,Melissa Austin,DTC283WZY,conductor,DL43 U 3637,10,615,Lajpat Nagar,Jahangirpuri,11.2,morning,5:00 AM,39.53,0
+66d3dbae53e52b692a1f7b84,Traci Cervantes,DTC648EDC,driver,DL43 U 3637,10,615,Lajpat Nagar,Jahangirpuri,11.2,morning,5:00 AM,39.53,0
+66d3dbae53e52b692a1f7b88,Katherine Kemp,DTC688UPT,conductor,DL88 C 2087,10,615,Lajpat Nagar,Jahangirpuri,11.2,morning,11:00 AM,39.53,0
+66d3dbae53e52b692a1f7b8a,Denise Pham,DTC487WUI,driver,DL88 C 2087,10,615,Lajpat Nagar,Jahangirpuri,11.2,morning,11:00 AM,39.53,0
+66d3dbae53e52b692a1f7b8e,David Craig,DTC110BNR,conductor,DL47 L 9528,10,615,Lajpat Nagar,Jahangirpuri,11.2,morning,7:00 AM,39.53,0
+66d3dbae53e52b692a1f7b90,Jennifer Day,DTC776OBO,driver,DL47 L 9528,10,615,Lajpat Nagar,Jahangirpuri,11.2,morning,7:00 AM,39.53,0
+66d3dbae53e52b692a1f7b94,Kristen Yang,DTC611RUZ,conductor,DL44 J 7307,10,615,Lajpat Nagar,Jahangirpuri,11.2,afternoon,6:00 PM,39.53,0
+66d3dbae53e52b692a1f7b96,Dana Johnson,DTC874MWB,driver,DL44 J 7307,10,615,Lajpat Nagar,Jahangirpuri,11.2,afternoon,6:00 PM,39.53,0
+66d3dbae53e52b692a1f7b9a,Troy Mayer,DTC586EFJ,conductor,DL76 L 5305,10,615,Lajpat Nagar,Jahangirpuri,11.2,afternoon,12:00 PM,39.53,0
+66d3dbae53e52b692a1f7b9c,Alan Collins,DTC275QGY,driver,DL76 L 5305,10,615,Lajpat Nagar,Jahangirpuri,11.2,afternoon,12:00 PM,39.53,0
+66d3dbae53e52b692a1f7ba0,Nicole Chan,DTC087VYZ,conductor,DL33 E 3199,10,615,Lajpat Nagar,Jahangirpuri,11.2,afternoon,5:00 PM,39.53,0
+66d3dbae53e52b692a1f7ba2,Douglas Alvarez,DTC908IVZ,driver,DL33 E 3199,10,615,Lajpat Nagar,Jahangirpuri,11.2,afternoon,5:00 PM,39.53,0
+66d3dbaf53e52b692a1f7ba6,Emily Powell,DTC095MLW,conductor,DL39 A 8675,10,615,Lajpat Nagar,Jahangirpuri,11.2,afternoon,6:00 PM,39.53,0
+66d3dbaf53e52b692a1f7ba8,Cody Khan,DTC054LTL,driver,DL39 A 8675,10,615,Lajpat Nagar,Jahangirpuri,11.2,afternoon,6:00 PM,39.53,0
+66d3dbaf53e52b692a1f7bac,Elaine Williams,DTC271VIN,conductor,DL45 E 3499,10,615,Lajpat Nagar,Jahangirpuri,11.2,afternoon,3:00 PM,39.53,0
+66d3dbaf53e52b692a1f7bae,Shawn Kirk,DTC989FQR,driver,DL45 E 3499,10,615,Lajpat Nagar,Jahangirpuri,11.2,afternoon,3:00 PM,39.53,0
+66d3dbaf53e52b692a1f7bb2,Bradley Shaffer,DTC912CZE,conductor,DL84 A 5291,10,615,Lajpat Nagar,Jahangirpuri,11.2,afternoon,4:00 PM,39.53,0
+66d3dbaf53e52b692a1f7bb4,Jon Moore,DTC175WGT,driver,DL84 A 5291,10,615,Lajpat Nagar,Jahangirpuri,11.2,afternoon,4:00 PM,39.53,0
+66d3dbaf53e52b692a1f7bb8,Courtney Stanton,DTC820ASX,conductor,DL74 S 7474,10,615,Lajpat Nagar,Jahangirpuri,11.2,afternoon,5:00 PM,39.53,0
+66d3dbaf53e52b692a1f7bba,Kelly Fisher,DTC396TTC,driver,DL74 S 7474,10,615,Lajpat Nagar,Jahangirpuri,11.2,afternoon,5:00 PM,39.53,0
+66d3dbaf53e52b692a1f7bbe,Carl Griffin,DTC439TTK,conductor,DL83 A 8360,10,615,Lajpat Nagar,Jahangirpuri,11.2,afternoon,4:00 PM,39.53,0
+66d3dbaf53e52b692a1f7bc0,Karen Lowe,DTC758YMN,driver,DL83 A 8360,10,615,Lajpat Nagar,Jahangirpuri,11.2,afternoon,4:00 PM,39.53,0
+66d3dbaf53e52b692a1f7bc4,Martha Barker,DTC669ZRT,conductor,DL70 Y 7714,10,615,Lajpat Nagar,Jahangirpuri,11.2,afternoon,4:00 PM,39.53,0
+66d3dbaf53e52b692a1f7bc6,John Delgado,DTC296GWD,driver,DL70 Y 7714,10,615,Lajpat Nagar,Jahangirpuri,11.2,afternoon,4:00 PM,39.53,0
+66d3dbb053e52b692a1f7bca,Carrie Bennett,DTC110RZS,conductor,DL89 A 9055,10,615,Lajpat Nagar,Jahangirpuri,11.2,evening,11:00 PM,39.53,0
+66d3dbb053e52b692a1f7bcc,Tracy Burton,DTC931QHI,driver,DL89 A 9055,10,615,Lajpat Nagar,Jahangirpuri,11.2,evening,11:00 PM,39.53,0
+66d3dbb053e52b692a1f7bd0,Jonathan Becker,DTC033YKR,conductor,DL98 I 4831,10,615,Lajpat Nagar,Jahangirpuri,11.2,evening,9:00 PM,39.53,0
+66d3dbb053e52b692a1f7bd2,Brittany Graves,DTC247ADI,driver,DL98 I 4831,10,615,Lajpat Nagar,Jahangirpuri,11.2,evening,9:00 PM,39.53,0
+66d3dbb053e52b692a1f7bd6,Bryan Cortez,DTC883DGL,conductor,DL56 T 4381,10,615,Lajpat Nagar,Jahangirpuri,11.2,evening,3:00 AM,39.53,0
+66d3dbb053e52b692a1f7bd8,Matthew Garcia,DTC589YQD,driver,DL56 T 4381,10,615,Lajpat Nagar,Jahangirpuri,11.2,evening,3:00 AM,39.53,0
+66d3dbb053e52b692a1f7bdc,Hannah Robles,DTC064OYO,conductor,DL56 O 2882,10,615,Lajpat Nagar,Jahangirpuri,11.2,evening,8:00 PM,39.53,0
+66d3dbb053e52b692a1f7bde,Meagan Lyons,DTC333OFN,driver,DL56 O 2882,10,615,Lajpat Nagar,Jahangirpuri,11.2,evening,8:00 PM,39.53,0
+66d3dbb053e52b692a1f7be2,Susan Sexton,DTC519TTC,conductor,DL32 Z 8023,10,615,Lajpat Nagar,Jahangirpuri,11.2,evening,9:00 PM,39.53,0
+66d3dbb053e52b692a1f7be4,Christopher Ramos,DTC264USK,driver,DL32 Z 8023,10,615,Lajpat Nagar,Jahangirpuri,11.2,evening,9:00 PM,39.53,0
+66d3dbb153e52b692a1f7be8,Amanda Donovan,DTC541CRD,conductor,DL55 H 7917,11,835,Mukherjee Nagar,Nehru Place,13.8,morning,7:00 AM,48.71,0
+66d3dbb153e52b692a1f7bea,Nicholas Lee,DTC234LVJ,driver,DL55 H 7917,11,835,Mukherjee Nagar,Nehru Place,13.8,morning,7:00 AM,48.71,0
+66d3dbb153e52b692a1f7bee,Janet Horne,DTC880FHY,conductor,DL22 O 7513,11,835,Mukherjee Nagar,Nehru Place,13.8,morning,6:00 AM,48.71,0
+66d3dbb153e52b692a1f7bf0,Dr. Bryan Tucker,DTC115CSC,driver,DL22 O 7513,11,835,Mukherjee Nagar,Nehru Place,13.8,morning,6:00 AM,48.71,0
+66d3dbb153e52b692a1f7bf4,Jessica Stevens,DTC132KQG,conductor,DL81 O 8861,11,835,Mukherjee Nagar,Nehru Place,13.8,morning,6:00 AM,48.71,0
+66d3dbb153e52b692a1f7bf6,Sean Tran,DTC329MWV,driver,DL81 O 8861,11,835,Mukherjee Nagar,Nehru Place,13.8,morning,6:00 AM,48.71,0
+66d3dbb153e52b692a1f7bfa,Renee Hernandez,DTC362LTR,conductor,DL25 W 6131,11,835,Mukherjee Nagar,Nehru Place,13.8,morning,10:00 AM,48.71,0
+66d3dbb153e52b692a1f7bfc,Ashley Montgomery,DTC447ITN,driver,DL25 W 6131,11,835,Mukherjee Nagar,Nehru Place,13.8,morning,10:00 AM,48.71,0
+66d3dbb153e52b692a1f7c00,Shannon Torres,DTC120SSP,conductor,DL44 U 9727,11,835,Mukherjee Nagar,Nehru Place,13.8,morning,7:00 AM,48.71,0
+66d3dbb153e52b692a1f7c02,Amanda Martinez,DTC159DVB,driver,DL44 U 9727,11,835,Mukherjee Nagar,Nehru Place,13.8,morning,7:00 AM,48.71,0
+66d3dbb153e52b692a1f7c06,Joseph Taylor,DTC420PON,conductor,DL34 G 3836,11,835,Mukherjee Nagar,Nehru Place,13.8,morning,6:00 AM,48.71,0
+66d3dbb153e52b692a1f7c08,Linda Downs,DTC781NOY,driver,DL34 G 3836,11,835,Mukherjee Nagar,Nehru Place,13.8,morning,6:00 AM,48.71,0
+66d3dbb253e52b692a1f7c0c,Brandon Wilson,DTC747LVC,conductor,DL78 O 5664,11,835,Mukherjee Nagar,Nehru Place,13.8,morning,11:00 AM,48.71,0
+66d3dbb253e52b692a1f7c0e,Lori Berg,DTC577QHT,driver,DL78 O 5664,11,835,Mukherjee Nagar,Nehru Place,13.8,morning,11:00 AM,48.71,0
+66d3dbb253e52b692a1f7c12,Alexander Harrison,DTC728ABB,conductor,DL95 F 9024,11,835,Mukherjee Nagar,Nehru Place,13.8,morning,10:00 AM,48.71,0
+66d3dbb253e52b692a1f7c14,Renee Hawkins,DTC041EXW,driver,DL95 F 9024,11,835,Mukherjee Nagar,Nehru Place,13.8,morning,10:00 AM,48.71,0
+66d3dbb253e52b692a1f7c18,Christopher Mckenzie,DTC092RWW,conductor,DL53 Q 9847,11,835,Mukherjee Nagar,Nehru Place,13.8,morning,6:00 AM,48.71,0
+66d3dbb253e52b692a1f7c1a,Sharon Kirk,DTC835SMS,driver,DL53 Q 9847,11,835,Mukherjee Nagar,Nehru Place,13.8,morning,6:00 AM,48.71,0
+66d3dbb253e52b692a1f7c1e,Marcus Adams,DTC908STU,conductor,DL92 D 5697,11,835,Mukherjee Nagar,Nehru Place,13.8,morning,7:00 AM,48.71,0
+66d3dbb253e52b692a1f7c20,Samantha Farmer,DTC616EWI,driver,DL92 D 5697,11,835,Mukherjee Nagar,Nehru Place,13.8,morning,7:00 AM,48.71,0
+66d3dbb253e52b692a1f7c24,Katelyn Jones,DTC633IUI,conductor,DL34 K 7916,11,835,Mukherjee Nagar,Nehru Place,13.8,morning,7:00 AM,48.71,0
+66d3dbb253e52b692a1f7c26,Marie Goodwin,DTC877MCN,driver,DL34 K 7916,11,835,Mukherjee Nagar,Nehru Place,13.8,morning,7:00 AM,48.71,0
+66d3dbb253e52b692a1f7c2a,Michael Walker,DTC385JXX,conductor,DL81 P 3280,11,835,Mukherjee Nagar,Nehru Place,13.8,afternoon,1:00 PM,48.71,0
+66d3dbb353e52b692a1f7c2c,Justin Brown,DTC602CWT,driver,DL81 P 3280,11,835,Mukherjee Nagar,Nehru Place,13.8,afternoon,1:00 PM,48.71,0
+66d3dbb353e52b692a1f7c30,Melissa Wilson,DTC269KTR,conductor,DL91 O 2848,11,835,Mukherjee Nagar,Nehru Place,13.8,afternoon,3:00 PM,48.71,0
+66d3dbb353e52b692a1f7c32,Levi Webb,DTC276ECP,driver,DL91 O 2848,11,835,Mukherjee Nagar,Nehru Place,13.8,afternoon,3:00 PM,48.71,0
+66d3dbb353e52b692a1f7c36,Michael Woods,DTC774VKI,conductor,DL78 X 6787,11,835,Mukherjee Nagar,Nehru Place,13.8,afternoon,2:00 PM,48.71,0
+66d3dbb353e52b692a1f7c38,Lindsey Rivera,DTC140LXC,driver,DL78 X 6787,11,835,Mukherjee Nagar,Nehru Place,13.8,afternoon,2:00 PM,48.71,0
+66d3dbb353e52b692a1f7c3c,Donna Robertson,DTC244ZJT,conductor,DL58 L 3927,11,835,Mukherjee Nagar,Nehru Place,13.8,afternoon,1:00 PM,48.71,0
+66d3dbb353e52b692a1f7c3e,Glenn Melendez,DTC860BPO,driver,DL58 L 3927,11,835,Mukherjee Nagar,Nehru Place,13.8,afternoon,1:00 PM,48.71,0
+66d3dbb353e52b692a1f7c42,Courtney Gaines,DTC624XMD,conductor,DL37 W 7741,11,835,Mukherjee Nagar,Nehru Place,13.8,afternoon,3:00 PM,48.71,0
+66d3dbb353e52b692a1f7c44,David Kelly,DTC537UHP,driver,DL37 W 7741,11,835,Mukherjee Nagar,Nehru Place,13.8,afternoon,3:00 PM,48.71,0
+66d3dbb353e52b692a1f7c48,Michael Newman,DTC815NFC,conductor,DL45 J 1697,11,835,Mukherjee Nagar,Nehru Place,13.8,afternoon,5:00 PM,48.71,0
+66d3dbb353e52b692a1f7c4a,Angela Nichols,DTC747CFV,driver,DL45 J 1697,11,835,Mukherjee Nagar,Nehru Place,13.8,afternoon,5:00 PM,48.71,0
+66d3dbb453e52b692a1f7c4e,Ronald House,DTC734YHO,conductor,DL56 P 1010,11,835,Mukherjee Nagar,Nehru Place,13.8,afternoon,2:00 PM,48.71,0
+66d3dbb453e52b692a1f7c50,Michael Gregory,DTC624CXS,driver,DL56 P 1010,11,835,Mukherjee Nagar,Nehru Place,13.8,afternoon,2:00 PM,48.71,0
+66d3dbb453e52b692a1f7c54,Duane Valdez,DTC679VAC,conductor,DL71 Z 7384,11,835,Mukherjee Nagar,Nehru Place,13.8,afternoon,5:00 PM,48.71,0
+66d3dbb453e52b692a1f7c56,Dana Hunter,DTC769AYD,driver,DL71 Z 7384,11,835,Mukherjee Nagar,Nehru Place,13.8,afternoon,5:00 PM,48.71,0
+66d3dbb453e52b692a1f7c5a,Audrey Harris,DTC944MQH,conductor,DL58 A 7436,11,835,Mukherjee Nagar,Nehru Place,13.8,afternoon,2:00 PM,48.71,0
+66d3dbb453e52b692a1f7c5c,Christopher Taylor,DTC270NTY,driver,DL58 A 7436,11,835,Mukherjee Nagar,Nehru Place,13.8,afternoon,2:00 PM,48.71,0
+66d3dbb453e52b692a1f7c60,Leslie Fernandez,DTC861FUU,conductor,DL97 N 3899,11,835,Mukherjee Nagar,Nehru Place,13.8,afternoon,3:00 PM,48.71,0
+66d3dbb453e52b692a1f7c62,Timothy Smith,DTC859XFZ,driver,DL97 N 3899,11,835,Mukherjee Nagar,Nehru Place,13.8,afternoon,3:00 PM,48.71,0
+66d3dbb453e52b692a1f7c66,Mr. David Reeves,DTC107IQC,conductor,DL43 D 1046,11,835,Mukherjee Nagar,Nehru Place,13.8,afternoon,7:00 PM,48.71,0
+66d3dbb453e52b692a1f7c68,Jacqueline Gutierrez,DTC514RII,driver,DL43 D 1046,11,835,Mukherjee Nagar,Nehru Place,13.8,afternoon,7:00 PM,48.71,0
+66d3dbb453e52b692a1f7c6c,Paul Brown,DTC382JRI,conductor,DL75 U 9925,11,835,Mukherjee Nagar,Nehru Place,13.8,evening,10:00 PM,48.71,0
+66d3dbb553e52b692a1f7c6e,Ann Mathews,DTC674RGF,driver,DL75 U 9925,11,835,Mukherjee Nagar,Nehru Place,13.8,evening,10:00 PM,48.71,0
+66d3dbb553e52b692a1f7c72,Stephanie Atkins,DTC377YOK,conductor,DL97 P 6796,11,835,Mukherjee Nagar,Nehru Place,13.8,evening,11:00 PM,48.71,0
+66d3dbb553e52b692a1f7c74,Christopher Mitchell,DTC554BRE,driver,DL97 P 6796,11,835,Mukherjee Nagar,Nehru Place,13.8,evening,11:00 PM,48.71,0
+66d3dbb553e52b692a1f7c78,Harold Hughes,DTC444DST,conductor,DL81 X 2299,11,835,Mukherjee Nagar,Nehru Place,13.8,evening,2:00 AM,48.71,0
+66d3dbb553e52b692a1f7c7a,Jay Mcclure,DTC417WBG,driver,DL81 X 2299,11,835,Mukherjee Nagar,Nehru Place,13.8,evening,2:00 AM,48.71,0
+66d3dbb553e52b692a1f7c7e,Crystal Martinez,DTC442DKK,conductor,DL53 Y 6113,11,835,Mukherjee Nagar,Nehru Place,13.8,evening,8:00 PM,48.71,0
+66d3dbb553e52b692a1f7c80,Daniel Holt,DTC457FQT,driver,DL53 Y 6113,11,835,Mukherjee Nagar,Nehru Place,13.8,evening,8:00 PM,48.71,0
+66d3dbb553e52b692a1f7c84,Jonathon Lewis,DTC643KRL,conductor,DL20 S 4552,11,835,Mukherjee Nagar,Nehru Place,13.8,evening,3:00 AM,48.71,0
+66d3dbb553e52b692a1f7c86,Amanda Mason,DTC688IDI,driver,DL20 S 4552,11,835,Mukherjee Nagar,Nehru Place,13.8,evening,3:00 AM,48.71,0
+66d3dbb553e52b692a1f7c8a,Christina Arnold,DTC001ORN,conductor,DL34 L 7975,11,835,Mukherjee Nagar,Nehru Place,13.8,evening,9:00 PM,48.71,0
+66d3dbb553e52b692a1f7c8c,William Lee,DTC696RTK,driver,DL34 L 7975,11,835,Mukherjee Nagar,Nehru Place,13.8,evening,9:00 PM,48.71,0
+66d3dbb653e52b692a1f7c90,Walter Fowler,DTC854JME,conductor,DL36 I 3078,11,835,Mukherjee Nagar,Nehru Place,13.8,evening,1:00 AM,48.71,0
+66d3dbb653e52b692a1f7c92,Jonathan Ramsey,DTC477EWB,driver,DL36 I 3078,11,835,Mukherjee Nagar,Nehru Place,13.8,evening,1:00 AM,48.71,0
+66d3dbb653e52b692a1f7c96,Bethany Barker,DTC224HIK,conductor,DL13 C 1112,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,morning,10:00 AM,66.71,0
+66d3dbb653e52b692a1f7c98,Lindsay Gray,DTC888SWE,driver,DL13 C 1112,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,morning,10:00 AM,66.71,0
+66d3dbb653e52b692a1f7c9c,Michael Romero,DTC789NKR,conductor,DL35 A 7040,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,morning,7:00 AM,66.71,0
+66d3dbb653e52b692a1f7c9e,Erin Butler,DTC366PHN,driver,DL35 A 7040,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,morning,7:00 AM,66.71,0
+66d3dbb653e52b692a1f7ca2,Alison Wright,DTC265VYM,conductor,DL63 F 6149,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,morning,6:00 AM,66.71,0
+66d3dbb653e52b692a1f7ca4,Kathleen Jones,DTC651GMQ,driver,DL63 F 6149,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,morning,6:00 AM,66.71,0
+66d3dbb653e52b692a1f7ca8,Tanya Davis,DTC831PWE,conductor,DL77 U 8639,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,morning,10:00 AM,66.71,0
+66d3dbb653e52b692a1f7caa,David Guerrero,DTC953FVU,driver,DL77 U 8639,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,morning,10:00 AM,66.71,0
+66d3dbb653e52b692a1f7cae,Toni Bennett MD,DTC170YEN,conductor,DL77 H 4451,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,morning,5:00 AM,66.71,0
+66d3dbb753e52b692a1f7cb0,Jason Moore,DTC452RRC,driver,DL77 H 4451,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,morning,5:00 AM,66.71,0
+66d3dbb753e52b692a1f7cb4,Patricia Merritt,DTC458FFX,conductor,DL52 Z 3419,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,morning,12:00 PM,66.71,0
+66d3dbb753e52b692a1f7cb6,Troy Hensley,DTC834VWX,driver,DL52 Z 3419,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,morning,12:00 PM,66.71,0
+66d3dbb753e52b692a1f7cba,Stacie Arias,DTC503GHQ,conductor,DL94 J 6893,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,morning,11:00 AM,66.71,0
+66d3dbb753e52b692a1f7cbc,Nicholas Gallegos,DTC983DYC,driver,DL94 J 6893,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,morning,11:00 AM,66.71,0
+66d3dbb753e52b692a1f7cc0,Whitney Hobbs,DTC404RJR,conductor,DL75 T 6467,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,morning,9:00 AM,66.71,0
+66d3dbb753e52b692a1f7cc2,Luis Anderson,DTC325HJN,driver,DL75 T 6467,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,morning,9:00 AM,66.71,0
+66d3dbb753e52b692a1f7cc6,Amy Horton,DTC364ZPR,conductor,DL28 K 1057,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,morning,11:00 AM,66.71,0
+66d3dbb753e52b692a1f7cc8,Ronald Ruiz,DTC366WSK,driver,DL28 K 1057,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,morning,11:00 AM,66.71,0
+66d3dbb753e52b692a1f7ccc,Elizabeth Holmes,DTC138JWN,conductor,DL47 P 2714,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,morning,5:00 AM,66.71,0
+66d3dbb753e52b692a1f7cce,Brenda Snyder,DTC342GHB,driver,DL47 P 2714,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,morning,5:00 AM,66.71,0
+66d3dbb853e52b692a1f7cd2,Jenny Hayden,DTC804YHV,conductor,DL77 S 7874,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,afternoon,8:00 PM,66.71,0
+66d3dbb853e52b692a1f7cd4,James Garcia,DTC144AZW,driver,DL77 S 7874,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,afternoon,8:00 PM,66.71,0
+66d3dbb853e52b692a1f7cd8,Travis Ruiz,DTC072SYU,conductor,DL62 I 6099,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,afternoon,12:00 PM,66.71,0
+66d3dbb853e52b692a1f7cda,Tina Jones,DTC360PIC,driver,DL62 I 6099,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,afternoon,12:00 PM,66.71,0
+66d3dbb853e52b692a1f7cde,Andrew Cochran,DTC002LTH,conductor,DL61 T 5042,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,afternoon,8:00 PM,66.71,0
+66d3dbb853e52b692a1f7ce0,Laura Kelly,DTC984BOD,driver,DL61 T 5042,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,afternoon,8:00 PM,66.71,0
+66d3dbb853e52b692a1f7ce4,Kelly Odom,DTC893GNG,conductor,DL56 G 3380,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,afternoon,2:00 PM,66.71,0
+66d3dbb853e52b692a1f7ce6,Kenneth Golden,DTC571QOW,driver,DL56 G 3380,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,afternoon,2:00 PM,66.71,0
+66d3dbb853e52b692a1f7cea,Kevin Adams,DTC334XUV,conductor,DL13 Z 2753,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,afternoon,5:00 PM,66.71,0
+66d3dbb853e52b692a1f7cec,David Wright,DTC463SWF,driver,DL13 Z 2753,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,afternoon,5:00 PM,66.71,0
+66d3dbb853e52b692a1f7cf0,John Knight,DTC991ZCF,conductor,DL69 E 8088,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,afternoon,5:00 PM,66.71,0
+66d3dbb953e52b692a1f7cf2,Tony Simpson,DTC848TGN,driver,DL69 E 8088,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,afternoon,5:00 PM,66.71,0
+66d3dbb953e52b692a1f7cf6,Jessica Galvan,DTC761GVG,conductor,DL11 R 3419,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,afternoon,1:00 PM,66.71,0
+66d3dbb953e52b692a1f7cf8,Kimberly Estrada,DTC132LDG,driver,DL11 R 3419,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,afternoon,1:00 PM,66.71,0
+66d3dbb953e52b692a1f7cfc,Emily Montgomery,DTC876NXU,conductor,DL27 X 5380,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,afternoon,3:00 PM,66.71,0
+66d3dbb953e52b692a1f7cfe,Mariah Norton,DTC575VNP,driver,DL27 X 5380,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,afternoon,3:00 PM,66.71,0
+66d3dbb953e52b692a1f7d02,Brenda Williams,DTC089EPS,conductor,DL79 R 6966,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,afternoon,1:00 PM,66.71,0
+66d3dbb953e52b692a1f7d04,Cynthia Mccullough,DTC412EIO,driver,DL79 R 6966,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,afternoon,1:00 PM,66.71,0
+66d3dbb953e52b692a1f7d08,Andrew Anderson,DTC288XVE,conductor,DL81 Z 7064,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,afternoon,5:00 PM,66.71,0
+66d3dbb953e52b692a1f7d0a,Steven Bowen,DTC992UOA,driver,DL81 Z 7064,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,afternoon,5:00 PM,66.71,0
+66d3dbb953e52b692a1f7d0e,Karen Duffy,DTC198FKP,conductor,DL42 G 3782,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,evening,10:00 PM,66.71,0
+66d3dbb953e52b692a1f7d10,Michael Foster,DTC191SEU,driver,DL42 G 3782,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,evening,10:00 PM,66.71,0
+66d3dbba53e52b692a1f7d14,Amy Buchanan,DTC098NAE,conductor,DL76 L 6134,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,evening,12:00 AM,66.71,0
+66d3dbba53e52b692a1f7d16,Michelle Smith,DTC584PNQ,driver,DL76 L 6134,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,evening,12:00 AM,66.71,0
+66d3dbba53e52b692a1f7d1a,Todd King,DTC660FGS,conductor,DL52 R 9117,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,evening,8:00 PM,66.71,0
+66d3dbba53e52b692a1f7d1c,George Cannon,DTC991SOT,driver,DL52 R 9117,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,evening,8:00 PM,66.71,0
+66d3dbba53e52b692a1f7d20,Kelly Butler,DTC612BJQ,conductor,DL10 K 6808,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,evening,8:00 PM,66.71,0
+66d3dbba53e52b692a1f7d22,Lauren Mclean,DTC832VHS,driver,DL10 K 6808,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,evening,8:00 PM,66.71,0
+66d3dbba53e52b692a1f7d26,Nicholas Hunt,DTC054JAD,conductor,DL10 S 6530,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,evening,1:00 AM,66.71,0
+66d3dbba53e52b692a1f7d28,Margaret Mcdaniel,DTC117JBR,driver,DL10 S 6530,12,715,Uttam Nagar Terminal,ISBT Kashmere Gate,18.9,evening,1:00 AM,66.71,0
+66d3dbba53e52b692a1f7d2c,Benjamin Willis,DTC674LGO,conductor,DL16 V 3324,13,611,Azadpur,Malviya Nagar,10.3,morning,6:00 AM,36.35,0
+66d3dbba53e52b692a1f7d2e,Emily Armstrong,DTC283TAM,driver,DL16 V 3324,13,611,Azadpur,Malviya Nagar,10.3,morning,6:00 AM,36.35,0
+66d3dbba53e52b692a1f7d32,Gregory Molina,DTC158SAM,conductor,DL74 M 5577,13,611,Azadpur,Malviya Nagar,10.3,morning,9:00 AM,36.35,0
+66d3dbba53e52b692a1f7d34,Shawn Rogers,DTC277RJK,driver,DL74 M 5577,13,611,Azadpur,Malviya Nagar,10.3,morning,9:00 AM,36.35,0
+66d3dbbb53e52b692a1f7d38,William Shaw,DTC203QMO,conductor,DL57 W 4752,13,611,Azadpur,Malviya Nagar,10.3,morning,12:00 PM,36.35,0
+66d3dbbb53e52b692a1f7d3a,Thomas Young,DTC088DVS,driver,DL57 W 4752,13,611,Azadpur,Malviya Nagar,10.3,morning,12:00 PM,36.35,0
+66d3dbbb53e52b692a1f7d3e,Denise Miller,DTC718XHU,conductor,DL93 D 1647,13,611,Azadpur,Malviya Nagar,10.3,morning,10:00 AM,36.35,0
+66d3dbbb53e52b692a1f7d40,Michael Anderson,DTC976OIP,driver,DL93 D 1647,13,611,Azadpur,Malviya Nagar,10.3,morning,10:00 AM,36.35,0
+66d3dbbb53e52b692a1f7d44,Amanda Wiley,DTC513JSO,conductor,DL14 I 9851,13,611,Azadpur,Malviya Nagar,10.3,morning,7:00 AM,36.35,0
+66d3dbbb53e52b692a1f7d46,James Mora,DTC025BOK,driver,DL14 I 9851,13,611,Azadpur,Malviya Nagar,10.3,morning,7:00 AM,36.35,0
+66d3dbbb53e52b692a1f7d4a,Alicia Crane,DTC000UTV,conductor,DL78 J 7277,13,611,Azadpur,Malviya Nagar,10.3,morning,9:00 AM,36.35,0
+66d3dbbb53e52b692a1f7d4c,Benjamin Wilson,DTC644VPZ,driver,DL78 J 7277,13,611,Azadpur,Malviya Nagar,10.3,morning,9:00 AM,36.35,0
+66d3dbbb53e52b692a1f7d50,Ashley Yang,DTC934CBZ,conductor,DL82 L 5000,13,611,Azadpur,Malviya Nagar,10.3,morning,11:00 AM,36.35,0
+66d3dbbb53e52b692a1f7d52,Aaron Shaw,DTC825PZC,driver,DL82 L 5000,13,611,Azadpur,Malviya Nagar,10.3,morning,11:00 AM,36.35,0
+66d3dbbb53e52b692a1f7d56,Christian Preston,DTC725AZH,conductor,DL95 K 9498,13,611,Azadpur,Malviya Nagar,10.3,morning,10:00 AM,36.35,0
+66d3dbbc53e52b692a1f7d58,Elizabeth Jackson,DTC242USB,driver,DL95 K 9498,13,611,Azadpur,Malviya Nagar,10.3,morning,10:00 AM,36.35,0
+66d3dbbc53e52b692a1f7d5c,Holly Gross,DTC785BMJ,conductor,DL69 X 3198,13,611,Azadpur,Malviya Nagar,10.3,morning,9:00 AM,36.35,0
+66d3dbbc53e52b692a1f7d5e,Ethan Stone,DTC889GEQ,driver,DL69 X 3198,13,611,Azadpur,Malviya Nagar,10.3,morning,9:00 AM,36.35,0
+66d3dbbc53e52b692a1f7d62,Michele Campbell,DTC949NTU,conductor,DL34 K 3153,13,611,Azadpur,Malviya Nagar,10.3,morning,5:00 AM,36.35,0
+66d3dbbc53e52b692a1f7d64,Deanna Sherman,DTC387EZB,driver,DL34 K 3153,13,611,Azadpur,Malviya Nagar,10.3,morning,5:00 AM,36.35,0
+66d3dbbc53e52b692a1f7d68,Kristin Thompson,DTC759FEF,conductor,DL86 N 8244,13,611,Azadpur,Malviya Nagar,10.3,morning,7:00 AM,36.35,0
+66d3dbbc53e52b692a1f7d6a,Yolanda Mullins,DTC760OGT,driver,DL86 N 8244,13,611,Azadpur,Malviya Nagar,10.3,morning,7:00 AM,36.35,0
+66d3dbbc53e52b692a1f7d6e,Sarah Dunn,DTC112VCM,conductor,DL87 Y 5415,13,611,Azadpur,Malviya Nagar,10.3,morning,12:00 PM,36.35,0
+66d3dbbc53e52b692a1f7d70,Julia Melendez,DTC748EPI,driver,DL87 Y 5415,13,611,Azadpur,Malviya Nagar,10.3,morning,12:00 PM,36.35,0
+66d3dbbc53e52b692a1f7d74,Riley Woods,DTC820YLE,conductor,DL39 Z 3245,13,611,Azadpur,Malviya Nagar,10.3,afternoon,2:00 PM,36.35,0
+66d3dbbc53e52b692a1f7d76,Michelle Shepard,DTC529VMT,driver,DL39 Z 3245,13,611,Azadpur,Malviya Nagar,10.3,afternoon,2:00 PM,36.35,0
+66d3dbbd53e52b692a1f7d7a,Tammy Martin,DTC428PJE,conductor,DL16 X 9892,13,611,Azadpur,Malviya Nagar,10.3,afternoon,4:00 PM,36.35,0
+66d3dbbd53e52b692a1f7d7c,Gary Johnson,DTC047BBK,driver,DL16 X 9892,13,611,Azadpur,Malviya Nagar,10.3,afternoon,4:00 PM,36.35,0
+66d3dbbd53e52b692a1f7d80,Stephanie Hays,DTC271TCQ,conductor,DL84 I 4853,13,611,Azadpur,Malviya Nagar,10.3,afternoon,5:00 PM,36.35,0
+66d3dbbd53e52b692a1f7d82,Stephanie Robertson,DTC709EQI,driver,DL84 I 4853,13,611,Azadpur,Malviya Nagar,10.3,afternoon,5:00 PM,36.35,0
+66d3dbbd53e52b692a1f7d86,Joshua Sanchez,DTC598GOI,conductor,DL31 Y 2358,13,611,Azadpur,Malviya Nagar,10.3,afternoon,5:00 PM,36.35,0
+66d3dbbd53e52b692a1f7d88,Thomas Mcdonald,DTC977MYU,driver,DL31 Y 2358,13,611,Azadpur,Malviya Nagar,10.3,afternoon,5:00 PM,36.35,0
+66d3dbbd53e52b692a1f7d8c,William Garcia,DTC169USS,conductor,DL17 H 8219,13,611,Azadpur,Malviya Nagar,10.3,afternoon,2:00 PM,36.35,0
+66d3dbbd53e52b692a1f7d8e,Jessica Murphy,DTC986TYF,driver,DL17 H 8219,13,611,Azadpur,Malviya Nagar,10.3,afternoon,2:00 PM,36.35,0
+66d3dbbd53e52b692a1f7d92,Dawn Gonzalez,DTC293TLO,conductor,DL45 U 4105,13,611,Azadpur,Malviya Nagar,10.3,afternoon,6:00 PM,36.35,0
+66d3dbbd53e52b692a1f7d94,Joel Guzman,DTC171SCW,driver,DL45 U 4105,13,611,Azadpur,Malviya Nagar,10.3,afternoon,6:00 PM,36.35,0
+66d3dbbd53e52b692a1f7d98,Chad Roberts,DTC602SYX,conductor,DL67 F 1355,13,611,Azadpur,Malviya Nagar,10.3,afternoon,1:00 PM,36.35,0
+66d3dbbd53e52b692a1f7d9a,Sandra Pacheco,DTC483TEK,driver,DL67 F 1355,13,611,Azadpur,Malviya Nagar,10.3,afternoon,1:00 PM,36.35,0
+66d3dbbe53e52b692a1f7d9e,Shelia Burns,DTC366FJU,conductor,DL70 H 1315,13,611,Azadpur,Malviya Nagar,10.3,afternoon,3:00 PM,36.35,0
+66d3dbbe53e52b692a1f7da0,Judith Manning,DTC439EOZ,driver,DL70 H 1315,13,611,Azadpur,Malviya Nagar,10.3,afternoon,3:00 PM,36.35,0
+66d3dbbe53e52b692a1f7da4,Rachel Jones,DTC679XBT,conductor,DL95 W 7100,13,611,Azadpur,Malviya Nagar,10.3,afternoon,7:00 PM,36.35,0
+66d3dbbe53e52b692a1f7da6,Jason Davis,DTC830XLZ,driver,DL95 W 7100,13,611,Azadpur,Malviya Nagar,10.3,afternoon,7:00 PM,36.35,0
+66d3dbbe53e52b692a1f7daa,Daniel Richards,DTC079WJU,conductor,DL87 O 3387,13,611,Azadpur,Malviya Nagar,10.3,afternoon,3:00 PM,36.35,0
+66d3dbbe53e52b692a1f7dac,Kyle Rodriguez,DTC762QQZ,driver,DL87 O 3387,13,611,Azadpur,Malviya Nagar,10.3,afternoon,3:00 PM,36.35,0
+66d3dbbe53e52b692a1f7db0,Ellen May,DTC281BXE,conductor,DL17 G 9485,13,611,Azadpur,Malviya Nagar,10.3,afternoon,8:00 PM,36.35,0
+66d3dbbe53e52b692a1f7db2,Nicholas Nichols,DTC717AXB,driver,DL17 G 9485,13,611,Azadpur,Malviya Nagar,10.3,afternoon,8:00 PM,36.35,0
+66d3dbbe53e52b692a1f7db6,Amy Curtis,DTC550YHD,conductor,DL28 T 1669,13,611,Azadpur,Malviya Nagar,10.3,afternoon,7:00 PM,36.35,0
+66d3dbbe53e52b692a1f7db8,Vanessa Fletcher MD,DTC370WFE,driver,DL28 T 1669,13,611,Azadpur,Malviya Nagar,10.3,afternoon,7:00 PM,36.35,0
+66d3dbbf53e52b692a1f7dbc,Christopher Miller,DTC119TST,conductor,DL91 F 8791,13,611,Azadpur,Malviya Nagar,10.3,evening,9:00 PM,36.35,0
+66d3dbbf53e52b692a1f7dbe,Daniel Melton,DTC257FWG,driver,DL91 F 8791,13,611,Azadpur,Malviya Nagar,10.3,evening,9:00 PM,36.35,0
+66d3dbbf53e52b692a1f7dc2,Ryan Franco,DTC607OWA,conductor,DL65 N 8236,13,611,Azadpur,Malviya Nagar,10.3,evening,3:00 AM,36.35,0
+66d3dbbf53e52b692a1f7dc4,Kimberly Anderson,DTC963RDR,driver,DL65 N 8236,13,611,Azadpur,Malviya Nagar,10.3,evening,3:00 AM,36.35,0
+66d3dbbf53e52b692a1f7dc8,James Johnson,DTC783XLU,conductor,DL58 P 8500,13,611,Azadpur,Malviya Nagar,10.3,evening,9:00 PM,36.35,0
+66d3dbbf53e52b692a1f7dca,Jeremiah Velez,DTC404WCR,driver,DL58 P 8500,13,611,Azadpur,Malviya Nagar,10.3,evening,9:00 PM,36.35,0
+66d3dbbf53e52b692a1f7dce,Charles Phillips,DTC435YVZ,conductor,DL71 K 9060,13,611,Azadpur,Malviya Nagar,10.3,evening,8:00 PM,36.35,0
+66d3dbbf53e52b692a1f7dd0,Michael Brown,DTC494POI,driver,DL71 K 9060,13,611,Azadpur,Malviya Nagar,10.3,evening,8:00 PM,36.35,0
+66d3dbbf53e52b692a1f7dd4,Shelby Rubio,DTC925DAF,conductor,DL24 Z 9824,13,611,Azadpur,Malviya Nagar,10.3,evening,4:00 AM,36.35,0
+66d3dbbf53e52b692a1f7dd6,Cheyenne White,DTC562ZTG,driver,DL24 Z 9824,13,611,Azadpur,Malviya Nagar,10.3,evening,4:00 AM,36.35,0
+66d3dbbf53e52b692a1f7dda,Larry Cox,DTC359GZY,conductor,DL62 Z 5587,13,611,Azadpur,Malviya Nagar,10.3,evening,12:00 AM,36.35,0
+66d3dbc053e52b692a1f7ddc,Jacqueline Black,DTC771IQO,driver,DL62 Z 5587,13,611,Azadpur,Malviya Nagar,10.3,evening,12:00 AM,36.35,0
+66d3dbc053e52b692a1f7de0,Devin Murphy,DTC213NBW,conductor,DL61 X 4283,14,533,Mayur Vihar Phase 3,Badarpur Border,16.5,morning,8:00 AM,58.24,0
+66d3dbc053e52b692a1f7de2,Brian Gomez,DTC186PZU,driver,DL61 X 4283,14,533,Mayur Vihar Phase 3,Badarpur Border,16.5,morning,8:00 AM,58.24,0
+66d3dbc053e52b692a1f7de6,Darren Hogan,DTC284EBP,conductor,DL15 V 2808,14,533,Mayur Vihar Phase 3,Badarpur Border,16.5,morning,6:00 AM,58.24,0
+66d3dbc053e52b692a1f7de8,Kendra Morris,DTC087SGJ,driver,DL15 V 2808,14,533,Mayur Vihar Phase 3,Badarpur Border,16.5,morning,6:00 AM,58.24,0
+66d3dbc053e52b692a1f7dec,Gina Hester,DTC004FKE,conductor,DL93 P 3824,14,533,Mayur Vihar Phase 3,Badarpur Border,16.5,morning,10:00 AM,58.24,0
+66d3dbc053e52b692a1f7dee,Stephanie Williams,DTC043NZK,driver,DL93 P 3824,14,533,Mayur Vihar Phase 3,Badarpur Border,16.5,morning,10:00 AM,58.24,0
+66d3dbc053e52b692a1f7df2,Kari Rubio,DTC988LMU,conductor,DL79 I 5457,14,533,Mayur Vihar Phase 3,Badarpur Border,16.5,morning,6:00 AM,58.24,0
+66d3dbc053e52b692a1f7df4,Sandra Scott,DTC043FXT,driver,DL79 I 5457,14,533,Mayur Vihar Phase 3,Badarpur Border,16.5,morning,6:00 AM,58.24,0
+66d3dbc053e52b692a1f7df8,Kathryn Stafford,DTC551TOX,conductor,DL90 C 2366,14,533,Mayur Vihar Phase 3,Badarpur Border,16.5,morning,8:00 AM,58.24,0
+66d3dbc053e52b692a1f7dfa,Whitney Lawrence,DTC626AWV,driver,DL90 C 2366,14,533,Mayur Vihar Phase 3,Badarpur Border,16.5,morning,8:00 AM,58.24,0
+66d3dbc153e52b692a1f7dfe,Linda Clark,DTC447TUB,conductor,DL38 M 6272,14,533,Mayur Vihar Phase 3,Badarpur Border,16.5,morning,8:00 AM,58.24,0
+66d3dbc153e52b692a1f7e00,Dr. Richard Klein Jr.,DTC862QRP,driver,DL38 M 6272,14,533,Mayur Vihar Phase 3,Badarpur Border,16.5,morning,8:00 AM,58.24,0
+66d3dbc153e52b692a1f7e04,Kevin Allen,DTC982DIQ,conductor,DL61 L 1545,14,533,Mayur Vihar Phase 3,Badarpur Border,16.5,afternoon,6:00 PM,58.24,0
+66d3dbc153e52b692a1f7e06,Glen Davis,DTC008CDI,driver,DL61 L 1545,14,533,Mayur Vihar Phase 3,Badarpur Border,16.5,afternoon,6:00 PM,58.24,0
+66d3dbc153e52b692a1f7e0a,Samantha Dalton,DTC140DUH,conductor,DL13 V 6773,14,533,Mayur Vihar Phase 3,Badarpur Border,16.5,afternoon,12:00 PM,58.24,0
+66d3dbc153e52b692a1f7e0c,Robert Mcdaniel,DTC051COR,driver,DL13 V 6773,14,533,Mayur Vihar Phase 3,Badarpur Border,16.5,afternoon,12:00 PM,58.24,0
+66d3dbc153e52b692a1f7e10,Morgan Anderson,DTC146GKJ,conductor,DL34 I 6225,14,533,Mayur Vihar Phase 3,Badarpur Border,16.5,afternoon,6:00 PM,58.24,0
+66d3dbc153e52b692a1f7e12,Tina Preston,DTC663ZCA,driver,DL34 I 6225,14,533,Mayur Vihar Phase 3,Badarpur Border,16.5,afternoon,6:00 PM,58.24,0
+66d3dbc153e52b692a1f7e16,Erica Waters,DTC330IAC,conductor,DL66 V 3925,14,533,Mayur Vihar Phase 3,Badarpur Border,16.5,afternoon,8:00 PM,58.24,0
+66d3dbc153e52b692a1f7e18,Lisa Mcgee,DTC698EGG,driver,DL66 V 3925,14,533,Mayur Vihar Phase 3,Badarpur Border,16.5,afternoon,8:00 PM,58.24,0
+66d3dbc253e52b692a1f7e1c,Vincent Esparza,DTC805NPY,conductor,DL66 E 1362,14,533,Mayur Vihar Phase 3,Badarpur Border,16.5,afternoon,7:00 PM,58.24,0
+66d3dbc253e52b692a1f7e1e,Zachary Gallagher,DTC114QBH,driver,DL66 E 1362,14,533,Mayur Vihar Phase 3,Badarpur Border,16.5,afternoon,7:00 PM,58.24,0
+66d3dbc253e52b692a1f7e22,Charles Hines,DTC172DLN,conductor,DL82 M 8387,14,533,Mayur Vihar Phase 3,Badarpur Border,16.5,afternoon,6:00 PM,58.24,0
+66d3dbc253e52b692a1f7e24,Charles Elliott,DTC717WZZ,driver,DL82 M 8387,14,533,Mayur Vihar Phase 3,Badarpur Border,16.5,afternoon,6:00 PM,58.24,0
+66d3dbc253e52b692a1f7e28,Melinda Ramirez,DTC946SIW,conductor,DL17 B 2212,14,533,Mayur Vihar Phase 3,Badarpur Border,16.5,evening,9:00 PM,58.24,0
+66d3dbc253e52b692a1f7e2a,Nathaniel Guzman,DTC372KLE,driver,DL17 B 2212,14,533,Mayur Vihar Phase 3,Badarpur Border,16.5,evening,9:00 PM,58.24,0
+66d3dbc253e52b692a1f7e2e,Rebecca Nolan,DTC010LPH,conductor,DL88 J 5111,14,533,Mayur Vihar Phase 3,Badarpur Border,16.5,evening,10:00 PM,58.24,0
+66d3dbc253e52b692a1f7e30,Brandon Ellis,DTC522CVA,driver,DL88 J 5111,14,533,Mayur Vihar Phase 3,Badarpur Border,16.5,evening,10:00 PM,58.24,0
+66d3dbc253e52b692a1f7e34,Jennifer Santos,DTC454FST,conductor,DL22 I 6639,14,533,Mayur Vihar Phase 3,Badarpur Border,16.5,evening,4:00 AM,58.24,0
+66d3dbc353e52b692a1f7e36,Megan Lopez,DTC896UIM,driver,DL22 I 6639,14,533,Mayur Vihar Phase 3,Badarpur Border,16.5,evening,4:00 AM,58.24,0
+66d3dbc353e52b692a1f7e3a,Jessica Johnson,DTC982QGQ,conductor,DL74 A 2138,14,533,Mayur Vihar Phase 3,Badarpur Border,16.5,evening,9:00 PM,58.24,0
+66d3dbc353e52b692a1f7e3c,Robert Brewer,DTC928NMJ,driver,DL74 A 2138,14,533,Mayur Vihar Phase 3,Badarpur Border,16.5,evening,9:00 PM,58.24,0
+66d3dbc353e52b692a1f7e40,Robert Stewart,DTC162HCV,conductor,DL35 C 6263,15,401,Kashmere Gate ISBT,Saket,14.2,morning,10:00 AM,50.12,0
+66d3dbc353e52b692a1f7e42,Mr. Paul Howard DDS,DTC316MBG,driver,DL35 C 6263,15,401,Kashmere Gate ISBT,Saket,14.2,morning,10:00 AM,50.12,0
+66d3dbc353e52b692a1f7e46,Justin Miller,DTC964EXT,conductor,DL50 Y 1211,15,401,Kashmere Gate ISBT,Saket,14.2,morning,9:00 AM,50.12,0
+66d3dbc353e52b692a1f7e48,Kelly Stone,DTC097QOY,driver,DL50 Y 1211,15,401,Kashmere Gate ISBT,Saket,14.2,morning,9:00 AM,50.12,0
+66d3dbc353e52b692a1f7e4c,David Ramirez MD,DTC463TTF,conductor,DL50 O 8634,15,401,Kashmere Gate ISBT,Saket,14.2,morning,7:00 AM,50.12,0
+66d3dbc353e52b692a1f7e4e,Karen Summers,DTC182XPM,driver,DL50 O 8634,15,401,Kashmere Gate ISBT,Saket,14.2,morning,7:00 AM,50.12,0
+66d3dbc353e52b692a1f7e52,Benjamin Leon,DTC968GYD,conductor,DL94 L 2530,15,401,Kashmere Gate ISBT,Saket,14.2,morning,5:00 AM,50.12,0
+66d3dbc453e52b692a1f7e54,Daniel Williams,DTC884VWG,driver,DL94 L 2530,15,401,Kashmere Gate ISBT,Saket,14.2,morning,5:00 AM,50.12,0
+66d3dbc453e52b692a1f7e58,Steven Mercado,DTC473SDW,conductor,DL47 K 7533,15,401,Kashmere Gate ISBT,Saket,14.2,morning,10:00 AM,50.12,0
+66d3dbc453e52b692a1f7e5a,Steven Brown,DTC798ADG,driver,DL47 K 7533,15,401,Kashmere Gate ISBT,Saket,14.2,morning,10:00 AM,50.12,0
+66d3dbc453e52b692a1f7e5e,Jay Butler,DTC837UJW,conductor,DL19 J 7557,15,401,Kashmere Gate ISBT,Saket,14.2,morning,10:00 AM,50.12,0
+66d3dbc453e52b692a1f7e60,Kristina Boyle,DTC562YCP,driver,DL19 J 7557,15,401,Kashmere Gate ISBT,Saket,14.2,morning,10:00 AM,50.12,0
+66d3dbc453e52b692a1f7e64,Lawrence Smith,DTC943XBJ,conductor,DL20 V 1499,15,401,Kashmere Gate ISBT,Saket,14.2,morning,7:00 AM,50.12,0
+66d3dbc453e52b692a1f7e66,Jonathon Houston,DTC843THG,driver,DL20 V 1499,15,401,Kashmere Gate ISBT,Saket,14.2,morning,7:00 AM,50.12,0
+66d3dbc453e52b692a1f7e6a,Angela Maddox,DTC968DCE,conductor,DL30 S 7832,15,401,Kashmere Gate ISBT,Saket,14.2,morning,12:00 PM,50.12,0
+66d3dbc453e52b692a1f7e6c,Jennifer Williams,DTC649LRI,driver,DL30 S 7832,15,401,Kashmere Gate ISBT,Saket,14.2,morning,12:00 PM,50.12,0
+66d3dbc453e52b692a1f7e70,Luke Mitchell,DTC685ZUP,conductor,DL76 L 7382,15,401,Kashmere Gate ISBT,Saket,14.2,morning,10:00 AM,50.12,0
+66d3dbc453e52b692a1f7e72,Tina Patterson,DTC230PGR,driver,DL76 L 7382,15,401,Kashmere Gate ISBT,Saket,14.2,morning,10:00 AM,50.12,0
+66d3dbc553e52b692a1f7e76,Lori Spencer,DTC060QCK,conductor,DL34 H 5527,15,401,Kashmere Gate ISBT,Saket,14.2,morning,6:00 AM,50.12,0
+66d3dbc553e52b692a1f7e78,Michael Hall,DTC782UKQ,driver,DL34 H 5527,15,401,Kashmere Gate ISBT,Saket,14.2,morning,6:00 AM,50.12,0
+66d3dbc553e52b692a1f7e7c,Vincent Torres,DTC113OBW,conductor,DL91 T 8775,15,401,Kashmere Gate ISBT,Saket,14.2,afternoon,7:00 PM,50.12,0
+66d3dbc553e52b692a1f7e7e,Scott Chavez,DTC787VZP,driver,DL91 T 8775,15,401,Kashmere Gate ISBT,Saket,14.2,afternoon,7:00 PM,50.12,0
+66d3dbc653e52b692a1f7e82,Molly Johnson,DTC175EZQ,conductor,DL95 I 7002,15,401,Kashmere Gate ISBT,Saket,14.2,afternoon,1:00 PM,50.12,0
+66d3dbc653e52b692a1f7e84,Tiffany Peterson,DTC222AUS,driver,DL95 I 7002,15,401,Kashmere Gate ISBT,Saket,14.2,afternoon,1:00 PM,50.12,0
+66d3dbc653e52b692a1f7e88,Sharon Marshall,DTC040WOZ,conductor,DL70 X 9421,15,401,Kashmere Gate ISBT,Saket,14.2,afternoon,4:00 PM,50.12,0
+66d3dbc653e52b692a1f7e8a,Tyler Schneider MD,DTC851VSX,driver,DL70 X 9421,15,401,Kashmere Gate ISBT,Saket,14.2,afternoon,4:00 PM,50.12,0
+66d3dbc653e52b692a1f7e8e,Molly Anderson,DTC400AKH,conductor,DL34 M 4043,15,401,Kashmere Gate ISBT,Saket,14.2,afternoon,3:00 PM,50.12,0
+66d3dbc653e52b692a1f7e90,Jill Hunt,DTC423XDW,driver,DL34 M 4043,15,401,Kashmere Gate ISBT,Saket,14.2,afternoon,3:00 PM,50.12,0
+66d3dbc653e52b692a1f7e94,John Palmer,DTC756LEE,conductor,DL19 O 7659,15,401,Kashmere Gate ISBT,Saket,14.2,afternoon,7:00 PM,50.12,0
+66d3dbc653e52b692a1f7e96,Daniel Hamilton,DTC525BUC,driver,DL19 O 7659,15,401,Kashmere Gate ISBT,Saket,14.2,afternoon,7:00 PM,50.12,0
+66d3dbc753e52b692a1f7e9a,Brandon Perez,DTC203FNW,conductor,DL56 W 8537,15,401,Kashmere Gate ISBT,Saket,14.2,afternoon,5:00 PM,50.12,0
+66d3dbc753e52b692a1f7e9c,Adam Cooper,DTC189WZH,driver,DL56 W 8537,15,401,Kashmere Gate ISBT,Saket,14.2,afternoon,5:00 PM,50.12,0
+66d3dbc753e52b692a1f7ea0,Jose Peterson,DTC085WCB,conductor,DL78 Y 4356,15,401,Kashmere Gate ISBT,Saket,14.2,afternoon,12:00 PM,50.12,0
+66d3dbc753e52b692a1f7ea2,Vickie Oneal,DTC049MMY,driver,DL78 Y 4356,15,401,Kashmere Gate ISBT,Saket,14.2,afternoon,12:00 PM,50.12,0
+66d3dbc753e52b692a1f7ea6,Lonnie Moore,DTC765WHH,conductor,DL95 I 3406,15,401,Kashmere Gate ISBT,Saket,14.2,afternoon,8:00 PM,50.12,0
+66d3dbc753e52b692a1f7ea8,Robert Perez,DTC801SID,driver,DL95 I 3406,15,401,Kashmere Gate ISBT,Saket,14.2,afternoon,8:00 PM,50.12,0
+66d3dbc753e52b692a1f7eac,Timothy Johnson,DTC099FFE,conductor,DL88 Z 7263,15,401,Kashmere Gate ISBT,Saket,14.2,afternoon,3:00 PM,50.12,0
+66d3dbc753e52b692a1f7eae,Kimberly Mcbride,DTC369IRO,driver,DL88 Z 7263,15,401,Kashmere Gate ISBT,Saket,14.2,afternoon,3:00 PM,50.12,0
+66d3dbc753e52b692a1f7eb2,Tammy Williams,DTC318WJP,conductor,DL44 Y 9120,15,401,Kashmere Gate ISBT,Saket,14.2,afternoon,6:00 PM,50.12,0
+66d3dbc753e52b692a1f7eb4,Deborah Goodman,DTC168QVO,driver,DL44 Y 9120,15,401,Kashmere Gate ISBT,Saket,14.2,afternoon,6:00 PM,50.12,0
+66d3dbc853e52b692a1f7eb8,Jeffrey Garcia,DTC856VSV,conductor,DL11 G 7299,15,401,Kashmere Gate ISBT,Saket,14.2,evening,8:00 PM,50.12,0
+66d3dbc853e52b692a1f7eba,Larry Adams,DTC649YYD,driver,DL11 G 7299,15,401,Kashmere Gate ISBT,Saket,14.2,evening,8:00 PM,50.12,0
+66d3dbc853e52b692a1f7ebe,Christopher Eaton,DTC007JKT,conductor,DL98 V 3685,15,401,Kashmere Gate ISBT,Saket,14.2,evening,12:00 AM,50.12,0
+66d3dbc853e52b692a1f7ec0,Zoe Travis,DTC736GYG,driver,DL98 V 3685,15,401,Kashmere Gate ISBT,Saket,14.2,evening,12:00 AM,50.12,0
+66d3dbc853e52b692a1f7ec4,Hailey Stanley,DTC811ORG,conductor,DL17 J 4089,15,401,Kashmere Gate ISBT,Saket,14.2,evening,10:00 PM,50.12,0
+66d3dbc853e52b692a1f7ec6,Stephanie Moore,DTC584FJV,driver,DL17 J 4089,15,401,Kashmere Gate ISBT,Saket,14.2,evening,10:00 PM,50.12,0
+66d3dbc853e52b692a1f7eca,Roberta Jones,DTC896MQK,conductor,DL46 C 7580,15,401,Kashmere Gate ISBT,Saket,14.2,evening,1:00 AM,50.12,0
+66d3dbc853e52b692a1f7ecc,Sara Hicks,DTC716VIL,driver,DL46 C 7580,15,401,Kashmere Gate ISBT,Saket,14.2,evening,1:00 AM,50.12,0
+66d3dbc853e52b692a1f7ed0,Morgan Walker,DTC356LSJ,conductor,DL45 U 3327,15,401,Kashmere Gate ISBT,Saket,14.2,evening,3:00 AM,50.12,0
+66d3dbc853e52b692a1f7ed2,Amber Owens,DTC403AKR,driver,DL45 U 3327,15,401,Kashmere Gate ISBT,Saket,14.2,evening,3:00 AM,50.12,0
+66d3dbc953e52b692a1f7ed6,Zachary Anderson,DTC050RDE,conductor,DL63 K 3592,15,401,Kashmere Gate ISBT,Saket,14.2,evening,11:00 PM,50.12,0
+66d3dbc953e52b692a1f7ed8,Amy Davidson,DTC247ODY,driver,DL63 K 3592,15,401,Kashmere Gate ISBT,Saket,14.2,evening,11:00 PM,50.12,0
+66d3dbc953e52b692a1f7edc,Joe Savage,DTC026KLG,conductor,DL99 K 6174,15,401,Kashmere Gate ISBT,Saket,14.2,evening,9:00 PM,50.12,0
+66d3dbc953e52b692a1f7ede,Daniel Hernandez,DTC850VQL,driver,DL99 K 6174,15,401,Kashmere Gate ISBT,Saket,14.2,evening,9:00 PM,50.12,0
+66d3dbc953e52b692a1f7ee2,Jorge Murphy,DTC166EUG,conductor,DL98 A 8619,16,419,Dhaula Kuan,Dwarka Sector 10,20.7,morning,12:00 PM,73.06,0
+66d3dbc953e52b692a1f7ee4,Michael Savage,DTC612FSO,driver,DL98 A 8619,16,419,Dhaula Kuan,Dwarka Sector 10,20.7,morning,12:00 PM,73.06,0
+66d3dbc953e52b692a1f7ee8,Jason Martinez,DTC935ILY,conductor,DL13 O 3628,16,419,Dhaula Kuan,Dwarka Sector 10,20.7,morning,6:00 AM,73.06,0
+66d3dbc953e52b692a1f7eea,Tyler Wright,DTC434JNE,driver,DL13 O 3628,16,419,Dhaula Kuan,Dwarka Sector 10,20.7,morning,6:00 AM,73.06,0
+66d3dbc953e52b692a1f7eee,Glenn Olson,DTC279SRU,conductor,DL91 B 8328,16,419,Dhaula Kuan,Dwarka Sector 10,20.7,morning,11:00 AM,73.06,0
+66d3dbc953e52b692a1f7ef0,Andrew Reed,DTC028IJX,driver,DL91 B 8328,16,419,Dhaula Kuan,Dwarka Sector 10,20.7,morning,11:00 AM,73.06,0
+66d3dbc953e52b692a1f7ef4,Amanda Taylor,DTC571QGN,conductor,DL58 A 2439,16,419,Dhaula Kuan,Dwarka Sector 10,20.7,morning,10:00 AM,73.06,0
+66d3dbca53e52b692a1f7ef6,Marcia Spencer,DTC955XUL,driver,DL58 A 2439,16,419,Dhaula Kuan,Dwarka Sector 10,20.7,morning,10:00 AM,73.06,0
+66d3dbca53e52b692a1f7efa,Sonia Nichols,DTC232FYT,conductor,DL43 M 9004,16,419,Dhaula Kuan,Dwarka Sector 10,20.7,morning,7:00 AM,73.06,0
+66d3dbca53e52b692a1f7efc,Tiffany Williams,DTC188LIP,driver,DL43 M 9004,16,419,Dhaula Kuan,Dwarka Sector 10,20.7,morning,7:00 AM,73.06,0
+66d3dbca53e52b692a1f7f00,Katherine Ware,DTC030MEO,conductor,DL36 C 7843,16,419,Dhaula Kuan,Dwarka Sector 10,20.7,morning,11:00 AM,73.06,0
+66d3dbca53e52b692a1f7f02,Garrett Robinson,DTC751FBW,driver,DL36 C 7843,16,419,Dhaula Kuan,Dwarka Sector 10,20.7,morning,11:00 AM,73.06,0
+66d3dbca53e52b692a1f7f06,Madeline Wilson,DTC992SBP,conductor,DL71 R 3221,16,419,Dhaula Kuan,Dwarka Sector 10,20.7,morning,7:00 AM,73.06,0
+66d3dbca53e52b692a1f7f08,Steven Jackson,DTC136KOZ,driver,DL71 R 3221,16,419,Dhaula Kuan,Dwarka Sector 10,20.7,morning,7:00 AM,73.06,0
+66d3dbcb53e52b692a1f7f0c,Jason Holmes,DTC015HFX,conductor,DL14 U 7138,16,419,Dhaula Kuan,Dwarka Sector 10,20.7,morning,12:00 PM,73.06,0
+66d3dbcb53e52b692a1f7f0e,Raymond Doyle,DTC707SPP,driver,DL14 U 7138,16,419,Dhaula Kuan,Dwarka Sector 10,20.7,morning,12:00 PM,73.06,0
+66d3dbcb53e52b692a1f7f12,Ray Cline,DTC671UZL,conductor,DL54 O 3642,16,419,Dhaula Kuan,Dwarka Sector 10,20.7,afternoon,7:00 PM,73.06,0
+66d3dbcb53e52b692a1f7f14,Tracy Ochoa,DTC076ECI,driver,DL54 O 3642,16,419,Dhaula Kuan,Dwarka Sector 10,20.7,afternoon,7:00 PM,73.06,0
+66d3dbcb53e52b692a1f7f18,Alexander Schaefer,DTC277SEG,conductor,DL35 A 7589,16,419,Dhaula Kuan,Dwarka Sector 10,20.7,afternoon,2:00 PM,73.06,0
+66d3dbcb53e52b692a1f7f1a,Ryan Palmer,DTC622YJR,driver,DL35 A 7589,16,419,Dhaula Kuan,Dwarka Sector 10,20.7,afternoon,2:00 PM,73.06,0
+66d3dbcb53e52b692a1f7f1e,Derek Davila,DTC313WFB,conductor,DL26 U 8262,16,419,Dhaula Kuan,Dwarka Sector 10,20.7,afternoon,2:00 PM,73.06,0
+66d3dbcb53e52b692a1f7f20,Brandon Morales,DTC648OGZ,driver,DL26 U 8262,16,419,Dhaula Kuan,Dwarka Sector 10,20.7,afternoon,2:00 PM,73.06,0
+66d3dbcc53e52b692a1f7f24,Stephanie Horne,DTC831MNP,conductor,DL41 N 7168,16,419,Dhaula Kuan,Dwarka Sector 10,20.7,afternoon,1:00 PM,73.06,0
+66d3dbcc53e52b692a1f7f26,Daniel Payne,DTC860TGA,driver,DL41 N 7168,16,419,Dhaula Kuan,Dwarka Sector 10,20.7,afternoon,1:00 PM,73.06,0
+66d3dbcc53e52b692a1f7f2a,Jordan Davis,DTC918QAV,conductor,DL68 B 1092,16,419,Dhaula Kuan,Dwarka Sector 10,20.7,afternoon,12:00 PM,73.06,0
+66d3dbcc53e52b692a1f7f2c,Savannah Vasquez,DTC809OXF,driver,DL68 B 1092,16,419,Dhaula Kuan,Dwarka Sector 10,20.7,afternoon,12:00 PM,73.06,0
+66d3dbcc53e52b692a1f7f30,Steven Dudley,DTC273JYB,conductor,DL64 P 5150,16,419,Dhaula Kuan,Dwarka Sector 10,20.7,afternoon,6:00 PM,73.06,0
+66d3dbcc53e52b692a1f7f32,Cassandra Quinn,DTC106OSV,driver,DL64 P 5150,16,419,Dhaula Kuan,Dwarka Sector 10,20.7,afternoon,6:00 PM,73.06,0
+66d3dbcc53e52b692a1f7f36,Jessica Henry,DTC503AFS,conductor,DL46 X 6577,16,419,Dhaula Kuan,Dwarka Sector 10,20.7,afternoon,4:00 PM,73.06,0
+66d3dbcc53e52b692a1f7f38,Randy Tate,DTC439PRV,driver,DL46 X 6577,16,419,Dhaula Kuan,Dwarka Sector 10,20.7,afternoon,4:00 PM,73.06,0
+66d3dbcc53e52b692a1f7f3c,Anthony Hogan,DTC170GCI,conductor,DL46 H 3261,16,419,Dhaula Kuan,Dwarka Sector 10,20.7,afternoon,12:00 PM,73.06,0
+66d3dbcc53e52b692a1f7f3e,Anita Perry,DTC530MJQ,driver,DL46 H 3261,16,419,Dhaula Kuan,Dwarka Sector 10,20.7,afternoon,12:00 PM,73.06,0
+66d3dbcc53e52b692a1f7f42,Latoya Gonzales,DTC780JCD,conductor,DL49 E 8711,16,419,Dhaula Kuan,Dwarka Sector 10,20.7,evening,9:00 PM,73.06,0
+66d3dbcd53e52b692a1f7f44,Daniel Harrington,DTC062LDF,driver,DL49 E 8711,16,419,Dhaula Kuan,Dwarka Sector 10,20.7,evening,9:00 PM,73.06,0
+66d3dbcd53e52b692a1f7f48,Suzanne Jones,DTC072XHM,conductor,DL54 K 5027,16,419,Dhaula Kuan,Dwarka Sector 10,20.7,evening,8:00 PM,73.06,0
+66d3dbcd53e52b692a1f7f4a,Alexandria Wheeler,DTC766VRC,driver,DL54 K 5027,16,419,Dhaula Kuan,Dwarka Sector 10,20.7,evening,8:00 PM,73.06,0
+66d3dbcd53e52b692a1f7f4e,Michelle Bradley,DTC782BBS,conductor,DL14 Q 1587,16,419,Dhaula Kuan,Dwarka Sector 10,20.7,evening,12:00 AM,73.06,0
+66d3dbcd53e52b692a1f7f50,Mrs. Stephanie Velez MD,DTC993LID,driver,DL14 Q 1587,16,419,Dhaula Kuan,Dwarka Sector 10,20.7,evening,12:00 AM,73.06,0
+66d3dbcd53e52b692a1f7f54,Juan Calderon,DTC607CLV,conductor,DL75 J 6357,16,419,Dhaula Kuan,Dwarka Sector 10,20.7,evening,8:00 PM,73.06,0
+66d3dbcd53e52b692a1f7f56,Steven Thomas,DTC552KEY,driver,DL75 J 6357,16,419,Dhaula Kuan,Dwarka Sector 10,20.7,evening,8:00 PM,73.06,0
+66d3dbcd53e52b692a1f7f5a,Katherine Riddle,DTC762OJU,conductor,DL36 C 3637,17,711,Rohini Sector 22,AIIMS,18.3,morning,10:00 AM,64.59,0
+66d3dbcd53e52b692a1f7f5c,Mrs. Rachel Carter,DTC335FOF,driver,DL36 C 3637,17,711,Rohini Sector 22,AIIMS,18.3,morning,10:00 AM,64.59,0
+66d3dbcd53e52b692a1f7f60,Melissa Ruiz,DTC731JWT,conductor,DL27 Y 3235,17,711,Rohini Sector 22,AIIMS,18.3,morning,9:00 AM,64.59,0
+66d3dbcd53e52b692a1f7f62,Mary Mueller,DTC942YVD,driver,DL27 Y 3235,17,711,Rohini Sector 22,AIIMS,18.3,morning,9:00 AM,64.59,0
+66d3dbce53e52b692a1f7f66,Cody Hicks,DTC751XWD,conductor,DL77 I 9262,17,711,Rohini Sector 22,AIIMS,18.3,morning,9:00 AM,64.59,0
+66d3dbce53e52b692a1f7f68,Sara Beck,DTC934FMK,driver,DL77 I 9262,17,711,Rohini Sector 22,AIIMS,18.3,morning,9:00 AM,64.59,0
+66d3dbce53e52b692a1f7f6c,Robin Nichols,DTC364AFG,conductor,DL57 I 5217,17,711,Rohini Sector 22,AIIMS,18.3,morning,10:00 AM,64.59,0
+66d3dbce53e52b692a1f7f6e,Cindy Holt,DTC481XVM,driver,DL57 I 5217,17,711,Rohini Sector 22,AIIMS,18.3,morning,10:00 AM,64.59,0
+66d3dbce53e52b692a1f7f72,Jared Park,DTC441AMU,conductor,DL11 I 7508,17,711,Rohini Sector 22,AIIMS,18.3,morning,7:00 AM,64.59,0
+66d3dbce53e52b692a1f7f74,Cassandra Pitts,DTC343HOZ,driver,DL11 I 7508,17,711,Rohini Sector 22,AIIMS,18.3,morning,7:00 AM,64.59,0
+66d3dbce53e52b692a1f7f78,Deanna Simon,DTC927FQM,conductor,DL70 V 4701,17,711,Rohini Sector 22,AIIMS,18.3,morning,10:00 AM,64.59,0
+66d3dbce53e52b692a1f7f7a,John Larson MD,DTC554GYL,driver,DL70 V 4701,17,711,Rohini Sector 22,AIIMS,18.3,morning,10:00 AM,64.59,0
+66d3dbce53e52b692a1f7f7e,Adrian Miller,DTC828XAU,conductor,DL67 X 1340,17,711,Rohini Sector 22,AIIMS,18.3,morning,11:00 AM,64.59,0
+66d3dbce53e52b692a1f7f80,Sean Combs,DTC320CIH,driver,DL67 X 1340,17,711,Rohini Sector 22,AIIMS,18.3,morning,11:00 AM,64.59,0
+66d3dbce53e52b692a1f7f84,Ryan Gutierrez,DTC480IWK,conductor,DL67 F 9204,17,711,Rohini Sector 22,AIIMS,18.3,afternoon,1:00 PM,64.59,0
+66d3dbcf53e52b692a1f7f86,Ann Levine,DTC985LTT,driver,DL67 F 9204,17,711,Rohini Sector 22,AIIMS,18.3,afternoon,1:00 PM,64.59,0
+66d3dbcf53e52b692a1f7f8a,Julia Davis,DTC089KBK,conductor,DL15 Q 5136,17,711,Rohini Sector 22,AIIMS,18.3,afternoon,2:00 PM,64.59,0
+66d3dbcf53e52b692a1f7f8c,Kelli Castro,DTC199MUO,driver,DL15 Q 5136,17,711,Rohini Sector 22,AIIMS,18.3,afternoon,2:00 PM,64.59,0
+66d3dbcf53e52b692a1f7f90,Rhonda Colon,DTC447WCL,conductor,DL83 L 7465,17,711,Rohini Sector 22,AIIMS,18.3,afternoon,8:00 PM,64.59,0
+66d3dbcf53e52b692a1f7f92,Kevin Nelson,DTC939UDY,driver,DL83 L 7465,17,711,Rohini Sector 22,AIIMS,18.3,afternoon,8:00 PM,64.59,0
+66d3dbcf53e52b692a1f7f96,Marcus Taylor,DTC462CCE,conductor,DL22 R 3715,17,711,Rohini Sector 22,AIIMS,18.3,afternoon,6:00 PM,64.59,0
+66d3dbcf53e52b692a1f7f98,Dana Lucas,DTC732IXA,driver,DL22 R 3715,17,711,Rohini Sector 22,AIIMS,18.3,afternoon,6:00 PM,64.59,0
+66d3dbcf53e52b692a1f7f9c,Daniel Cooper,DTC913SHZ,conductor,DL50 A 9461,17,711,Rohini Sector 22,AIIMS,18.3,afternoon,3:00 PM,64.59,0
+66d3dbcf53e52b692a1f7f9e,Wendy Roach,DTC405MWC,driver,DL50 A 9461,17,711,Rohini Sector 22,AIIMS,18.3,afternoon,3:00 PM,64.59,0
+66d3dbcf53e52b692a1f7fa2,Ryan Burch,DTC374YLN,conductor,DL44 B 5770,17,711,Rohini Sector 22,AIIMS,18.3,afternoon,12:00 PM,64.59,0
+66d3dbcf53e52b692a1f7fa4,Pamela Young,DTC085GFN,driver,DL44 B 5770,17,711,Rohini Sector 22,AIIMS,18.3,afternoon,12:00 PM,64.59,0
+66d3dbd053e52b692a1f7fa8,Leslie Perez,DTC081TRT,conductor,DL29 B 4587,17,711,Rohini Sector 22,AIIMS,18.3,afternoon,4:00 PM,64.59,0
+66d3dbd053e52b692a1f7faa,Valerie Bryant,DTC286KLT,driver,DL29 B 4587,17,711,Rohini Sector 22,AIIMS,18.3,afternoon,4:00 PM,64.59,0
+66d3dbd053e52b692a1f7fae,Chase Jones,DTC055HQK,conductor,DL86 C 9400,17,711,Rohini Sector 22,AIIMS,18.3,evening,8:00 PM,64.59,0
+66d3dbd053e52b692a1f7fb0,Michelle Morris,DTC843OVV,driver,DL86 C 9400,17,711,Rohini Sector 22,AIIMS,18.3,evening,8:00 PM,64.59,0
+66d3dbd053e52b692a1f7fb4,Mackenzie Reese,DTC906WDB,conductor,DL57 U 2598,17,711,Rohini Sector 22,AIIMS,18.3,evening,1:00 AM,64.59,0
+66d3dbd053e52b692a1f7fb6,Suzanne Thompson,DTC973MMW,driver,DL57 U 2598,17,711,Rohini Sector 22,AIIMS,18.3,evening,1:00 AM,64.59,0
+66d3dbd053e52b692a1f7fba,Laura Larsen,DTC838KOY,conductor,DL12 P 7751,17,711,Rohini Sector 22,AIIMS,18.3,evening,12:00 AM,64.59,0
+66d3dbd053e52b692a1f7fbc,Steven Salinas,DTC325KWT,driver,DL12 P 7751,17,711,Rohini Sector 22,AIIMS,18.3,evening,12:00 AM,64.59,0
+66d3dbd053e52b692a1f7fc0,Nicholas Alvarez,DTC496GGB,conductor,DL26 S 9923,17,711,Rohini Sector 22,AIIMS,18.3,evening,8:00 PM,64.59,0
+66d3dbd053e52b692a1f7fc2,Sherry Griffin,DTC330SIP,driver,DL26 S 9923,17,711,Rohini Sector 22,AIIMS,18.3,evening,8:00 PM,64.59,0
+66d3dbd053e52b692a1f7fc6,Adam Day,DTC586AYN,conductor,DL83 S 1304,18,812,Vasant Kunj,ISBT Anand Vihar,17.6,morning,12:00 PM,62.12,0
+66d3dbd153e52b692a1f7fc8,Diane Chavez,DTC317FJI,driver,DL83 S 1304,18,812,Vasant Kunj,ISBT Anand Vihar,17.6,morning,12:00 PM,62.12,0
+66d3dbd153e52b692a1f7fcc,Belinda Robinson,DTC200MPM,conductor,DL42 E 5815,18,812,Vasant Kunj,ISBT Anand Vihar,17.6,morning,8:00 AM,62.12,0
+66d3dbd153e52b692a1f7fce,Eric Cantrell,DTC224VGV,driver,DL42 E 5815,18,812,Vasant Kunj,ISBT Anand Vihar,17.6,morning,8:00 AM,62.12,0
+66d3dbd153e52b692a1f7fd2,Terry Meyer,DTC877IOY,conductor,DL33 D 9896,18,812,Vasant Kunj,ISBT Anand Vihar,17.6,morning,5:00 AM,62.12,0
+66d3dbd153e52b692a1f7fd4,John Hunt,DTC661PWJ,driver,DL33 D 9896,18,812,Vasant Kunj,ISBT Anand Vihar,17.6,morning,5:00 AM,62.12,0
+66d3dbd153e52b692a1f7fd8,Miguel Shelton,DTC674JFK,conductor,DL77 Y 9742,18,812,Vasant Kunj,ISBT Anand Vihar,17.6,morning,12:00 PM,62.12,0
+66d3dbd153e52b692a1f7fda,Erin Scott,DTC745NZS,driver,DL77 Y 9742,18,812,Vasant Kunj,ISBT Anand Vihar,17.6,morning,12:00 PM,62.12,0
+66d3dbd153e52b692a1f7fde,Christine Oliver,DTC449ROB,conductor,DL59 G 8345,18,812,Vasant Kunj,ISBT Anand Vihar,17.6,morning,11:00 AM,62.12,0
+66d3dbd153e52b692a1f7fe0,Danielle Estes,DTC360MYV,driver,DL59 G 8345,18,812,Vasant Kunj,ISBT Anand Vihar,17.6,morning,11:00 AM,62.12,0
+66d3dbd153e52b692a1f7fe4,Julie Sanders,DTC738HKN,conductor,DL20 I 2591,18,812,Vasant Kunj,ISBT Anand Vihar,17.6,morning,9:00 AM,62.12,0
+66d3dbd153e52b692a1f7fe6,John Rodriguez,DTC335DHF,driver,DL20 I 2591,18,812,Vasant Kunj,ISBT Anand Vihar,17.6,morning,9:00 AM,62.12,0
+66d3dbd253e52b692a1f7fea,Roger Frederick,DTC170LCS,conductor,DL45 R 8652,18,812,Vasant Kunj,ISBT Anand Vihar,17.6,morning,7:00 AM,62.12,0
+66d3dbd253e52b692a1f7fec,Nancy Evans,DTC874KWD,driver,DL45 R 8652,18,812,Vasant Kunj,ISBT Anand Vihar,17.6,morning,7:00 AM,62.12,0
+66d3dbd253e52b692a1f7ff0,Ryan Mccoy,DTC993MHP,conductor,DL45 K 1750,18,812,Vasant Kunj,ISBT Anand Vihar,17.6,morning,8:00 AM,62.12,0
+66d3dbd353e52b692a1f7ff2,Tammy Brown,DTC665OOH,driver,DL45 K 1750,18,812,Vasant Kunj,ISBT Anand Vihar,17.6,morning,8:00 AM,62.12,0
+66d3dbd353e52b692a1f7ff6,Mark Hernandez,DTC909KZL,conductor,DL64 L 8564,18,812,Vasant Kunj,ISBT Anand Vihar,17.6,morning,9:00 AM,62.12,0
+66d3dbd353e52b692a1f7ff8,Robert Stewart,DTC849EXK,driver,DL64 L 8564,18,812,Vasant Kunj,ISBT Anand Vihar,17.6,morning,9:00 AM,62.12,0
+66d3dbd353e52b692a1f7ffc,Terrance Alexander,DTC064MJJ,conductor,DL17 N 1539,18,812,Vasant Kunj,ISBT Anand Vihar,17.6,afternoon,2:00 PM,62.12,0
+66d3dbd353e52b692a1f7ffe,Anthony Carson,DTC341RDN,driver,DL17 N 1539,18,812,Vasant Kunj,ISBT Anand Vihar,17.6,afternoon,2:00 PM,62.12,0
+66d3dbd453e52b692a1f8002,Tyler Brady,DTC889DHT,conductor,DL85 Z 5958,18,812,Vasant Kunj,ISBT Anand Vihar,17.6,afternoon,5:00 PM,62.12,0
+66d3dbd453e52b692a1f8004,Brenda Trevino,DTC808IMU,driver,DL85 Z 5958,18,812,Vasant Kunj,ISBT Anand Vihar,17.6,afternoon,5:00 PM,62.12,0
+66d3dbd453e52b692a1f8008,Amanda Mcintyre,DTC815TPC,conductor,DL59 L 3088,18,812,Vasant Kunj,ISBT Anand Vihar,17.6,afternoon,6:00 PM,62.12,0
+66d3dbd853e52b692a1f800a,Rachel Jackson,DTC994VZJ,driver,DL59 L 3088,18,812,Vasant Kunj,ISBT Anand Vihar,17.6,afternoon,6:00 PM,62.12,0
+66d3dbd853e52b692a1f800e,Jack Wright,DTC397ZQJ,conductor,DL42 P 7693,18,812,Vasant Kunj,ISBT Anand Vihar,17.6,afternoon,2:00 PM,62.12,0
+66d3dbd853e52b692a1f8010,Jonathan Rosales,DTC105JIL,driver,DL42 P 7693,18,812,Vasant Kunj,ISBT Anand Vihar,17.6,afternoon,2:00 PM,62.12,0
+66d3dbd853e52b692a1f8014,Tina Faulkner,DTC210RFL,conductor,DL28 I 8777,18,812,Vasant Kunj,ISBT Anand Vihar,17.6,afternoon,6:00 PM,62.12,0
+66d3dbd853e52b692a1f8016,William Brown,DTC783IKZ,driver,DL28 I 8777,18,812,Vasant Kunj,ISBT Anand Vihar,17.6,afternoon,6:00 PM,62.12,0
+66d3dbd953e52b692a1f801a,Lisa Ellison,DTC784SNN,conductor,DL69 O 4487,18,812,Vasant Kunj,ISBT Anand Vihar,17.6,afternoon,12:00 PM,62.12,0
+66d3dbd953e52b692a1f801c,Dr. Katelyn Martin,DTC605OTQ,driver,DL69 O 4487,18,812,Vasant Kunj,ISBT Anand Vihar,17.6,afternoon,12:00 PM,62.12,0
+66d3dbd953e52b692a1f8020,David Jones,DTC623HQZ,conductor,DL42 W 6651,18,812,Vasant Kunj,ISBT Anand Vihar,17.6,afternoon,8:00 PM,62.12,0
+66d3dbd953e52b692a1f8022,Taylor Fowler,DTC121AXN,driver,DL42 W 6651,18,812,Vasant Kunj,ISBT Anand Vihar,17.6,afternoon,8:00 PM,62.12,0
+66d3dbd953e52b692a1f8026,Sandra Johnson,DTC137UFZ,conductor,DL62 S 5104,18,812,Vasant Kunj,ISBT Anand Vihar,17.6,afternoon,2:00 PM,62.12,0
+66d3dbd953e52b692a1f8028,Elizabeth Love,DTC437FTP,driver,DL62 S 5104,18,812,Vasant Kunj,ISBT Anand Vihar,17.6,afternoon,2:00 PM,62.12,0
+66d3dbda53e52b692a1f802c,William Madden,DTC813IWQ,conductor,DL23 R 5701,18,812,Vasant Kunj,ISBT Anand Vihar,17.6,afternoon,12:00 PM,62.12,0
+66d3dbda53e52b692a1f802e,Phillip Jensen,DTC890SET,driver,DL23 R 5701,18,812,Vasant Kunj,ISBT Anand Vihar,17.6,afternoon,12:00 PM,62.12,0
+66d3dbda53e52b692a1f8032,Pamela Harmon,DTC287HSM,conductor,DL47 C 6256,18,812,Vasant Kunj,ISBT Anand Vihar,17.6,evening,2:00 AM,62.12,0
+66d3dbda53e52b692a1f8034,Amanda Stanley,DTC395FCF,driver,DL47 C 6256,18,812,Vasant Kunj,ISBT Anand Vihar,17.6,evening,2:00 AM,62.12,0
+66d3dbda53e52b692a1f8038,James Perez,DTC137SQR,conductor,DL45 H 4264,18,812,Vasant Kunj,ISBT Anand Vihar,17.6,evening,12:00 AM,62.12,0
+66d3dbda53e52b692a1f803a,Peter Hansen,DTC104GRH,driver,DL45 H 4264,18,812,Vasant Kunj,ISBT Anand Vihar,17.6,evening,12:00 AM,62.12,0
+66d3dbda53e52b692a1f803e,Kristin Hickman,DTC652MQF,conductor,DL87 F 7172,18,812,Vasant Kunj,ISBT Anand Vihar,17.6,evening,11:00 PM,62.12,0
+66d3dbda53e52b692a1f8040,Lee Arnold,DTC617MHC,driver,DL87 F 7172,18,812,Vasant Kunj,ISBT Anand Vihar,17.6,evening,11:00 PM,62.12,0
+66d3dbda53e52b692a1f8044,Donna Henderson,DTC745MER,conductor,DL37 D 2545,18,812,Vasant Kunj,ISBT Anand Vihar,17.6,evening,8:00 PM,62.12,0
+66d3dbda53e52b692a1f8046,Brandon Taylor,DTC014KPT,driver,DL37 D 2545,18,812,Vasant Kunj,ISBT Anand Vihar,17.6,evening,8:00 PM,62.12,0
+66d3dbda53e52b692a1f804a,Christopher Hunter,DTC335DHT,conductor,DL86 D 4622,18,812,Vasant Kunj,ISBT Anand Vihar,17.6,evening,8:00 PM,62.12,0
+66d3dbda53e52b692a1f804c,Gabriela Davis,DTC728TWC,driver,DL86 D 4622,18,812,Vasant Kunj,ISBT Anand Vihar,17.6,evening,8:00 PM,62.12,0
+66d3dbdb53e52b692a1f8050,Jeffrey Sullivan,DTC475QVA,conductor,DL38 C 8252,19,500,Mehrauli,ISBT Kashmere Gate,12.9,morning,7:00 AM,45.53,0
+66d3dbdb53e52b692a1f8052,Donald Walters,DTC512PBL,driver,DL38 C 8252,19,500,Mehrauli,ISBT Kashmere Gate,12.9,morning,7:00 AM,45.53,0
+66d3dbdb53e52b692a1f8056,Jacqueline White,DTC768LNJ,conductor,DL75 J 2779,19,500,Mehrauli,ISBT Kashmere Gate,12.9,morning,12:00 PM,45.53,0
+66d3dbdb53e52b692a1f8058,Joseph Morgan MD,DTC542PBL,driver,DL75 J 2779,19,500,Mehrauli,ISBT Kashmere Gate,12.9,morning,12:00 PM,45.53,0
+66d3dbdb53e52b692a1f805c,Anthony Parrish,DTC406UGV,conductor,DL51 F 5634,19,500,Mehrauli,ISBT Kashmere Gate,12.9,morning,7:00 AM,45.53,0
+66d3dbdb53e52b692a1f805e,Morgan Reed,DTC468KND,driver,DL51 F 5634,19,500,Mehrauli,ISBT Kashmere Gate,12.9,morning,7:00 AM,45.53,0
+66d3dbdb53e52b692a1f8062,Steven Jackson,DTC395IYB,conductor,DL94 L 1352,19,500,Mehrauli,ISBT Kashmere Gate,12.9,morning,5:00 AM,45.53,0
+66d3dbdb53e52b692a1f8064,Erin Hutchinson,DTC562OID,driver,DL94 L 1352,19,500,Mehrauli,ISBT Kashmere Gate,12.9,morning,5:00 AM,45.53,0
+66d3dbdb53e52b692a1f8068,Michelle Mathews,DTC660UXG,conductor,DL18 K 1534,19,500,Mehrauli,ISBT Kashmere Gate,12.9,morning,5:00 AM,45.53,0
+66d3dbdb53e52b692a1f806a,Robert Webb,DTC979JPS,driver,DL18 K 1534,19,500,Mehrauli,ISBT Kashmere Gate,12.9,morning,5:00 AM,45.53,0
+66d3dbdc53e52b692a1f806e,Rhonda Chandler,DTC361VEL,conductor,DL62 A 9672,19,500,Mehrauli,ISBT Kashmere Gate,12.9,morning,12:00 PM,45.53,0
+66d3dbdc53e52b692a1f8070,Billy Williams,DTC449XIM,driver,DL62 A 9672,19,500,Mehrauli,ISBT Kashmere Gate,12.9,morning,12:00 PM,45.53,0
+66d3dbdc53e52b692a1f8074,Thomas Mcintyre,DTC652EFH,conductor,DL12 N 3608,19,500,Mehrauli,ISBT Kashmere Gate,12.9,morning,7:00 AM,45.53,0
+66d3dbdc53e52b692a1f8076,Olivia Anderson,DTC407ZDU,driver,DL12 N 3608,19,500,Mehrauli,ISBT Kashmere Gate,12.9,morning,7:00 AM,45.53,0
+66d3dbdc53e52b692a1f807a,Deborah Gonzalez,DTC394GFF,conductor,DL13 Y 6708,19,500,Mehrauli,ISBT Kashmere Gate,12.9,afternoon,2:00 PM,45.53,0
+66d3dbdc53e52b692a1f807c,Katelyn Smith,DTC016RLT,driver,DL13 Y 6708,19,500,Mehrauli,ISBT Kashmere Gate,12.9,afternoon,2:00 PM,45.53,0
+66d3dbdc53e52b692a1f8080,Jamie Jones,DTC083VMH,conductor,DL84 Y 7471,19,500,Mehrauli,ISBT Kashmere Gate,12.9,afternoon,5:00 PM,45.53,0
+66d3dbdc53e52b692a1f8082,Brandy Snyder,DTC780QMR,driver,DL84 Y 7471,19,500,Mehrauli,ISBT Kashmere Gate,12.9,afternoon,5:00 PM,45.53,0
+66d3dbdc53e52b692a1f8086,Ian Lamb,DTC810FPX,conductor,DL32 N 9766,19,500,Mehrauli,ISBT Kashmere Gate,12.9,afternoon,5:00 PM,45.53,0
+66d3dbdc53e52b692a1f8088,Kristin Martin,DTC497FYN,driver,DL32 N 9766,19,500,Mehrauli,ISBT Kashmere Gate,12.9,afternoon,5:00 PM,45.53,0
+66d3dbdd53e52b692a1f808c,Amy Bender,DTC759DZG,conductor,DL56 H 3235,19,500,Mehrauli,ISBT Kashmere Gate,12.9,afternoon,1:00 PM,45.53,0
+66d3dbdd53e52b692a1f808e,Daniel Harrington,DTC223SPU,driver,DL56 H 3235,19,500,Mehrauli,ISBT Kashmere Gate,12.9,afternoon,1:00 PM,45.53,0
+66d3dbdd53e52b692a1f8092,Julie Bradshaw,DTC561MVJ,conductor,DL59 M 6389,19,500,Mehrauli,ISBT Kashmere Gate,12.9,afternoon,3:00 PM,45.53,0
+66d3dbdd53e52b692a1f8094,Scott Williams,DTC631DHW,driver,DL59 M 6389,19,500,Mehrauli,ISBT Kashmere Gate,12.9,afternoon,3:00 PM,45.53,0
+66d3dbdd53e52b692a1f8098,Timothy Rocha,DTC501AIP,conductor,DL32 N 9606,19,500,Mehrauli,ISBT Kashmere Gate,12.9,afternoon,2:00 PM,45.53,0
+66d3dbdd53e52b692a1f809a,Natalie Johnson,DTC265LIO,driver,DL32 N 9606,19,500,Mehrauli,ISBT Kashmere Gate,12.9,afternoon,2:00 PM,45.53,0
+66d3dbdd53e52b692a1f809e,Brian Wiley,DTC158CXM,conductor,DL93 W 3116,19,500,Mehrauli,ISBT Kashmere Gate,12.9,afternoon,5:00 PM,45.53,0
+66d3dbdd53e52b692a1f80a0,Dawn Miller,DTC744TWV,driver,DL93 W 3116,19,500,Mehrauli,ISBT Kashmere Gate,12.9,afternoon,5:00 PM,45.53,0
+66d3dbdd53e52b692a1f80a4,Kevin Richardson,DTC264NBQ,conductor,DL21 F 7239,19,500,Mehrauli,ISBT Kashmere Gate,12.9,evening,9:00 PM,45.53,0
+66d3dbdd53e52b692a1f80a6,Paula Cortez,DTC725IXR,driver,DL21 F 7239,19,500,Mehrauli,ISBT Kashmere Gate,12.9,evening,9:00 PM,45.53,0
+66d3dbdd53e52b692a1f80aa,Stacy Roberts,DTC567GUA,conductor,DL32 K 7435,19,500,Mehrauli,ISBT Kashmere Gate,12.9,evening,4:00 AM,45.53,0
+66d3dbdd53e52b692a1f80ac,Jacob Wolfe,DTC465WGB,driver,DL32 K 7435,19,500,Mehrauli,ISBT Kashmere Gate,12.9,evening,4:00 AM,45.53,0
+66d3dbde53e52b692a1f80b0,Kayla Mayo,DTC692FDM,conductor,DL90 V 9017,19,500,Mehrauli,ISBT Kashmere Gate,12.9,evening,9:00 PM,45.53,0
+66d3dbde53e52b692a1f80b2,Crystal Henderson,DTC738SGJ,driver,DL90 V 9017,19,500,Mehrauli,ISBT Kashmere Gate,12.9,evening,9:00 PM,45.53,0
+66d3dbde53e52b692a1f80b6,Danielle Martin,DTC506MFG,conductor,DL53 I 5400,19,500,Mehrauli,ISBT Kashmere Gate,12.9,evening,1:00 AM,45.53,0
+66d3dbde53e52b692a1f80b8,Jennifer Brown,DTC158WIR,driver,DL53 I 5400,19,500,Mehrauli,ISBT Kashmere Gate,12.9,evening,1:00 AM,45.53,0
+66d3dbde53e52b692a1f80bc,Shelby Horton,DTC088ZOI,conductor,DL39 G 9384,20,421,Vasant Vihar,ISBT Kashmere Gate,15.7,morning,5:00 AM,55.41,0
+66d3dbde53e52b692a1f80be,Michael Cherry,DTC037XOP,driver,DL39 G 9384,20,421,Vasant Vihar,ISBT Kashmere Gate,15.7,morning,5:00 AM,55.41,0
+66d3dbde53e52b692a1f80c2,Benjamin Sharp,DTC388ELN,conductor,DL35 K 1813,20,421,Vasant Vihar,ISBT Kashmere Gate,15.7,morning,6:00 AM,55.41,0
+66d3dbde53e52b692a1f80c4,Adam Russell,DTC649IGW,driver,DL35 K 1813,20,421,Vasant Vihar,ISBT Kashmere Gate,15.7,morning,6:00 AM,55.41,0
+66d3dbde53e52b692a1f80c8,Teresa Banks,DTC463ITE,conductor,DL69 H 1155,20,421,Vasant Vihar,ISBT Kashmere Gate,15.7,morning,10:00 AM,55.41,0
+66d3dbde53e52b692a1f80ca,Michele Richards,DTC975WKT,driver,DL69 H 1155,20,421,Vasant Vihar,ISBT Kashmere Gate,15.7,morning,10:00 AM,55.41,0
+66d3dbdf53e52b692a1f80ce,Lindsey Rogers,DTC448SBO,conductor,DL62 B 6160,20,421,Vasant Vihar,ISBT Kashmere Gate,15.7,morning,11:00 AM,55.41,0
+66d3dbdf53e52b692a1f80d0,Robert King,DTC554OBV,driver,DL62 B 6160,20,421,Vasant Vihar,ISBT Kashmere Gate,15.7,morning,11:00 AM,55.41,0
+66d3dbdf53e52b692a1f80d4,David Johnson,DTC387CTN,conductor,DL88 S 2473,20,421,Vasant Vihar,ISBT Kashmere Gate,15.7,morning,9:00 AM,55.41,0
+66d3dbdf53e52b692a1f80d6,Lisa Sanders,DTC051ZSK,driver,DL88 S 2473,20,421,Vasant Vihar,ISBT Kashmere Gate,15.7,morning,9:00 AM,55.41,0
+66d3dbdf53e52b692a1f80da,Catherine Myers,DTC776HSA,conductor,DL84 I 6759,20,421,Vasant Vihar,ISBT Kashmere Gate,15.7,morning,5:00 AM,55.41,0
+66d3dbdf53e52b692a1f80dc,Timothy Palmer,DTC216DGJ,driver,DL84 I 6759,20,421,Vasant Vihar,ISBT Kashmere Gate,15.7,morning,5:00 AM,55.41,0
+66d3dbdf53e52b692a1f80e0,Rachael Evans,DTC080WQS,conductor,DL64 K 3120,20,421,Vasant Vihar,ISBT Kashmere Gate,15.7,morning,8:00 AM,55.41,0
+66d3dbdf53e52b692a1f80e2,Patricia Tanner,DTC267JJD,driver,DL64 K 3120,20,421,Vasant Vihar,ISBT Kashmere Gate,15.7,morning,8:00 AM,55.41,0
+66d3dbdf53e52b692a1f80e6,Renee Moss,DTC634PHE,conductor,DL41 G 3366,20,421,Vasant Vihar,ISBT Kashmere Gate,15.7,morning,6:00 AM,55.41,0
+66d3dbdf53e52b692a1f80e8,Johnathan Yang,DTC038LFK,driver,DL41 G 3366,20,421,Vasant Vihar,ISBT Kashmere Gate,15.7,morning,6:00 AM,55.41,0
+66d3dbe053e52b692a1f80ec,Jane Reed,DTC647XNJ,conductor,DL27 X 5459,20,421,Vasant Vihar,ISBT Kashmere Gate,15.7,morning,9:00 AM,55.41,0
+66d3dbe053e52b692a1f80ee,Ralph Miller,DTC533LUM,driver,DL27 X 5459,20,421,Vasant Vihar,ISBT Kashmere Gate,15.7,morning,9:00 AM,55.41,0
+66d3dbe353e52b692a1f80f2,Kurt Cruz,DTC630GVC,conductor,DL93 S 7559,20,421,Vasant Vihar,ISBT Kashmere Gate,15.7,afternoon,3:00 PM,55.41,0
+66d3dbe353e52b692a1f80f4,Ruben Valdez,DTC571NPM,driver,DL93 S 7559,20,421,Vasant Vihar,ISBT Kashmere Gate,15.7,afternoon,3:00 PM,55.41,0
+66d3dbe353e52b692a1f80f8,Misty Williams,DTC838ATF,conductor,DL62 F 7207,20,421,Vasant Vihar,ISBT Kashmere Gate,15.7,afternoon,7:00 PM,55.41,0
+66d3dbe353e52b692a1f80fa,Shannon Sharp,DTC212WIV,driver,DL62 F 7207,20,421,Vasant Vihar,ISBT Kashmere Gate,15.7,afternoon,7:00 PM,55.41,0
+66d3dbe453e52b692a1f80fe,Denise Pineda,DTC559HPJ,conductor,DL53 F 6032,20,421,Vasant Vihar,ISBT Kashmere Gate,15.7,afternoon,1:00 PM,55.41,0
+66d3dbe453e52b692a1f8100,Bradley Jordan,DTC809PWS,driver,DL53 F 6032,20,421,Vasant Vihar,ISBT Kashmere Gate,15.7,afternoon,1:00 PM,55.41,0
+66d3dbe453e52b692a1f8104,Andrew Mccoy,DTC951XRF,conductor,DL86 J 1733,20,421,Vasant Vihar,ISBT Kashmere Gate,15.7,afternoon,4:00 PM,55.41,0
+66d3dbe453e52b692a1f8106,Lisa Hill,DTC641HRB,driver,DL86 J 1733,20,421,Vasant Vihar,ISBT Kashmere Gate,15.7,afternoon,4:00 PM,55.41,0
+66d3dbe753e52b692a1f810a,Scott Curry,DTC716GXZ,conductor,DL77 I 8731,20,421,Vasant Vihar,ISBT Kashmere Gate,15.7,afternoon,7:00 PM,55.41,0
+66d3dbe753e52b692a1f810c,Rebecca Parker,DTC966ESL,driver,DL77 I 8731,20,421,Vasant Vihar,ISBT Kashmere Gate,15.7,afternoon,7:00 PM,55.41,0
+66d3dbe753e52b692a1f8110,Kelli Chavez,DTC211EFE,conductor,DL62 L 3437,20,421,Vasant Vihar,ISBT Kashmere Gate,15.7,afternoon,1:00 PM,55.41,0
+66d3dbe753e52b692a1f8112,Kevin Ramos,DTC473WPT,driver,DL62 L 3437,20,421,Vasant Vihar,ISBT Kashmere Gate,15.7,afternoon,1:00 PM,55.41,0
+66d3dbe953e52b692a1f8116,Barbara Underwood,DTC060AJX,conductor,DL18 U 1780,20,421,Vasant Vihar,ISBT Kashmere Gate,15.7,afternoon,8:00 PM,55.41,0
+66d3dbea53e52b692a1f8118,Tamara Ochoa,DTC449PXB,driver,DL18 U 1780,20,421,Vasant Vihar,ISBT Kashmere Gate,15.7,afternoon,8:00 PM,55.41,0
+66d3dbeb53e52b692a1f811c,Judy Luna,DTC229LZQ,conductor,DL74 W 1629,20,421,Vasant Vihar,ISBT Kashmere Gate,15.7,afternoon,2:00 PM,55.41,0
+66d3dbeb53e52b692a1f811e,Patricia Sawyer,DTC331JHQ,driver,DL74 W 1629,20,421,Vasant Vihar,ISBT Kashmere Gate,15.7,afternoon,2:00 PM,55.41,0
+66d3dbeb53e52b692a1f8122,Courtney Jones,DTC627GNB,conductor,DL21 G 8228,20,421,Vasant Vihar,ISBT Kashmere Gate,15.7,afternoon,2:00 PM,55.41,0
+66d3dbeb53e52b692a1f8124,Joseph James,DTC288OQA,driver,DL21 G 8228,20,421,Vasant Vihar,ISBT Kashmere Gate,15.7,afternoon,2:00 PM,55.41,0
+66d3dbeb53e52b692a1f8128,Patricia Hurley,DTC030QBA,conductor,DL58 U 8591,20,421,Vasant Vihar,ISBT Kashmere Gate,15.7,evening,4:00 AM,55.41,0
+66d3dbec53e52b692a1f812a,Emily Thompson,DTC974INZ,driver,DL58 U 8591,20,421,Vasant Vihar,ISBT Kashmere Gate,15.7,evening,4:00 AM,55.41,0
+66d3dbec53e52b692a1f812e,Amber Cruz,DTC503NPP,conductor,DL94 F 2494,20,421,Vasant Vihar,ISBT Kashmere Gate,15.7,evening,9:00 PM,55.41,0
+66d3dbec53e52b692a1f8130,Ruben Hicks,DTC955IXV,driver,DL94 F 2494,20,421,Vasant Vihar,ISBT Kashmere Gate,15.7,evening,9:00 PM,55.41,0
+66d3dbec53e52b692a1f8134,Alexa Huber,DTC701CLC,conductor,DL56 F 6256,20,421,Vasant Vihar,ISBT Kashmere Gate,15.7,evening,12:00 AM,55.41,0
+66d3dbec53e52b692a1f8136,Bonnie Stanley,DTC872TVL,driver,DL56 F 6256,20,421,Vasant Vihar,ISBT Kashmere Gate,15.7,evening,12:00 AM,55.41,0
+66d3dbec53e52b692a1f813a,Julie Hines,DTC705LKH,conductor,DL67 S 6486,20,421,Vasant Vihar,ISBT Kashmere Gate,15.7,evening,10:00 PM,55.41,0
+66d3dbec53e52b692a1f813c,Karen Willis,DTC147WNT,driver,DL67 S 6486,20,421,Vasant Vihar,ISBT Kashmere Gate,15.7,evening,10:00 PM,55.41,0
+66d3dbec53e52b692a1f8140,Alan Harris,DTC584OYN,conductor,DL52 O 3265,20,421,Vasant Vihar,ISBT Kashmere Gate,15.7,evening,12:00 AM,55.41,0
+66d3dbec53e52b692a1f8142,Randy Young,DTC017VVP,driver,DL52 O 3265,20,421,Vasant Vihar,ISBT Kashmere Gate,15.7,evening,12:00 AM,55.41,0
+66d3dbec53e52b692a1f8146,Joseph Wells,DTC194WIP,conductor,DL18 V 4992,21,302,East Delhi,AIIMS,19.3,morning,7:00 AM,68.12,0
+66d3dbec53e52b692a1f8148,Teresa Conrad,DTC684TNH,driver,DL18 V 4992,21,302,East Delhi,AIIMS,19.3,morning,7:00 AM,68.12,0
+66d3dbed53e52b692a1f814c,Sherri Nguyen,DTC682RXC,conductor,DL68 X 5126,21,302,East Delhi,AIIMS,19.3,morning,10:00 AM,68.12,0
+66d3dbed53e52b692a1f814e,Cynthia Morse,DTC305OIG,driver,DL68 X 5126,21,302,East Delhi,AIIMS,19.3,morning,10:00 AM,68.12,0
+66d3dbed53e52b692a1f8152,Carrie Castillo,DTC374OOM,conductor,DL89 H 6051,21,302,East Delhi,AIIMS,19.3,morning,12:00 PM,68.12,0
+66d3dbed53e52b692a1f8154,Gregg Mcclain,DTC759YAU,driver,DL89 H 6051,21,302,East Delhi,AIIMS,19.3,morning,12:00 PM,68.12,0
+66d3dbed53e52b692a1f8158,Michael Little,DTC966HQS,conductor,DL68 B 9889,21,302,East Delhi,AIIMS,19.3,morning,11:00 AM,68.12,0
+66d3dbed53e52b692a1f815a,Whitney Graves,DTC839ZDY,driver,DL68 B 9889,21,302,East Delhi,AIIMS,19.3,morning,11:00 AM,68.12,0
+66d3dbed53e52b692a1f815e,Matthew Larsen,DTC873IWY,conductor,DL68 Q 5697,21,302,East Delhi,AIIMS,19.3,morning,12:00 PM,68.12,0
+66d3dbed53e52b692a1f8160,Stephanie Robles,DTC158YLZ,driver,DL68 Q 5697,21,302,East Delhi,AIIMS,19.3,morning,12:00 PM,68.12,0
+66d3dbed53e52b692a1f8164,Brandon Clark,DTC209MLM,conductor,DL57 H 1603,21,302,East Delhi,AIIMS,19.3,afternoon,8:00 PM,68.12,0
+66d3dbed53e52b692a1f8166,Michael Edwards,DTC665MXC,driver,DL57 H 1603,21,302,East Delhi,AIIMS,19.3,afternoon,8:00 PM,68.12,0
+66d3dbed53e52b692a1f816a,Terry Thomas,DTC676MMQ,conductor,DL49 P 6170,21,302,East Delhi,AIIMS,19.3,afternoon,3:00 PM,68.12,0
+66d3dbed53e52b692a1f816c,Natalie Rangel,DTC584ZUJ,driver,DL49 P 6170,21,302,East Delhi,AIIMS,19.3,afternoon,3:00 PM,68.12,0
+66d3dbee53e52b692a1f8170,Darin Long,DTC229SEZ,conductor,DL84 H 6099,21,302,East Delhi,AIIMS,19.3,afternoon,3:00 PM,68.12,0
+66d3dbee53e52b692a1f8172,John Cohen,DTC252SGG,driver,DL84 H 6099,21,302,East Delhi,AIIMS,19.3,afternoon,3:00 PM,68.12,0
+66d3dbee53e52b692a1f8176,Bobby Sanchez,DTC770QWP,conductor,DL92 E 2347,21,302,East Delhi,AIIMS,19.3,afternoon,2:00 PM,68.12,0
+66d3dbee53e52b692a1f8178,Richard Macdonald,DTC664CRF,driver,DL92 E 2347,21,302,East Delhi,AIIMS,19.3,afternoon,2:00 PM,68.12,0
+66d3dbee53e52b692a1f817c,Joseph Berry,DTC937VDS,conductor,DL47 J 8290,21,302,East Delhi,AIIMS,19.3,afternoon,5:00 PM,68.12,0
+66d3dbee53e52b692a1f817e,Jacob Bryant,DTC564ZRR,driver,DL47 J 8290,21,302,East Delhi,AIIMS,19.3,afternoon,5:00 PM,68.12,0
+66d3dbee53e52b692a1f8182,Tonya Mack,DTC454VEQ,conductor,DL39 C 3461,21,302,East Delhi,AIIMS,19.3,evening,12:00 AM,68.12,0
+66d3dbee53e52b692a1f8184,Dorothy Johnson,DTC658COU,driver,DL39 C 3461,21,302,East Delhi,AIIMS,19.3,evening,12:00 AM,68.12,0
+66d3dbee53e52b692a1f8188,James Lee,DTC453MQQ,conductor,DL13 L 7625,21,302,East Delhi,AIIMS,19.3,evening,10:00 PM,68.12,0
+66d3dbee53e52b692a1f818a,Amanda Rose,DTC126HFI,driver,DL13 L 7625,21,302,East Delhi,AIIMS,19.3,evening,10:00 PM,68.12,0
+66d3dbef53e52b692a1f818e,Thomas Valencia,DTC220UBP,conductor,DL59 P 6664,21,302,East Delhi,AIIMS,19.3,evening,1:00 AM,68.12,0
+66d3dbef53e52b692a1f8190,Emily Beck,DTC134RID,driver,DL59 P 6664,21,302,East Delhi,AIIMS,19.3,evening,1:00 AM,68.12,0
+66d3dbef53e52b692a1f8194,Glenn Mejia,DTC732KCJ,conductor,DL90 D 2858,21,302,East Delhi,AIIMS,19.3,evening,8:00 PM,68.12,0
+66d3dbef53e52b692a1f8196,Christopher Russo,DTC040BBO,driver,DL90 D 2858,21,302,East Delhi,AIIMS,19.3,evening,8:00 PM,68.12,0
+66d3dbef53e52b692a1f819a,Thomas Jenkins,DTC389IWE,conductor,DL25 V 1420,22,725,Janakpuri,ISBT Anand Vihar,14.6,morning,7:00 AM,51.53,0
+66d3dbef53e52b692a1f819c,Karen Hernandez,DTC459BUQ,driver,DL25 V 1420,22,725,Janakpuri,ISBT Anand Vihar,14.6,morning,7:00 AM,51.53,0
+66d3dbef53e52b692a1f81a0,Erica Sanchez,DTC724NED,conductor,DL97 A 4368,22,725,Janakpuri,ISBT Anand Vihar,14.6,morning,12:00 PM,51.53,0
+66d3dbef53e52b692a1f81a2,Samuel Hicks,DTC000KFE,driver,DL97 A 4368,22,725,Janakpuri,ISBT Anand Vihar,14.6,morning,12:00 PM,51.53,0
+66d3dbef53e52b692a1f81a6,Holly Stephens,DTC000SPG,conductor,DL11 Y 2593,22,725,Janakpuri,ISBT Anand Vihar,14.6,morning,9:00 AM,51.53,0
+66d3dbef53e52b692a1f81a8,Stephanie Gutierrez,DTC460EQW,driver,DL11 Y 2593,22,725,Janakpuri,ISBT Anand Vihar,14.6,morning,9:00 AM,51.53,0
+66d3dbef53e52b692a1f81ac,Aaron King,DTC083XWP,conductor,DL89 M 7032,22,725,Janakpuri,ISBT Anand Vihar,14.6,morning,7:00 AM,51.53,0
+66d3dbef53e52b692a1f81ae,Susan Frey,DTC836TVE,driver,DL89 M 7032,22,725,Janakpuri,ISBT Anand Vihar,14.6,morning,7:00 AM,51.53,0
+66d3dbf053e52b692a1f81b2,Ashley Powell,DTC806TDY,conductor,DL75 U 5627,22,725,Janakpuri,ISBT Anand Vihar,14.6,morning,11:00 AM,51.53,0
+66d3dbf053e52b692a1f81b4,Robert Wilson,DTC761JAY,driver,DL75 U 5627,22,725,Janakpuri,ISBT Anand Vihar,14.6,morning,11:00 AM,51.53,0
+66d3dbf053e52b692a1f81b8,Stephanie Walker,DTC849BIV,conductor,DL15 G 7306,22,725,Janakpuri,ISBT Anand Vihar,14.6,morning,9:00 AM,51.53,0
+66d3dbf053e52b692a1f81ba,Rebekah Norris,DTC767EWT,driver,DL15 G 7306,22,725,Janakpuri,ISBT Anand Vihar,14.6,morning,9:00 AM,51.53,0
+66d3dbf053e52b692a1f81be,Victoria Soto,DTC502IAT,conductor,DL70 O 1780,22,725,Janakpuri,ISBT Anand Vihar,14.6,morning,12:00 PM,51.53,0
+66d3dbf053e52b692a1f81c0,Anne Harris,DTC735FCX,driver,DL70 O 1780,22,725,Janakpuri,ISBT Anand Vihar,14.6,morning,12:00 PM,51.53,0
+66d3dbf053e52b692a1f81c4,Jessica Hill,DTC630TIX,conductor,DL87 M 4093,22,725,Janakpuri,ISBT Anand Vihar,14.6,afternoon,5:00 PM,51.53,0
+66d3dbf053e52b692a1f81c6,Daniel Hernandez,DTC372SRR,driver,DL87 M 4093,22,725,Janakpuri,ISBT Anand Vihar,14.6,afternoon,5:00 PM,51.53,0
+66d3dbf053e52b692a1f81ca,Robin Perez,DTC910ORB,conductor,DL30 D 8269,22,725,Janakpuri,ISBT Anand Vihar,14.6,afternoon,1:00 PM,51.53,0
+66d3dbf053e52b692a1f81cc,Tony Fuentes,DTC308VJL,driver,DL30 D 8269,22,725,Janakpuri,ISBT Anand Vihar,14.6,afternoon,1:00 PM,51.53,0
+66d3dbf153e52b692a1f81d0,Danielle Thompson,DTC809PCF,conductor,DL69 X 7710,22,725,Janakpuri,ISBT Anand Vihar,14.6,afternoon,1:00 PM,51.53,0
+66d3dbf153e52b692a1f81d2,Richard Barton,DTC775BHN,driver,DL69 X 7710,22,725,Janakpuri,ISBT Anand Vihar,14.6,afternoon,1:00 PM,51.53,0
+66d3dbf153e52b692a1f81d6,Christopher Bell,DTC382MSA,conductor,DL17 F 2460,22,725,Janakpuri,ISBT Anand Vihar,14.6,afternoon,8:00 PM,51.53,0
+66d3dbf153e52b692a1f81d8,Jessica Torres,DTC508COZ,driver,DL17 F 2460,22,725,Janakpuri,ISBT Anand Vihar,14.6,afternoon,8:00 PM,51.53,0
+66d3dbf153e52b692a1f81dc,Joshua Juarez,DTC759DFL,conductor,DL24 Q 1058,22,725,Janakpuri,ISBT Anand Vihar,14.6,afternoon,1:00 PM,51.53,0
+66d3dbf153e52b692a1f81de,Edward Walker,DTC755PWP,driver,DL24 Q 1058,22,725,Janakpuri,ISBT Anand Vihar,14.6,afternoon,1:00 PM,51.53,0
+66d3dbf153e52b692a1f81e2,Jessica Daniels,DTC169MXR,conductor,DL73 C 6662,22,725,Janakpuri,ISBT Anand Vihar,14.6,afternoon,7:00 PM,51.53,0
+66d3dbf153e52b692a1f81e4,Luis Holland,DTC557EVI,driver,DL73 C 6662,22,725,Janakpuri,ISBT Anand Vihar,14.6,afternoon,7:00 PM,51.53,0
+66d3dbf153e52b692a1f81e8,Cynthia Thomas,DTC803QJE,conductor,DL57 I 2132,22,725,Janakpuri,ISBT Anand Vihar,14.6,afternoon,4:00 PM,51.53,0
+66d3dbf253e52b692a1f81ea,David Clark,DTC553VWI,driver,DL57 I 2132,22,725,Janakpuri,ISBT Anand Vihar,14.6,afternoon,4:00 PM,51.53,0
+66d3dbf253e52b692a1f81ee,Tanya Guzman,DTC942HWQ,conductor,DL55 Y 6823,22,725,Janakpuri,ISBT Anand Vihar,14.6,evening,9:00 PM,51.53,0
+66d3dbf253e52b692a1f81f0,Christopher Brown,DTC620JRM,driver,DL55 Y 6823,22,725,Janakpuri,ISBT Anand Vihar,14.6,evening,9:00 PM,51.53,0
+66d3dbf253e52b692a1f81f4,Lori Peters,DTC206VXS,conductor,DL26 J 5392,22,725,Janakpuri,ISBT Anand Vihar,14.6,evening,1:00 AM,51.53,0
+66d3dbf253e52b692a1f81f6,Maurice Beck,DTC067PUK,driver,DL26 J 5392,22,725,Janakpuri,ISBT Anand Vihar,14.6,evening,1:00 AM,51.53,0
+66d3dbf253e52b692a1f81fa,Andrew Pratt,DTC296KNY,conductor,DL58 K 3258,22,725,Janakpuri,ISBT Anand Vihar,14.6,evening,8:00 PM,51.53,0
+66d3dbf253e52b692a1f81fc,Kevin Salazar,DTC278KTN,driver,DL58 K 3258,22,725,Janakpuri,ISBT Anand Vihar,14.6,evening,8:00 PM,51.53,0
+66d3dbf253e52b692a1f8200,Alexander Smith,DTC098VCM,conductor,DL12 J 3491,22,725,Janakpuri,ISBT Anand Vihar,14.6,evening,1:00 AM,51.53,0
+66d3dbf253e52b692a1f8202,Briana Ford,DTC204KRJ,driver,DL12 J 3491,22,725,Janakpuri,ISBT Anand Vihar,14.6,evening,1:00 AM,51.53,0
+66d3dbf253e52b692a1f8206,Philip Thompson DDS,DTC276QTS,conductor,DL30 J 9151,23,511,Sarai Kale Khan,Dhaula Kuan,16.1,morning,10:00 AM,56.82,0
+66d3dbf253e52b692a1f8208,Justin Allen,DTC834QIC,driver,DL30 J 9151,23,511,Sarai Kale Khan,Dhaula Kuan,16.1,morning,10:00 AM,56.82,0
+66d3dbf353e52b692a1f820c,Roberta Howard,DTC733KXZ,conductor,DL21 P 6675,23,511,Sarai Kale Khan,Dhaula Kuan,16.1,morning,10:00 AM,56.82,0
+66d3dbf353e52b692a1f820e,Diane Jones,DTC286ZNO,driver,DL21 P 6675,23,511,Sarai Kale Khan,Dhaula Kuan,16.1,morning,10:00 AM,56.82,0
+66d3dbf353e52b692a1f8212,Adriana Wong,DTC400UVP,conductor,DL91 V 8012,23,511,Sarai Kale Khan,Dhaula Kuan,16.1,morning,6:00 AM,56.82,0
+66d3dbf353e52b692a1f8214,Christopher Brown,DTC352OPC,driver,DL91 V 8012,23,511,Sarai Kale Khan,Dhaula Kuan,16.1,morning,6:00 AM,56.82,0
+66d3dbf353e52b692a1f8218,Janice May MD,DTC926XVN,conductor,DL22 K 1538,23,511,Sarai Kale Khan,Dhaula Kuan,16.1,morning,10:00 AM,56.82,0
+66d3dbf353e52b692a1f821a,Cheryl Davis,DTC337GGC,driver,DL22 K 1538,23,511,Sarai Kale Khan,Dhaula Kuan,16.1,morning,10:00 AM,56.82,0
+66d3dbf353e52b692a1f821e,Linda Stewart,DTC527OLM,conductor,DL76 F 8995,23,511,Sarai Kale Khan,Dhaula Kuan,16.1,morning,7:00 AM,56.82,0
+66d3dbf353e52b692a1f8220,Tonya Henderson,DTC002MSG,driver,DL76 F 8995,23,511,Sarai Kale Khan,Dhaula Kuan,16.1,morning,7:00 AM,56.82,0
+66d3dbf353e52b692a1f8224,Marcus Perez Jr.,DTC023GMZ,conductor,DL21 L 2805,23,511,Sarai Kale Khan,Dhaula Kuan,16.1,morning,10:00 AM,56.82,0
+66d3dbf353e52b692a1f8226,Kristen Martinez,DTC294UQQ,driver,DL21 L 2805,23,511,Sarai Kale Khan,Dhaula Kuan,16.1,morning,10:00 AM,56.82,0
+66d3dbf353e52b692a1f822a,Sheryl Wiggins,DTC469BXU,conductor,DL59 V 7897,23,511,Sarai Kale Khan,Dhaula Kuan,16.1,morning,11:00 AM,56.82,0
+66d3dbf353e52b692a1f822c,Lori Smith,DTC700KTJ,driver,DL59 V 7897,23,511,Sarai Kale Khan,Dhaula Kuan,16.1,morning,11:00 AM,56.82,0
+66d3dbf453e52b692a1f8230,Amber Reeves,DTC209KTB,conductor,DL54 Q 7684,23,511,Sarai Kale Khan,Dhaula Kuan,16.1,afternoon,8:00 PM,56.82,0
+66d3dbf453e52b692a1f8232,Steven Fisher,DTC223GPL,driver,DL54 Q 7684,23,511,Sarai Kale Khan,Dhaula Kuan,16.1,afternoon,8:00 PM,56.82,0
+66d3dbf453e52b692a1f8236,David Lee,DTC917DEM,conductor,DL99 N 7443,23,511,Sarai Kale Khan,Dhaula Kuan,16.1,afternoon,7:00 PM,56.82,0
+66d3dbf453e52b692a1f8238,Stacy Edwards,DTC144LDQ,driver,DL99 N 7443,23,511,Sarai Kale Khan,Dhaula Kuan,16.1,afternoon,7:00 PM,56.82,0
+66d3dbf453e52b692a1f823c,Mark Huang,DTC996IRJ,conductor,DL59 J 8264,23,511,Sarai Kale Khan,Dhaula Kuan,16.1,afternoon,8:00 PM,56.82,0
+66d3dbf453e52b692a1f823e,Mr. Blake Jennings,DTC949XRV,driver,DL59 J 8264,23,511,Sarai Kale Khan,Dhaula Kuan,16.1,afternoon,8:00 PM,56.82,0
+66d3dbf453e52b692a1f8242,Shannon Lee,DTC432NDX,conductor,DL56 P 9058,23,511,Sarai Kale Khan,Dhaula Kuan,16.1,afternoon,5:00 PM,56.82,0
+66d3dbf453e52b692a1f8244,Kimberly Gallegos,DTC711SQP,driver,DL56 P 9058,23,511,Sarai Kale Khan,Dhaula Kuan,16.1,afternoon,5:00 PM,56.82,0
+66d3dbf453e52b692a1f8248,Michelle Duran,DTC714FZD,conductor,DL18 R 8324,23,511,Sarai Kale Khan,Dhaula Kuan,16.1,afternoon,2:00 PM,56.82,0
+66d3dbf453e52b692a1f824a,David Mitchell,DTC685DIL,driver,DL18 R 8324,23,511,Sarai Kale Khan,Dhaula Kuan,16.1,afternoon,2:00 PM,56.82,0
+66d3dbf553e52b692a1f824e,Gwendolyn Montes,DTC737QAT,conductor,DL50 E 9900,23,511,Sarai Kale Khan,Dhaula Kuan,16.1,afternoon,8:00 PM,56.82,0
+66d3dbf553e52b692a1f8250,William Simon,DTC695XXI,driver,DL50 E 9900,23,511,Sarai Kale Khan,Dhaula Kuan,16.1,afternoon,8:00 PM,56.82,0
+66d3dbf553e52b692a1f8254,Nichole Palmer,DTC658MFE,conductor,DL53 V 7624,23,511,Sarai Kale Khan,Dhaula Kuan,16.1,afternoon,5:00 PM,56.82,0
+66d3dbf553e52b692a1f8256,Mark Garcia,DTC695YEP,driver,DL53 V 7624,23,511,Sarai Kale Khan,Dhaula Kuan,16.1,afternoon,5:00 PM,56.82,0
+66d3dbf553e52b692a1f825a,James Wright,DTC853LFN,conductor,DL66 P 3462,23,511,Sarai Kale Khan,Dhaula Kuan,16.1,evening,11:00 PM,56.82,0
+66d3dbf553e52b692a1f825c,Christopher Griffin,DTC770ITU,driver,DL66 P 3462,23,511,Sarai Kale Khan,Dhaula Kuan,16.1,evening,11:00 PM,56.82,0
+66d3dbf553e52b692a1f8260,Mrs. Shelby Castillo,DTC321PVU,conductor,DL34 Z 3191,23,511,Sarai Kale Khan,Dhaula Kuan,16.1,evening,3:00 AM,56.82,0
+66d3dbf553e52b692a1f8262,Matthew Campbell,DTC263CGO,driver,DL34 Z 3191,23,511,Sarai Kale Khan,Dhaula Kuan,16.1,evening,3:00 AM,56.82,0
+66d3dbf553e52b692a1f8266,Kenneth Frazier,DTC715XYA,conductor,DL42 D 7087,23,511,Sarai Kale Khan,Dhaula Kuan,16.1,evening,10:00 PM,56.82,0
+66d3dbf553e52b692a1f8268,Mercedes Wise,DTC039FIC,driver,DL42 D 7087,23,511,Sarai Kale Khan,Dhaula Kuan,16.1,evening,10:00 PM,56.82,0
+66d3dbf653e52b692a1f826c,Tyler Castillo,DTC979AIA,conductor,DL61 C 4744,23,511,Sarai Kale Khan,Dhaula Kuan,16.1,evening,2:00 AM,56.82,0
+66d3dbf653e52b692a1f826e,Sheila Brooks,DTC236OKD,driver,DL61 C 4744,23,511,Sarai Kale Khan,Dhaula Kuan,16.1,evening,2:00 AM,56.82,0
+66d3dbf653e52b692a1f8272,Rebecca Morales,DTC440YGS,conductor,DL71 K 8164,23,511,Sarai Kale Khan,Dhaula Kuan,16.1,evening,1:00 AM,56.82,0
+66d3dbf653e52b692a1f8274,Joseph Hansen,DTC100IZG,driver,DL71 K 8164,23,511,Sarai Kale Khan,Dhaula Kuan,16.1,evening,1:00 AM,56.82,0
+66d3dbf653e52b692a1f8278,Thomas Mitchell,DTC286RDI,conductor,DL85 P 4501,24,816,Rohini Sector 9,Nehru Place,13.4,morning,11:00 AM,47.29,0
+66d3dbf653e52b692a1f827a,Bailey Martinez,DTC414QRY,driver,DL85 P 4501,24,816,Rohini Sector 9,Nehru Place,13.4,morning,11:00 AM,47.29,0
+66d3dbf653e52b692a1f827e,Jessica Arellano,DTC802IUS,conductor,DL12 K 1937,24,816,Rohini Sector 9,Nehru Place,13.4,morning,11:00 AM,47.29,0
+66d3dbf653e52b692a1f8280,Juan Rivera,DTC161DSR,driver,DL12 K 1937,24,816,Rohini Sector 9,Nehru Place,13.4,morning,11:00 AM,47.29,0
+66d3dbf653e52b692a1f8284,Amanda Cruz,DTC104AIA,conductor,DL92 B 8801,24,816,Rohini Sector 9,Nehru Place,13.4,morning,10:00 AM,47.29,0
+66d3dbf653e52b692a1f8286,Patrick Hogan,DTC206GBY,driver,DL92 B 8801,24,816,Rohini Sector 9,Nehru Place,13.4,morning,10:00 AM,47.29,0
+66d3dbf753e52b692a1f828a,Mary Hartman,DTC187UJS,conductor,DL51 S 6052,24,816,Rohini Sector 9,Nehru Place,13.4,morning,11:00 AM,47.29,0
+66d3dbf753e52b692a1f828c,April Lewis,DTC283UYG,driver,DL51 S 6052,24,816,Rohini Sector 9,Nehru Place,13.4,morning,11:00 AM,47.29,0
+66d3dbf753e52b692a1f8290,Gregory Brown,DTC799QVK,conductor,DL88 I 6523,24,816,Rohini Sector 9,Nehru Place,13.4,morning,11:00 AM,47.29,0
+66d3dbf753e52b692a1f8292,Devin Brady,DTC793NOF,driver,DL88 I 6523,24,816,Rohini Sector 9,Nehru Place,13.4,morning,11:00 AM,47.29,0
+66d3dbf753e52b692a1f8296,Maria Hansen,DTC973NZN,conductor,DL77 O 7042,24,816,Rohini Sector 9,Nehru Place,13.4,morning,10:00 AM,47.29,0
+66d3dbf753e52b692a1f8298,Andrew Vaughn,DTC984HMC,driver,DL77 O 7042,24,816,Rohini Sector 9,Nehru Place,13.4,morning,10:00 AM,47.29,0
+66d3dbf753e52b692a1f829c,David Duffy,DTC574BGX,conductor,DL53 T 3999,24,816,Rohini Sector 9,Nehru Place,13.4,morning,10:00 AM,47.29,0
+66d3dbf753e52b692a1f829e,Christopher Mercado,DTC864ZHD,driver,DL53 T 3999,24,816,Rohini Sector 9,Nehru Place,13.4,morning,10:00 AM,47.29,0
+66d3dbf753e52b692a1f82a2,Kyle Vega,DTC499WND,conductor,DL98 D 4369,24,816,Rohini Sector 9,Nehru Place,13.4,morning,11:00 AM,47.29,0
+66d3dbf753e52b692a1f82a4,Jonathan Thomas,DTC547HQU,driver,DL98 D 4369,24,816,Rohini Sector 9,Nehru Place,13.4,morning,11:00 AM,47.29,0
+66d3dbf753e52b692a1f82a8,Zachary Clements,DTC506OML,conductor,DL74 O 7644,24,816,Rohini Sector 9,Nehru Place,13.4,morning,10:00 AM,47.29,0
+66d3dbf853e52b692a1f82aa,Erica Harper,DTC911CQV,driver,DL74 O 7644,24,816,Rohini Sector 9,Nehru Place,13.4,morning,10:00 AM,47.29,0
+66d3dbf853e52b692a1f82ae,Heather Buck,DTC168DPY,conductor,DL63 Y 2285,24,816,Rohini Sector 9,Nehru Place,13.4,morning,12:00 PM,47.29,0
+66d3dbf853e52b692a1f82b0,Terry Evans,DTC050GJB,driver,DL63 Y 2285,24,816,Rohini Sector 9,Nehru Place,13.4,morning,12:00 PM,47.29,0
+66d3dbf853e52b692a1f82b4,Joshua Sparks,DTC798GTB,conductor,DL79 M 2273,24,816,Rohini Sector 9,Nehru Place,13.4,afternoon,1:00 PM,47.29,0
+66d3dbf853e52b692a1f82b6,Michael Boyle,DTC846IPO,driver,DL79 M 2273,24,816,Rohini Sector 9,Nehru Place,13.4,afternoon,1:00 PM,47.29,0
+66d3dbf853e52b692a1f82ba,Kimberly Gibson,DTC326UKA,conductor,DL46 L 4654,24,816,Rohini Sector 9,Nehru Place,13.4,afternoon,7:00 PM,47.29,0
+66d3dbf853e52b692a1f82bc,Chase Tucker,DTC915QNR,driver,DL46 L 4654,24,816,Rohini Sector 9,Nehru Place,13.4,afternoon,7:00 PM,47.29,0
+66d3dbf853e52b692a1f82c0,Carl Brown,DTC133VVS,conductor,DL82 T 5087,24,816,Rohini Sector 9,Nehru Place,13.4,afternoon,3:00 PM,47.29,0
+66d3dbf853e52b692a1f82c2,Jessica Day,DTC058JWQ,driver,DL82 T 5087,24,816,Rohini Sector 9,Nehru Place,13.4,afternoon,3:00 PM,47.29,0
+66d3dbf853e52b692a1f82c6,Joseph Combs,DTC922SRA,conductor,DL33 O 7725,24,816,Rohini Sector 9,Nehru Place,13.4,afternoon,3:00 PM,47.29,0
+66d3dbf853e52b692a1f82c8,Margaret Dunn,DTC264DXA,driver,DL33 O 7725,24,816,Rohini Sector 9,Nehru Place,13.4,afternoon,3:00 PM,47.29,0
+66d3dbf953e52b692a1f82cc,Joel Hall,DTC351KQC,conductor,DL74 C 3514,24,816,Rohini Sector 9,Nehru Place,13.4,afternoon,2:00 PM,47.29,0
+66d3dbf953e52b692a1f82ce,Christopher Rodriguez,DTC341SBH,driver,DL74 C 3514,24,816,Rohini Sector 9,Nehru Place,13.4,afternoon,2:00 PM,47.29,0
+66d3dbf953e52b692a1f82d2,William Morrow,DTC710BFX,conductor,DL56 H 9010,24,816,Rohini Sector 9,Nehru Place,13.4,afternoon,4:00 PM,47.29,0
+66d3dbf953e52b692a1f82d4,Diana Brown,DTC975UJU,driver,DL56 H 9010,24,816,Rohini Sector 9,Nehru Place,13.4,afternoon,4:00 PM,47.29,0
+66d3dbf953e52b692a1f82d8,Heidi Hicks,DTC778WPA,conductor,DL38 M 7760,24,816,Rohini Sector 9,Nehru Place,13.4,afternoon,1:00 PM,47.29,0
+66d3dbf953e52b692a1f82da,Kristen Williamson DDS,DTC344MIP,driver,DL38 M 7760,24,816,Rohini Sector 9,Nehru Place,13.4,afternoon,1:00 PM,47.29,0
+66d3dbf953e52b692a1f82de,Shirley Porter,DTC654EBB,conductor,DL54 J 3282,24,816,Rohini Sector 9,Nehru Place,13.4,afternoon,4:00 PM,47.29,0
+66d3dbf953e52b692a1f82e0,Anthony Salazar,DTC383WDG,driver,DL54 J 3282,24,816,Rohini Sector 9,Nehru Place,13.4,afternoon,4:00 PM,47.29,0
+66d3dbf953e52b692a1f82e4,Jeffrey Lopez,DTC279FWV,conductor,DL26 G 2333,24,816,Rohini Sector 9,Nehru Place,13.4,afternoon,8:00 PM,47.29,0
+66d3dbf953e52b692a1f82e6,Angel Henderson,DTC104GPQ,driver,DL26 G 2333,24,816,Rohini Sector 9,Nehru Place,13.4,afternoon,8:00 PM,47.29,0
+66d3dbf953e52b692a1f82ea,Alex Burns,DTC448GOS,conductor,DL41 P 3468,24,816,Rohini Sector 9,Nehru Place,13.4,afternoon,8:00 PM,47.29,0
+66d3dbfa53e52b692a1f82ec,John Smith,DTC801LOT,driver,DL41 P 3468,24,816,Rohini Sector 9,Nehru Place,13.4,afternoon,8:00 PM,47.29,0
+66d3dbfa53e52b692a1f82f0,Timothy Chavez,DTC501ISQ,conductor,DL26 R 6583,24,816,Rohini Sector 9,Nehru Place,13.4,evening,1:00 AM,47.29,0
+66d3dbfa53e52b692a1f82f2,Brent Perez,DTC160ODF,driver,DL26 R 6583,24,816,Rohini Sector 9,Nehru Place,13.4,evening,1:00 AM,47.29,0
+66d3dbfa53e52b692a1f82f6,Deborah Meadows,DTC099MKU,conductor,DL22 G 6439,24,816,Rohini Sector 9,Nehru Place,13.4,evening,12:00 AM,47.29,0
+66d3dbfa53e52b692a1f82f8,Stephanie Foster,DTC736KOI,driver,DL22 G 6439,24,816,Rohini Sector 9,Nehru Place,13.4,evening,12:00 AM,47.29,0
+66d3dbfb53e52b692a1f82fc,Andrew Wyatt,DTC111WLW,conductor,DL92 D 3778,24,816,Rohini Sector 9,Nehru Place,13.4,evening,1:00 AM,47.29,0
+66d3dbfb53e52b692a1f82fe,Theresa Sullivan,DTC434SFW,driver,DL92 D 3778,24,816,Rohini Sector 9,Nehru Place,13.4,evening,1:00 AM,47.29,0
+66d3dbfb53e52b692a1f8302,Michelle Cortez,DTC812QRD,conductor,DL20 Q 6541,24,816,Rohini Sector 9,Nehru Place,13.4,evening,8:00 PM,47.29,0
+66d3dbfb53e52b692a1f8304,Jonathon Wells,DTC374XVS,driver,DL20 Q 6541,24,816,Rohini Sector 9,Nehru Place,13.4,evening,8:00 PM,47.29,0
+66d3dbfb53e52b692a1f8308,Barbara Ramirez,DTC321KOG,conductor,DL42 P 5006,24,816,Rohini Sector 9,Nehru Place,13.4,evening,9:00 PM,47.29,0
+66d3dbfb53e52b692a1f830a,Christopher Anderson,DTC744AZC,driver,DL42 P 5006,24,816,Rohini Sector 9,Nehru Place,13.4,evening,9:00 PM,47.29,0
+66d3dbfc53e52b692a1f830e,John Long,DTC768OYV,conductor,DL50 B 6027,24,816,Rohini Sector 9,Nehru Place,13.4,evening,8:00 PM,47.29,0
+66d3dbfc53e52b692a1f8310,Linda Bailey,DTC892HOJ,driver,DL50 B 6027,24,816,Rohini Sector 9,Nehru Place,13.4,evening,8:00 PM,47.29,0
+66d3dbfc53e52b692a1f8314,James Wheeler,DTC466WSE,conductor,DL36 N 3865,25,432,Vikas Marg,ISBT Kashmere Gate,15.2,morning,9:00 AM,53.65,0
+66d3dbfc53e52b692a1f8316,Hannah Porter DVM,DTC361ZCE,driver,DL36 N 3865,25,432,Vikas Marg,ISBT Kashmere Gate,15.2,morning,9:00 AM,53.65,0
+66d3dbfd53e52b692a1f831a,Ashley Snyder,DTC250YHA,conductor,DL43 K 1599,25,432,Vikas Marg,ISBT Kashmere Gate,15.2,morning,6:00 AM,53.65,0
+66d3dbfd53e52b692a1f831c,David Campbell,DTC772LWD,driver,DL43 K 1599,25,432,Vikas Marg,ISBT Kashmere Gate,15.2,morning,6:00 AM,53.65,0
+66d3dbfd53e52b692a1f8320,Joshua Burns,DTC085EXC,conductor,DL60 J 1561,25,432,Vikas Marg,ISBT Kashmere Gate,15.2,morning,11:00 AM,53.65,0
+66d3dbfd53e52b692a1f8322,Alan Carroll,DTC459QCT,driver,DL60 J 1561,25,432,Vikas Marg,ISBT Kashmere Gate,15.2,morning,11:00 AM,53.65,0
+66d3dbfd53e52b692a1f8326,Diana Clark,DTC112UYJ,conductor,DL57 R 9335,25,432,Vikas Marg,ISBT Kashmere Gate,15.2,morning,11:00 AM,53.65,0
+66d3dbfe53e52b692a1f8328,Taylor Bradshaw,DTC931HYQ,driver,DL57 R 9335,25,432,Vikas Marg,ISBT Kashmere Gate,15.2,morning,11:00 AM,53.65,0
+66d3dbfe53e52b692a1f832c,Jane Harrington,DTC254CUT,conductor,DL24 W 3596,25,432,Vikas Marg,ISBT Kashmere Gate,15.2,morning,5:00 AM,53.65,0
+66d3dbfe53e52b692a1f832e,Justin Garcia,DTC187KAA,driver,DL24 W 3596,25,432,Vikas Marg,ISBT Kashmere Gate,15.2,morning,5:00 AM,53.65,0
+66d3dbff53e52b692a1f8332,Dylan Velazquez,DTC377UUQ,conductor,DL45 M 5796,25,432,Vikas Marg,ISBT Kashmere Gate,15.2,morning,7:00 AM,53.65,0
+66d3dbff53e52b692a1f8334,Caleb Thompson,DTC995MGT,driver,DL45 M 5796,25,432,Vikas Marg,ISBT Kashmere Gate,15.2,morning,7:00 AM,53.65,0
+66d3dc0053e52b692a1f8338,Megan Lawrence,DTC601VPM,conductor,DL90 A 9786,25,432,Vikas Marg,ISBT Kashmere Gate,15.2,afternoon,6:00 PM,53.65,0
+66d3dc0053e52b692a1f833a,Benjamin Hudson,DTC693UJG,driver,DL90 A 9786,25,432,Vikas Marg,ISBT Kashmere Gate,15.2,afternoon,6:00 PM,53.65,0
+66d3dc0053e52b692a1f833e,Larry Romero,DTC622CLU,conductor,DL52 S 7206,25,432,Vikas Marg,ISBT Kashmere Gate,15.2,afternoon,7:00 PM,53.65,0
+66d3dc0153e52b692a1f8340,Brandon Adams,DTC906XLU,driver,DL52 S 7206,25,432,Vikas Marg,ISBT Kashmere Gate,15.2,afternoon,7:00 PM,53.65,0
+66d3dc0153e52b692a1f8344,Justin Spears,DTC658GYZ,conductor,DL61 L 3982,25,432,Vikas Marg,ISBT Kashmere Gate,15.2,afternoon,1:00 PM,53.65,0
+66d3dc0253e52b692a1f8346,Heather Ruiz,DTC780OAK,driver,DL61 L 3982,25,432,Vikas Marg,ISBT Kashmere Gate,15.2,afternoon,1:00 PM,53.65,0
+66d3dc0253e52b692a1f834a,Katelyn Burke,DTC350PMS,conductor,DL79 F 6488,25,432,Vikas Marg,ISBT Kashmere Gate,15.2,afternoon,6:00 PM,53.65,0
+66d3dc0253e52b692a1f834c,Lacey Sandoval,DTC269ROV,driver,DL79 F 6488,25,432,Vikas Marg,ISBT Kashmere Gate,15.2,afternoon,6:00 PM,53.65,0
+66d3dc0253e52b692a1f8350,Kristina Cannon,DTC372JYP,conductor,DL62 M 7228,25,432,Vikas Marg,ISBT Kashmere Gate,15.2,afternoon,1:00 PM,53.65,0
+66d3dc0253e52b692a1f8352,Stephanie Thomas,DTC929OIM,driver,DL62 M 7228,25,432,Vikas Marg,ISBT Kashmere Gate,15.2,afternoon,1:00 PM,53.65,0
+66d3dc0253e52b692a1f8356,Christopher Levine,DTC382JWX,conductor,DL64 M 9840,25,432,Vikas Marg,ISBT Kashmere Gate,15.2,afternoon,6:00 PM,53.65,0
+66d3dc0253e52b692a1f8358,Stephen Morris,DTC964QEU,driver,DL64 M 9840,25,432,Vikas Marg,ISBT Kashmere Gate,15.2,afternoon,6:00 PM,53.65,0
+66d3dc0253e52b692a1f835c,Laurie Sutton,DTC076YJN,conductor,DL50 B 7458,25,432,Vikas Marg,ISBT Kashmere Gate,15.2,evening,1:00 AM,53.65,0
+66d3dc0253e52b692a1f835e,Brandon Gibson,DTC570HUQ,driver,DL50 B 7458,25,432,Vikas Marg,ISBT Kashmere Gate,15.2,evening,1:00 AM,53.65,0
+66d3dc0353e52b692a1f8362,Lisa Pierce,DTC436MER,conductor,DL57 P 1903,25,432,Vikas Marg,ISBT Kashmere Gate,15.2,evening,4:00 AM,53.65,0
+66d3dc0353e52b692a1f8364,Eric Lucas,DTC746CTJ,driver,DL57 P 1903,25,432,Vikas Marg,ISBT Kashmere Gate,15.2,evening,4:00 AM,53.65,0
+66d3dc0353e52b692a1f8368,Raven Murray,DTC224MUB,conductor,DL45 Y 8038,25,432,Vikas Marg,ISBT Kashmere Gate,15.2,evening,3:00 AM,53.65,0
+66d3dc0353e52b692a1f836a,Evan Malone,DTC825TWE,driver,DL45 Y 8038,25,432,Vikas Marg,ISBT Kashmere Gate,15.2,evening,3:00 AM,53.65,0
+66d3dc0353e52b692a1f836e,Mrs. Summer Austin,DTC088NRM,conductor,DL16 A 4318,25,432,Vikas Marg,ISBT Kashmere Gate,15.2,evening,4:00 AM,53.65,0
+66d3dc0353e52b692a1f8370,Megan Williams,DTC967NRN,driver,DL16 A 4318,25,432,Vikas Marg,ISBT Kashmere Gate,15.2,evening,4:00 AM,53.65,0
+66d3dc0353e52b692a1f8374,Kathy Mcgrath,DTC806LHG,conductor,DL88 K 6499,26,519,Rajouri Garden,AIIMS,17.9,morning,5:00 AM,63.18,0
+66d3dc0353e52b692a1f8376,Joshua Strong,DTC862WQM,driver,DL88 K 6499,26,519,Rajouri Garden,AIIMS,17.9,morning,5:00 AM,63.18,0
+66d3dc0353e52b692a1f837a,Lori Moyer,DTC853KIW,conductor,DL66 L 9083,26,519,Rajouri Garden,AIIMS,17.9,morning,8:00 AM,63.18,0
+66d3dc0353e52b692a1f837c,Michelle Peterson,DTC349ZRS,driver,DL66 L 9083,26,519,Rajouri Garden,AIIMS,17.9,morning,8:00 AM,63.18,0
+66d3dc0453e52b692a1f8380,Leslie Vargas,DTC697EEM,conductor,DL71 T 2578,26,519,Rajouri Garden,AIIMS,17.9,morning,6:00 AM,63.18,0
+66d3dc0453e52b692a1f8382,Betty Galvan,DTC674SFU,driver,DL71 T 2578,26,519,Rajouri Garden,AIIMS,17.9,morning,6:00 AM,63.18,0
+66d3dc0453e52b692a1f8386,Ricky Watts,DTC093GMQ,conductor,DL54 X 2522,26,519,Rajouri Garden,AIIMS,17.9,morning,12:00 PM,63.18,0
+66d3dc0453e52b692a1f8388,Yvonne Haas,DTC782UFY,driver,DL54 X 2522,26,519,Rajouri Garden,AIIMS,17.9,morning,12:00 PM,63.18,0
+66d3dc0453e52b692a1f838c,Lucas Thompson,DTC238UBK,conductor,DL16 L 9449,26,519,Rajouri Garden,AIIMS,17.9,morning,12:00 PM,63.18,0
+66d3dc0453e52b692a1f838e,Jaime Meza,DTC393HXH,driver,DL16 L 9449,26,519,Rajouri Garden,AIIMS,17.9,morning,12:00 PM,63.18,0
+66d3dc0453e52b692a1f8392,Tyler Williams,DTC160EWD,conductor,DL79 K 3275,26,519,Rajouri Garden,AIIMS,17.9,morning,8:00 AM,63.18,0
+66d3dc0453e52b692a1f8394,Kristina Ortiz,DTC285SRE,driver,DL79 K 3275,26,519,Rajouri Garden,AIIMS,17.9,morning,8:00 AM,63.18,0
+66d3dc0453e52b692a1f8398,Lindsay Patel,DTC921UKT,conductor,DL53 R 2035,26,519,Rajouri Garden,AIIMS,17.9,morning,12:00 PM,63.18,0
+66d3dc0553e52b692a1f839a,Tamara Francis,DTC161ZSV,driver,DL53 R 2035,26,519,Rajouri Garden,AIIMS,17.9,morning,12:00 PM,63.18,0
+66d3dc0553e52b692a1f839e,Lindsay Webb,DTC894GFN,conductor,DL93 B 7721,26,519,Rajouri Garden,AIIMS,17.9,morning,11:00 AM,63.18,0
+66d3dc0553e52b692a1f83a0,Michael Sullivan,DTC085IVJ,driver,DL93 B 7721,26,519,Rajouri Garden,AIIMS,17.9,morning,11:00 AM,63.18,0
+66d3dc0553e52b692a1f83a4,Matthew George,DTC045IWS,conductor,DL97 X 3082,26,519,Rajouri Garden,AIIMS,17.9,afternoon,2:00 PM,63.18,0
+66d3dc0553e52b692a1f83a6,Kelsey Wright DVM,DTC823BMF,driver,DL97 X 3082,26,519,Rajouri Garden,AIIMS,17.9,afternoon,2:00 PM,63.18,0
+66d3dc0553e52b692a1f83aa,Kayla Glass,DTC888MMR,conductor,DL39 R 1648,26,519,Rajouri Garden,AIIMS,17.9,afternoon,12:00 PM,63.18,0
+66d3dc0553e52b692a1f83ac,Jason Cunningham,DTC953FOY,driver,DL39 R 1648,26,519,Rajouri Garden,AIIMS,17.9,afternoon,12:00 PM,63.18,0
+66d3dc0653e52b692a1f83b0,Sara Allen,DTC607FNF,conductor,DL62 G 3240,26,519,Rajouri Garden,AIIMS,17.9,afternoon,12:00 PM,63.18,0
+66d3dc0653e52b692a1f83b2,Raymond Chapman Jr.,DTC482BAF,driver,DL62 G 3240,26,519,Rajouri Garden,AIIMS,17.9,afternoon,12:00 PM,63.18,0
+66d3dc0653e52b692a1f83b6,Mrs. Susan Reyes,DTC656JXZ,conductor,DL92 W 6153,26,519,Rajouri Garden,AIIMS,17.9,afternoon,4:00 PM,63.18,0
+66d3dc0653e52b692a1f83b8,David Vargas,DTC800MMP,driver,DL92 W 6153,26,519,Rajouri Garden,AIIMS,17.9,afternoon,4:00 PM,63.18,0
+66d3dc0653e52b692a1f83bc,Tony Vasquez,DTC073MHC,conductor,DL98 M 7440,26,519,Rajouri Garden,AIIMS,17.9,afternoon,2:00 PM,63.18,0
+66d3dc0753e52b692a1f83be,Hunter Wright,DTC863TNM,driver,DL98 M 7440,26,519,Rajouri Garden,AIIMS,17.9,afternoon,2:00 PM,63.18,0
+66d3dc0753e52b692a1f83c2,John Holloway,DTC242TPP,conductor,DL80 M 7942,26,519,Rajouri Garden,AIIMS,17.9,afternoon,4:00 PM,63.18,0
+66d3dc0753e52b692a1f83c4,Sheila Coleman,DTC146CJO,driver,DL80 M 7942,26,519,Rajouri Garden,AIIMS,17.9,afternoon,4:00 PM,63.18,0
+66d3dc0753e52b692a1f83c8,Tom Santiago,DTC262JMI,conductor,DL55 X 4342,26,519,Rajouri Garden,AIIMS,17.9,afternoon,7:00 PM,63.18,0
+66d3dc0753e52b692a1f83ca,Kaitlyn Robinson,DTC271XUZ,driver,DL55 X 4342,26,519,Rajouri Garden,AIIMS,17.9,afternoon,7:00 PM,63.18,0
+66d3dc0753e52b692a1f83ce,Michael Carlson,DTC945KOM,conductor,DL72 R 7777,26,519,Rajouri Garden,AIIMS,17.9,afternoon,8:00 PM,63.18,0
+66d3dc0753e52b692a1f83d0,Priscilla Morris,DTC633SNJ,driver,DL72 R 7777,26,519,Rajouri Garden,AIIMS,17.9,afternoon,8:00 PM,63.18,0
+66d3dc0853e52b692a1f83d4,Mackenzie Weaver,DTC341NQA,conductor,DL65 A 7215,26,519,Rajouri Garden,AIIMS,17.9,evening,9:00 PM,63.18,0
+66d3dc0853e52b692a1f83d6,Sarah Johnson,DTC375XVV,driver,DL65 A 7215,26,519,Rajouri Garden,AIIMS,17.9,evening,9:00 PM,63.18,0
+66d3dc0853e52b692a1f83da,Julia Camacho,DTC438JYW,conductor,DL92 H 6656,26,519,Rajouri Garden,AIIMS,17.9,evening,11:00 PM,63.18,0
+66d3dc0853e52b692a1f83dc,Cristian Meza,DTC517KCL,driver,DL92 H 6656,26,519,Rajouri Garden,AIIMS,17.9,evening,11:00 PM,63.18,0
+66d3dc0853e52b692a1f83e0,Eric Hays,DTC890TDE,conductor,DL67 V 3229,26,519,Rajouri Garden,AIIMS,17.9,evening,11:00 PM,63.18,0
+66d3dc0853e52b692a1f83e2,Cory Taylor,DTC264KYH,driver,DL67 V 3229,26,519,Rajouri Garden,AIIMS,17.9,evening,11:00 PM,63.18,0
+66d3dc0853e52b692a1f83e6,Calvin Mccullough,DTC543TCF,conductor,DL23 Q 4749,26,519,Rajouri Garden,AIIMS,17.9,evening,1:00 AM,63.18,0
+66d3dc0853e52b692a1f83e8,Daniel Duran,DTC109TMF,driver,DL23 Q 4749,26,519,Rajouri Garden,AIIMS,17.9,evening,1:00 AM,63.18,0
+66d3dc0853e52b692a1f83ec,Jeffery Bailey,DTC572RZJ,conductor,DL41 I 2877,27,611,Pitampura,Saket,18.6,morning,11:00 AM,65.65,0
+66d3dc0853e52b692a1f83ee,Heather Chandler,DTC772VHD,driver,DL41 I 2877,27,611,Pitampura,Saket,18.6,morning,11:00 AM,65.65,0
+66d3dc0953e52b692a1f83f2,Anthony Reed,DTC703FEI,conductor,DL17 X 1437,27,611,Pitampura,Saket,18.6,morning,9:00 AM,65.65,0
+66d3dc0953e52b692a1f83f4,Amanda Campbell,DTC376UCX,driver,DL17 X 1437,27,611,Pitampura,Saket,18.6,morning,9:00 AM,65.65,0
+66d3dc0953e52b692a1f83f8,Micheal Evans,DTC687VPY,conductor,DL25 D 1915,27,611,Pitampura,Saket,18.6,morning,9:00 AM,65.65,0
+66d3dc0953e52b692a1f83fa,Mary Harris,DTC326BWP,driver,DL25 D 1915,27,611,Pitampura,Saket,18.6,morning,9:00 AM,65.65,0
+66d3dc0953e52b692a1f83fe,Denise Harris,DTC859YVH,conductor,DL44 O 5308,27,611,Pitampura,Saket,18.6,morning,6:00 AM,65.65,0
+66d3dc0953e52b692a1f8400,Ashley Boyle,DTC314OIN,driver,DL44 O 5308,27,611,Pitampura,Saket,18.6,morning,6:00 AM,65.65,0
+66d3dc0953e52b692a1f8404,Julie Archer,DTC135KPP,conductor,DL70 J 5132,27,611,Pitampura,Saket,18.6,morning,7:00 AM,65.65,0
+66d3dc0953e52b692a1f8406,Jesse Trujillo,DTC093OHW,driver,DL70 J 5132,27,611,Pitampura,Saket,18.6,morning,7:00 AM,65.65,0
+66d3dc0953e52b692a1f840a,Jesus Wilson,DTC057AUT,conductor,DL65 A 6545,27,611,Pitampura,Saket,18.6,morning,6:00 AM,65.65,0
+66d3dc0953e52b692a1f840c,Brenda Perez,DTC355OVT,driver,DL65 A 6545,27,611,Pitampura,Saket,18.6,morning,6:00 AM,65.65,0
+66d3dc0a53e52b692a1f8410,Joshua Williams,DTC968LBV,conductor,DL30 K 7284,27,611,Pitampura,Saket,18.6,morning,5:00 AM,65.65,0
+66d3dc0a53e52b692a1f8412,Laura Barton,DTC561JFF,driver,DL30 K 7284,27,611,Pitampura,Saket,18.6,morning,5:00 AM,65.65,0
+66d3dc0a53e52b692a1f8416,Maria Murray,DTC389ELH,conductor,DL23 Z 7193,27,611,Pitampura,Saket,18.6,morning,8:00 AM,65.65,0
+66d3dc0a53e52b692a1f8418,Holly Estes,DTC994VUP,driver,DL23 Z 7193,27,611,Pitampura,Saket,18.6,morning,8:00 AM,65.65,0
+66d3dc0e53e52b692a1f841c,Tracey Galloway,DTC486BHU,conductor,DL90 S 1447,27,611,Pitampura,Saket,18.6,morning,6:00 AM,65.65,0
+66d3dc0e53e52b692a1f841e,Holly Long,DTC739RMZ,driver,DL90 S 1447,27,611,Pitampura,Saket,18.6,morning,6:00 AM,65.65,0
+66d3dc0e53e52b692a1f8422,Carl Ward,DTC082HBH,conductor,DL13 B 8305,27,611,Pitampura,Saket,18.6,morning,7:00 AM,65.65,0
+66d3dc0e53e52b692a1f8424,David Cross,DTC210TUQ,driver,DL13 B 8305,27,611,Pitampura,Saket,18.6,morning,7:00 AM,65.65,0
+66d3dc0e53e52b692a1f8428,Brittney Kramer,DTC799HMS,conductor,DL59 N 1358,27,611,Pitampura,Saket,18.6,afternoon,2:00 PM,65.65,0
+66d3dc0e53e52b692a1f842a,Samuel Buchanan,DTC844WVT,driver,DL59 N 1358,27,611,Pitampura,Saket,18.6,afternoon,2:00 PM,65.65,0
+66d3dc0f53e52b692a1f842e,Karen Hayes,DTC593LKA,conductor,DL39 C 2203,27,611,Pitampura,Saket,18.6,afternoon,4:00 PM,65.65,0
+66d3dc0f53e52b692a1f8430,Joseph Richards,DTC667QHK,driver,DL39 C 2203,27,611,Pitampura,Saket,18.6,afternoon,4:00 PM,65.65,0
+66d3dc0f53e52b692a1f8434,Christine Henry,DTC237ZHY,conductor,DL20 Q 7927,27,611,Pitampura,Saket,18.6,afternoon,6:00 PM,65.65,0
+66d3dc0f53e52b692a1f8436,James Schroeder,DTC797LXW,driver,DL20 Q 7927,27,611,Pitampura,Saket,18.6,afternoon,6:00 PM,65.65,0
+66d3dc0f53e52b692a1f843a,Tracey Schmidt,DTC786VDF,conductor,DL62 A 4366,27,611,Pitampura,Saket,18.6,afternoon,1:00 PM,65.65,0
+66d3dc0f53e52b692a1f843c,Sara Bennett,DTC523MMV,driver,DL62 A 4366,27,611,Pitampura,Saket,18.6,afternoon,1:00 PM,65.65,0
+66d3dc0f53e52b692a1f8440,Jeffrey Haas,DTC041XLA,conductor,DL50 E 7338,27,611,Pitampura,Saket,18.6,afternoon,4:00 PM,65.65,0
+66d3dc0f53e52b692a1f8442,Alyssa Cortez,DTC401BZW,driver,DL50 E 7338,27,611,Pitampura,Saket,18.6,afternoon,4:00 PM,65.65,0
+66d3dc0f53e52b692a1f8446,Daniel Sparks,DTC661ZLF,conductor,DL51 H 3742,27,611,Pitampura,Saket,18.6,afternoon,8:00 PM,65.65,0
+66d3dc0f53e52b692a1f8448,Amanda Norman,DTC898ZTM,driver,DL51 H 3742,27,611,Pitampura,Saket,18.6,afternoon,8:00 PM,65.65,0
+66d3dc0f53e52b692a1f844c,Amanda Jones,DTC133CYM,conductor,DL40 F 3938,27,611,Pitampura,Saket,18.6,afternoon,2:00 PM,65.65,0
+66d3dc1053e52b692a1f844e,Theresa Martinez,DTC703JYR,driver,DL40 F 3938,27,611,Pitampura,Saket,18.6,afternoon,2:00 PM,65.65,0
+66d3dc1053e52b692a1f8452,Ricardo Ford,DTC396OAM,conductor,DL98 G 7500,27,611,Pitampura,Saket,18.6,afternoon,3:00 PM,65.65,0
+66d3dc1053e52b692a1f8454,Phillip Miller,DTC532VIN,driver,DL98 G 7500,27,611,Pitampura,Saket,18.6,afternoon,3:00 PM,65.65,0
+66d3dc1053e52b692a1f8458,Morgan Avery,DTC095SUC,conductor,DL73 C 8695,27,611,Pitampura,Saket,18.6,afternoon,7:00 PM,65.65,0
+66d3dc1053e52b692a1f845a,Aaron Chen,DTC453WHQ,driver,DL73 C 8695,27,611,Pitampura,Saket,18.6,afternoon,7:00 PM,65.65,0
+66d3dc1053e52b692a1f845e,Vernon Green,DTC704JQC,conductor,DL59 O 2372,27,611,Pitampura,Saket,18.6,afternoon,6:00 PM,65.65,0
+66d3dc1053e52b692a1f8460,Paul Richardson,DTC897JRY,driver,DL59 O 2372,27,611,Pitampura,Saket,18.6,afternoon,6:00 PM,65.65,0
+66d3dc1053e52b692a1f8464,Scott Hendrix,DTC306OHA,conductor,DL64 T 7446,27,611,Pitampura,Saket,18.6,evening,9:00 PM,65.65,0
+66d3dc1053e52b692a1f8466,Dr. Nancy Smith,DTC738JVK,driver,DL64 T 7446,27,611,Pitampura,Saket,18.6,evening,9:00 PM,65.65,0
+66d3dc1053e52b692a1f846a,Andrew Liu,DTC479XHF,conductor,DL59 N 6617,27,611,Pitampura,Saket,18.6,evening,3:00 AM,65.65,0
+66d3dc1053e52b692a1f846c,Alexandria Murphy,DTC375MLT,driver,DL59 N 6617,27,611,Pitampura,Saket,18.6,evening,3:00 AM,65.65,0
+66d3dc1153e52b692a1f8470,Casey Hunt,DTC516FVU,conductor,DL47 U 5968,27,611,Pitampura,Saket,18.6,evening,3:00 AM,65.65,0
+66d3dc1153e52b692a1f8472,Jacob Escobar,DTC984DOC,driver,DL47 U 5968,27,611,Pitampura,Saket,18.6,evening,3:00 AM,65.65,0
+66d3dc1153e52b692a1f8476,Lisa Martinez,DTC820WKZ,conductor,DL71 G 8673,27,611,Pitampura,Saket,18.6,evening,1:00 AM,65.65,0
+66d3dc1153e52b692a1f8478,Keith Carroll,DTC174XWL,driver,DL71 G 8673,27,611,Pitampura,Saket,18.6,evening,1:00 AM,65.65,0
+66d3dc1153e52b692a1f847c,Jay Jones,DTC304IDT,conductor,DL67 H 1875,27,611,Pitampura,Saket,18.6,evening,2:00 AM,65.65,0
+66d3dc1153e52b692a1f847e,Joseph Brown,DTC661UJK,driver,DL67 H 1875,27,611,Pitampura,Saket,18.6,evening,2:00 AM,65.65,0
+66d3dc1153e52b692a1f8482,Steven Prince,DTC981GXD,conductor,DL33 U 9887,28,629,Dwarka Sector 21,Okhla,16.2,morning,5:00 AM,57.18,0
+66d3dc1153e52b692a1f8484,Michael Sanchez,DTC793HQO,driver,DL33 U 9887,28,629,Dwarka Sector 21,Okhla,16.2,morning,5:00 AM,57.18,0
+66d3dc1153e52b692a1f8488,Jonathan Maddox,DTC782YCR,conductor,DL36 Y 4448,28,629,Dwarka Sector 21,Okhla,16.2,morning,8:00 AM,57.18,0
+66d3dc1153e52b692a1f848a,Kyle Moreno,DTC514HNP,driver,DL36 Y 4448,28,629,Dwarka Sector 21,Okhla,16.2,morning,8:00 AM,57.18,0
+66d3dc1253e52b692a1f848e,Joel Brown,DTC608BWP,conductor,DL36 X 9598,28,629,Dwarka Sector 21,Okhla,16.2,morning,10:00 AM,57.18,0
+66d3dc1253e52b692a1f8490,Laura Donovan,DTC671RLZ,driver,DL36 X 9598,28,629,Dwarka Sector 21,Okhla,16.2,morning,10:00 AM,57.18,0
+66d3dc1253e52b692a1f8494,Gabriella Powers,DTC530VFD,conductor,DL35 J 8430,28,629,Dwarka Sector 21,Okhla,16.2,morning,10:00 AM,57.18,0
+66d3dc1253e52b692a1f8496,Timothy Russell,DTC953RZS,driver,DL35 J 8430,28,629,Dwarka Sector 21,Okhla,16.2,morning,10:00 AM,57.18,0
+66d3dc1253e52b692a1f849a,Miranda Sharp,DTC772QNT,conductor,DL53 Y 3272,28,629,Dwarka Sector 21,Okhla,16.2,morning,11:00 AM,57.18,0
+66d3dc1253e52b692a1f849c,Dustin Richard,DTC070FCI,driver,DL53 Y 3272,28,629,Dwarka Sector 21,Okhla,16.2,morning,11:00 AM,57.18,0
+66d3dc1253e52b692a1f84a0,Rebecca Parker,DTC335YVJ,conductor,DL23 S 8650,28,629,Dwarka Sector 21,Okhla,16.2,morning,6:00 AM,57.18,0
+66d3dc1253e52b692a1f84a2,James Wagner,DTC052OVE,driver,DL23 S 8650,28,629,Dwarka Sector 21,Okhla,16.2,morning,6:00 AM,57.18,0
+66d3dc1353e52b692a1f84a6,Mary Collier,DTC050VRQ,conductor,DL33 R 4172,28,629,Dwarka Sector 21,Okhla,16.2,morning,6:00 AM,57.18,0
+66d3dc1353e52b692a1f84a8,Jason Jones,DTC593QBT,driver,DL33 R 4172,28,629,Dwarka Sector 21,Okhla,16.2,morning,6:00 AM,57.18,0
+66d3dc1353e52b692a1f84ac,Stephanie Tucker,DTC594IMN,conductor,DL59 P 1519,28,629,Dwarka Sector 21,Okhla,16.2,morning,11:00 AM,57.18,0
+66d3dc1353e52b692a1f84ae,Ashley Robles,DTC553ZUF,driver,DL59 P 1519,28,629,Dwarka Sector 21,Okhla,16.2,morning,11:00 AM,57.18,0
+66d3dc1353e52b692a1f84b2,Sara Watkins,DTC881KKH,conductor,DL48 Q 8160,28,629,Dwarka Sector 21,Okhla,16.2,morning,7:00 AM,57.18,0
+66d3dc1353e52b692a1f84b4,Amy Myers,DTC425EKM,driver,DL48 Q 8160,28,629,Dwarka Sector 21,Okhla,16.2,morning,7:00 AM,57.18,0
+66d3dc1353e52b692a1f84b8,Joseph Moore,DTC401AFJ,conductor,DL55 S 5027,28,629,Dwarka Sector 21,Okhla,16.2,morning,9:00 AM,57.18,0
+66d3dc1353e52b692a1f84ba,Ricardo Davis,DTC493GQD,driver,DL55 S 5027,28,629,Dwarka Sector 21,Okhla,16.2,morning,9:00 AM,57.18,0
+66d3dc1353e52b692a1f84be,Mary Edwards,DTC875XZN,conductor,DL74 Y 8475,28,629,Dwarka Sector 21,Okhla,16.2,afternoon,3:00 PM,57.18,0
+66d3dc1353e52b692a1f84c0,James Larson,DTC954RNH,driver,DL74 Y 8475,28,629,Dwarka Sector 21,Okhla,16.2,afternoon,3:00 PM,57.18,0
+66d3dc1453e52b692a1f84c4,Matthew Howard,DTC436PCS,conductor,DL45 E 5151,28,629,Dwarka Sector 21,Okhla,16.2,afternoon,2:00 PM,57.18,0
+66d3dc1453e52b692a1f84c6,Catherine Myers,DTC063PRT,driver,DL45 E 5151,28,629,Dwarka Sector 21,Okhla,16.2,afternoon,2:00 PM,57.18,0
+66d3dc1453e52b692a1f84ca,Anthony Morales,DTC358IWI,conductor,DL11 D 7126,28,629,Dwarka Sector 21,Okhla,16.2,afternoon,3:00 PM,57.18,0
+66d3dc1453e52b692a1f84cc,Monica Johnson,DTC334KKX,driver,DL11 D 7126,28,629,Dwarka Sector 21,Okhla,16.2,afternoon,3:00 PM,57.18,0
+66d3dc1453e52b692a1f84d0,Christopher Evans,DTC813AYF,conductor,DL15 V 4309,28,629,Dwarka Sector 21,Okhla,16.2,afternoon,3:00 PM,57.18,0
+66d3dc1453e52b692a1f84d2,Mrs. Jamie Adams,DTC928MVZ,driver,DL15 V 4309,28,629,Dwarka Sector 21,Okhla,16.2,afternoon,3:00 PM,57.18,0
+66d3dc1453e52b692a1f84d6,Alexander Padilla,DTC093KXG,conductor,DL73 Z 5503,28,629,Dwarka Sector 21,Okhla,16.2,afternoon,1:00 PM,57.18,0
+66d3dc1453e52b692a1f84d8,Kayla Erickson,DTC934QIK,driver,DL73 Z 5503,28,629,Dwarka Sector 21,Okhla,16.2,afternoon,1:00 PM,57.18,0
+66d3dc1453e52b692a1f84dc,Michael Cooley,DTC695GCS,conductor,DL72 C 8064,28,629,Dwarka Sector 21,Okhla,16.2,afternoon,6:00 PM,57.18,0
+66d3dc1453e52b692a1f84de,Jennifer Smith,DTC773VUY,driver,DL72 C 8064,28,629,Dwarka Sector 21,Okhla,16.2,afternoon,6:00 PM,57.18,0
+66d3dc1453e52b692a1f84e2,Lisa Frank,DTC679FPB,conductor,DL86 T 4039,28,629,Dwarka Sector 21,Okhla,16.2,afternoon,8:00 PM,57.18,0
+66d3dc1553e52b692a1f84e4,Gabrielle Cervantes,DTC839JZY,driver,DL86 T 4039,28,629,Dwarka Sector 21,Okhla,16.2,afternoon,8:00 PM,57.18,0
+66d3dc1553e52b692a1f84e8,Joseph Anderson,DTC127NFI,conductor,DL51 B 6950,28,629,Dwarka Sector 21,Okhla,16.2,afternoon,5:00 PM,57.18,0
+66d3dc1553e52b692a1f84ea,Thomas Martin,DTC554USZ,driver,DL51 B 6950,28,629,Dwarka Sector 21,Okhla,16.2,afternoon,5:00 PM,57.18,0
+66d3dc1553e52b692a1f84ee,Walter Bush,DTC748LLI,conductor,DL89 Q 2160,28,629,Dwarka Sector 21,Okhla,16.2,afternoon,12:00 PM,57.18,0
+66d3dc1553e52b692a1f84f0,Kelly Webster,DTC865ENB,driver,DL89 Q 2160,28,629,Dwarka Sector 21,Okhla,16.2,afternoon,12:00 PM,57.18,0
+66d3dc1553e52b692a1f84f4,Stephen Baxter,DTC758CQH,conductor,DL51 T 2606,28,629,Dwarka Sector 21,Okhla,16.2,afternoon,6:00 PM,57.18,0
+66d3dc1553e52b692a1f84f6,Wesley Lowe,DTC058IEG,driver,DL51 T 2606,28,629,Dwarka Sector 21,Okhla,16.2,afternoon,6:00 PM,57.18,0
+66d3dc1553e52b692a1f84fa,Corey Flores,DTC506KSI,conductor,DL61 L 6543,28,629,Dwarka Sector 21,Okhla,16.2,evening,3:00 AM,57.18,0
+66d3dc1553e52b692a1f84fc,Lindsay Rojas,DTC071OWI,driver,DL61 L 6543,28,629,Dwarka Sector 21,Okhla,16.2,evening,3:00 AM,57.18,0
+66d3dc1553e52b692a1f8500,Matthew Smith,DTC281OZJ,conductor,DL80 Y 1287,28,629,Dwarka Sector 21,Okhla,16.2,evening,4:00 AM,57.18,0
+66d3dc1553e52b692a1f8502,Kimberly Cowan,DTC292FZQ,driver,DL80 Y 1287,28,629,Dwarka Sector 21,Okhla,16.2,evening,4:00 AM,57.18,0
+66d3dc1653e52b692a1f8506,Melissa Hughes,DTC214EJJ,conductor,DL28 Z 7410,28,629,Dwarka Sector 21,Okhla,16.2,evening,12:00 AM,57.18,0
+66d3dc1653e52b692a1f8508,Julie Garcia,DTC281TEJ,driver,DL28 Z 7410,28,629,Dwarka Sector 21,Okhla,16.2,evening,12:00 AM,57.18,0
+66d3dc1653e52b692a1f850c,Emily Allen,DTC815TQA,conductor,DL28 I 4012,28,629,Dwarka Sector 21,Okhla,16.2,evening,12:00 AM,57.18,0
+66d3dc1653e52b692a1f850e,Donald Simmons,DTC205HUZ,driver,DL28 I 4012,28,629,Dwarka Sector 21,Okhla,16.2,evening,12:00 AM,57.18,0
+66d3dc1653e52b692a1f8512,Philip Carter,DTC373HRW,conductor,DL17 L 5226,28,629,Dwarka Sector 21,Okhla,16.2,evening,8:00 PM,57.18,0
+66d3dc1653e52b692a1f8514,Raymond Davis,DTC574WPO,driver,DL17 L 5226,28,629,Dwarka Sector 21,Okhla,16.2,evening,8:00 PM,57.18,0
+66d3dc1653e52b692a1f8518,Tammy Stevens,DTC066URZ,conductor,DL29 V 6713,28,629,Dwarka Sector 21,Okhla,16.2,evening,9:00 PM,57.18,0
+66d3dc1653e52b692a1f851a,John Jones,DTC475PVQ,driver,DL29 V 6713,28,629,Dwarka Sector 21,Okhla,16.2,evening,9:00 PM,57.18,0
+66d3dc1653e52b692a1f851e,Mark Jones,DTC515BMP,conductor,DL31 T 2128,29,845,Janakpuri,ISBT Kashmere Gate,20.1,morning,10:00 AM,70.94,0
+66d3dc1653e52b692a1f8520,Tammy Snyder,DTC408CMZ,driver,DL31 T 2128,29,845,Janakpuri,ISBT Kashmere Gate,20.1,morning,10:00 AM,70.94,0
+66d3dc1653e52b692a1f8524,Alexis Sloan,DTC781HRY,conductor,DL89 P 5188,29,845,Janakpuri,ISBT Kashmere Gate,20.1,morning,8:00 AM,70.94,0
+66d3dc1753e52b692a1f8526,Amy Murphy,DTC265DZO,driver,DL89 P 5188,29,845,Janakpuri,ISBT Kashmere Gate,20.1,morning,8:00 AM,70.94,0
+66d3dc1753e52b692a1f852a,Samantha Strickland,DTC493KWF,conductor,DL65 J 6401,29,845,Janakpuri,ISBT Kashmere Gate,20.1,morning,6:00 AM,70.94,0
+66d3dc1753e52b692a1f852c,Sandra Gay,DTC028HUA,driver,DL65 J 6401,29,845,Janakpuri,ISBT Kashmere Gate,20.1,morning,6:00 AM,70.94,0
+66d3dc1753e52b692a1f8530,Norman Sloan,DTC743KQC,conductor,DL18 W 5969,29,845,Janakpuri,ISBT Kashmere Gate,20.1,morning,10:00 AM,70.94,0
+66d3dc1753e52b692a1f8532,Mark Clay,DTC461MZW,driver,DL18 W 5969,29,845,Janakpuri,ISBT Kashmere Gate,20.1,morning,10:00 AM,70.94,0
+66d3dc1753e52b692a1f8536,Autumn Evans,DTC197FER,conductor,DL50 J 4791,29,845,Janakpuri,ISBT Kashmere Gate,20.1,morning,6:00 AM,70.94,0
+66d3dc1753e52b692a1f8538,Kathleen Lara,DTC428RAP,driver,DL50 J 4791,29,845,Janakpuri,ISBT Kashmere Gate,20.1,morning,6:00 AM,70.94,0
+66d3dc1753e52b692a1f853c,Lisa Bush,DTC726GHS,conductor,DL61 Z 1299,29,845,Janakpuri,ISBT Kashmere Gate,20.1,morning,5:00 AM,70.94,0
+66d3dc1753e52b692a1f853e,Jennifer Reed,DTC226EPX,driver,DL61 Z 1299,29,845,Janakpuri,ISBT Kashmere Gate,20.1,morning,5:00 AM,70.94,0
+66d3dc1753e52b692a1f8542,John Gray,DTC964UAT,conductor,DL83 S 7141,29,845,Janakpuri,ISBT Kashmere Gate,20.1,morning,9:00 AM,70.94,0
+66d3dc1753e52b692a1f8544,James Gonzalez,DTC126ABH,driver,DL83 S 7141,29,845,Janakpuri,ISBT Kashmere Gate,20.1,morning,9:00 AM,70.94,0
+66d3dc1853e52b692a1f8548,Michelle Gonzales,DTC099SSP,conductor,DL84 S 5359,29,845,Janakpuri,ISBT Kashmere Gate,20.1,afternoon,5:00 PM,70.94,0
+66d3dc1853e52b692a1f854a,James Clark,DTC589AAG,driver,DL84 S 5359,29,845,Janakpuri,ISBT Kashmere Gate,20.1,afternoon,5:00 PM,70.94,0
+66d3dc1853e52b692a1f854e,Randall Newman,DTC738QTQ,conductor,DL12 X 2892,29,845,Janakpuri,ISBT Kashmere Gate,20.1,afternoon,8:00 PM,70.94,0
+66d3dc1853e52b692a1f8550,Cynthia Moore,DTC522YPB,driver,DL12 X 2892,29,845,Janakpuri,ISBT Kashmere Gate,20.1,afternoon,8:00 PM,70.94,0
+66d3dc1853e52b692a1f8554,Jennifer Cook,DTC295QBL,conductor,DL57 G 5313,29,845,Janakpuri,ISBT Kashmere Gate,20.1,afternoon,5:00 PM,70.94,0
+66d3dc1853e52b692a1f8556,Sheila Collins,DTC800XPE,driver,DL57 G 5313,29,845,Janakpuri,ISBT Kashmere Gate,20.1,afternoon,5:00 PM,70.94,0
+66d3dc1853e52b692a1f855a,Perry Bryant,DTC515YUM,conductor,DL74 X 5348,29,845,Janakpuri,ISBT Kashmere Gate,20.1,afternoon,1:00 PM,70.94,0
+66d3dc1853e52b692a1f855c,Sabrina Richards,DTC271QZQ,driver,DL74 X 5348,29,845,Janakpuri,ISBT Kashmere Gate,20.1,afternoon,1:00 PM,70.94,0
+66d3dc1953e52b692a1f8560,Madeline Carlson,DTC216AOS,conductor,DL80 R 9163,29,845,Janakpuri,ISBT Kashmere Gate,20.1,afternoon,12:00 PM,70.94,0
+66d3dc1953e52b692a1f8562,Jesse Greene,DTC656DBJ,driver,DL80 R 9163,29,845,Janakpuri,ISBT Kashmere Gate,20.1,afternoon,12:00 PM,70.94,0
+66d3dc1953e52b692a1f8566,Eric James MD,DTC497JVI,conductor,DL36 L 2647,29,845,Janakpuri,ISBT Kashmere Gate,20.1,afternoon,2:00 PM,70.94,0
+66d3dc1953e52b692a1f8568,Jeremy Johnson,DTC508VWT,driver,DL36 L 2647,29,845,Janakpuri,ISBT Kashmere Gate,20.1,afternoon,2:00 PM,70.94,0
+66d3dc1953e52b692a1f856c,Brittany Travis,DTC973HJU,conductor,DL13 L 8870,29,845,Janakpuri,ISBT Kashmere Gate,20.1,afternoon,1:00 PM,70.94,0
+66d3dc1953e52b692a1f856e,Edgar Mendoza,DTC616MMD,driver,DL13 L 8870,29,845,Janakpuri,ISBT Kashmere Gate,20.1,afternoon,1:00 PM,70.94,0
+66d3dc1953e52b692a1f8572,Leslie Johnson,DTC984JOG,conductor,DL97 S 5662,29,845,Janakpuri,ISBT Kashmere Gate,20.1,evening,9:00 PM,70.94,0
+66d3dc1953e52b692a1f8574,Alexis Adams,DTC712NCU,driver,DL97 S 5662,29,845,Janakpuri,ISBT Kashmere Gate,20.1,evening,9:00 PM,70.94,0
+66d3dc1953e52b692a1f8578,Amy Walker,DTC645DBX,conductor,DL60 T 8488,29,845,Janakpuri,ISBT Kashmere Gate,20.1,evening,12:00 AM,70.94,0
+66d3dc1953e52b692a1f857a,Jeffrey Hamilton,DTC232TZC,driver,DL60 T 8488,29,845,Janakpuri,ISBT Kashmere Gate,20.1,evening,12:00 AM,70.94,0
+66d3dc1953e52b692a1f857e,David Hughes MD,DTC415HYU,conductor,DL45 Y 1444,29,845,Janakpuri,ISBT Kashmere Gate,20.1,evening,10:00 PM,70.94,0
+66d3dc1a53e52b692a1f8580,Michael Baird,DTC625IMV,driver,DL45 Y 1444,29,845,Janakpuri,ISBT Kashmere Gate,20.1,evening,10:00 PM,70.94,0
+66d3dc1a53e52b692a1f8584,Alexa Taylor,DTC979CZF,conductor,DL54 T 3870,29,845,Janakpuri,ISBT Kashmere Gate,20.1,evening,10:00 PM,70.94,0
+66d3dc1a53e52b692a1f8586,Dean Barnes,DTC532GVH,driver,DL54 T 3870,29,845,Janakpuri,ISBT Kashmere Gate,20.1,evening,10:00 PM,70.94,0
+66d3dc1a53e52b692a1f858a,Amanda Gonzalez,DTC478EEF,conductor,DL42 Y 7890,30,504,AIIMS,Nizamuddin Railway Station,21.3,morning,12:00 PM,75.18,0
+66d3dc1a53e52b692a1f858c,Amy Miller,DTC965YAU,driver,DL42 Y 7890,30,504,AIIMS,Nizamuddin Railway Station,21.3,morning,12:00 PM,75.18,0
+66d3dc1a53e52b692a1f8590,Rebecca Walker,DTC903MIK,conductor,DL14 S 7364,30,504,AIIMS,Nizamuddin Railway Station,21.3,morning,8:00 AM,75.18,0
+66d3dc1b53e52b692a1f8592,Sean Barnes,DTC948FPM,driver,DL14 S 7364,30,504,AIIMS,Nizamuddin Railway Station,21.3,morning,8:00 AM,75.18,0
+66d3dc1b53e52b692a1f8596,Jonathan Freeman,DTC061UBY,conductor,DL81 M 8337,30,504,AIIMS,Nizamuddin Railway Station,21.3,morning,8:00 AM,75.18,0
+66d3dc1b53e52b692a1f8598,Marc Waters,DTC374LCV,driver,DL81 M 8337,30,504,AIIMS,Nizamuddin Railway Station,21.3,morning,8:00 AM,75.18,0
+66d3dc1b53e52b692a1f859c,Norma Fox,DTC617YLC,conductor,DL37 M 6200,30,504,AIIMS,Nizamuddin Railway Station,21.3,morning,7:00 AM,75.18,0
+66d3dc1b53e52b692a1f859e,Anthony Calderon,DTC847BSH,driver,DL37 M 6200,30,504,AIIMS,Nizamuddin Railway Station,21.3,morning,7:00 AM,75.18,0
+66d3dc1c53e52b692a1f85a2,Michelle Wall,DTC296UWA,conductor,DL83 J 6440,30,504,AIIMS,Nizamuddin Railway Station,21.3,morning,5:00 AM,75.18,0
+66d3dc1c53e52b692a1f85a4,Patricia Andersen,DTC708YRR,driver,DL83 J 6440,30,504,AIIMS,Nizamuddin Railway Station,21.3,morning,5:00 AM,75.18,0
+66d3dc1c53e52b692a1f85a8,Kathleen Guerrero,DTC941SVX,conductor,DL57 V 3942,30,504,AIIMS,Nizamuddin Railway Station,21.3,morning,12:00 PM,75.18,0
+66d3dc1c53e52b692a1f85aa,Larry Barnes,DTC239KVJ,driver,DL57 V 3942,30,504,AIIMS,Nizamuddin Railway Station,21.3,morning,12:00 PM,75.18,0
+66d3dc1c53e52b692a1f85ae,Noah Carroll,DTC498OXY,conductor,DL17 Z 4769,30,504,AIIMS,Nizamuddin Railway Station,21.3,morning,9:00 AM,75.18,0
+66d3dc1c53e52b692a1f85b0,April Wright,DTC519LDG,driver,DL17 Z 4769,30,504,AIIMS,Nizamuddin Railway Station,21.3,morning,9:00 AM,75.18,0
+66d3dc1d53e52b692a1f85b4,Andrew Hernandez,DTC360NNH,conductor,DL73 X 4502,30,504,AIIMS,Nizamuddin Railway Station,21.3,morning,9:00 AM,75.18,0
+66d3dc1d53e52b692a1f85b6,Dwayne Carter,DTC404TEA,driver,DL73 X 4502,30,504,AIIMS,Nizamuddin Railway Station,21.3,morning,9:00 AM,75.18,0
+66d3dc1d53e52b692a1f85ba,Caroline Smith,DTC537YII,conductor,DL84 F 7190,30,504,AIIMS,Nizamuddin Railway Station,21.3,afternoon,4:00 PM,75.18,0
+66d3dc1d53e52b692a1f85bc,Mary Simmons,DTC794FRD,driver,DL84 F 7190,30,504,AIIMS,Nizamuddin Railway Station,21.3,afternoon,4:00 PM,75.18,0
+66d3dc1e53e52b692a1f85c0,Karen English,DTC163BUQ,conductor,DL12 S 9887,30,504,AIIMS,Nizamuddin Railway Station,21.3,afternoon,6:00 PM,75.18,0
+66d3dc1e53e52b692a1f85c2,Keith Schwartz,DTC141ZLC,driver,DL12 S 9887,30,504,AIIMS,Nizamuddin Railway Station,21.3,afternoon,6:00 PM,75.18,0
+66d3dc1e53e52b692a1f85c6,Richard Lawrence,DTC268GBS,conductor,DL25 Y 9960,30,504,AIIMS,Nizamuddin Railway Station,21.3,afternoon,1:00 PM,75.18,0
+66d3dc1e53e52b692a1f85c8,David Adams,DTC810YYX,driver,DL25 Y 9960,30,504,AIIMS,Nizamuddin Railway Station,21.3,afternoon,1:00 PM,75.18,0
+66d3dc1e53e52b692a1f85cc,Jared Hernandez,DTC407GUH,conductor,DL34 N 2177,30,504,AIIMS,Nizamuddin Railway Station,21.3,afternoon,8:00 PM,75.18,0
+66d3dc1e53e52b692a1f85ce,Jordan Williams,DTC777TEB,driver,DL34 N 2177,30,504,AIIMS,Nizamuddin Railway Station,21.3,afternoon,8:00 PM,75.18,0
+66d3dc1e53e52b692a1f85d2,Steven Rios,DTC534AHS,conductor,DL37 G 8307,30,504,AIIMS,Nizamuddin Railway Station,21.3,afternoon,2:00 PM,75.18,0
+66d3dc1e53e52b692a1f85d4,Mrs. Brianna Dominguez MD,DTC490ROE,driver,DL37 G 8307,30,504,AIIMS,Nizamuddin Railway Station,21.3,afternoon,2:00 PM,75.18,0
+66d3dc1e53e52b692a1f85d8,Steven Robertson,DTC686KAV,conductor,DL39 V 9927,30,504,AIIMS,Nizamuddin Railway Station,21.3,afternoon,5:00 PM,75.18,0
+66d3dc1e53e52b692a1f85da,Travis Anderson,DTC193DJC,driver,DL39 V 9927,30,504,AIIMS,Nizamuddin Railway Station,21.3,afternoon,5:00 PM,75.18,0
+66d3dc1f53e52b692a1f85de,Rachel Yates,DTC365QKR,conductor,DL31 J 1630,30,504,AIIMS,Nizamuddin Railway Station,21.3,afternoon,12:00 PM,75.18,0
+66d3dc1f53e52b692a1f85e0,Christine Smith,DTC608AED,driver,DL31 J 1630,30,504,AIIMS,Nizamuddin Railway Station,21.3,afternoon,12:00 PM,75.18,0
+66d3dc1f53e52b692a1f85e4,Amy Padilla,DTC121ROG,conductor,DL99 G 9898,30,504,AIIMS,Nizamuddin Railway Station,21.3,afternoon,7:00 PM,75.18,0
+66d3dc1f53e52b692a1f85e6,Jeffery Bolton,DTC410HIZ,driver,DL99 G 9898,30,504,AIIMS,Nizamuddin Railway Station,21.3,afternoon,7:00 PM,75.18,0
+66d3dc1f53e52b692a1f85ea,James Lee,DTC995EGC,conductor,DL39 S 2788,30,504,AIIMS,Nizamuddin Railway Station,21.3,evening,11:00 PM,75.18,0
+66d3dc1f53e52b692a1f85ec,Michael Maddox,DTC645RCZ,driver,DL39 S 2788,30,504,AIIMS,Nizamuddin Railway Station,21.3,evening,11:00 PM,75.18,0
+66d3dc1f53e52b692a1f85f0,Cynthia Hopkins,DTC355IFO,conductor,DL34 A 6595,30,504,AIIMS,Nizamuddin Railway Station,21.3,evening,2:00 AM,75.18,0
+66d3dc1f53e52b692a1f85f2,Clinton Morris,DTC735NQY,driver,DL34 A 6595,30,504,AIIMS,Nizamuddin Railway Station,21.3,evening,2:00 AM,75.18,0
+66d3dc1f53e52b692a1f85f6,Amanda Johnson,DTC206ZJX,conductor,DL49 X 7418,30,504,AIIMS,Nizamuddin Railway Station,21.3,evening,2:00 AM,75.18,0
+66d3dc1f53e52b692a1f85f8,Thomas Parks,DTC372FJB,driver,DL49 X 7418,30,504,AIIMS,Nizamuddin Railway Station,21.3,evening,2:00 AM,75.18,0
+66d3dc1f53e52b692a1f85fc,John Pittman,DTC110CWT,conductor,DL43 E 4818,30,504,AIIMS,Nizamuddin Railway Station,21.3,evening,11:00 PM,75.18,0
+66d3dc2053e52b692a1f85fe,Candice Cannon,DTC314PXF,driver,DL43 E 4818,30,504,AIIMS,Nizamuddin Railway Station,21.3,evening,11:00 PM,75.18,0
+66d3dc2053e52b692a1f8602,Ashley Bailey,DTC396QIX,conductor,DL34 E 5983,30,504,AIIMS,Nizamuddin Railway Station,21.3,evening,1:00 AM,75.18,0
+66d3dc2053e52b692a1f8604,Patrick Delgado,DTC848INB,driver,DL34 E 5983,30,504,AIIMS,Nizamuddin Railway Station,21.3,evening,1:00 AM,75.18,0

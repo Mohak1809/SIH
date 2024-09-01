@@ -2,8 +2,13 @@ const bcrypt = require('bcrypt');
 const User = require('../models/User');
 const jwt = require('jsonwebtoken');
 const secretKey = 'schedule_line_crew&manager:999';
+<<<<<<< HEAD
 const AssignedDB=require("../models/AssignedDB")
 const BusRoute=require("../models/BusRoute")
+=======
+const AssignedDB = require("../models/AssignedDB");
+
+>>>>>>> 76da1f08ddd9aeb96c1b9afad83ef4f533b6a1b0
 // Handle user registration
 async function handleRegisterUser(req, res) {
   try {
@@ -95,11 +100,13 @@ async function handleLoginUser(req, res) {
       { expiresIn: '2h' } // Token expires in 2 hour
     );
 
+  
     // Respond with the token and user role
     return res.status(200).json({ 
-      message: 'Login successful', 
+      'message': 'Login successful', 
       token, 
-      role: user.role 
+      'role': user.role ,
+      'id':user.id,
     });
       //return res.status(200).json({ token,role: user.role });
     
@@ -109,13 +116,25 @@ async function handleLoginUser(req, res) {
   }
 }
 
+<<<<<<< HEAD
 //Fetching the crew details
+=======
+
+>>>>>>> 76da1f08ddd9aeb96c1b9afad83ef4f533b6a1b0
 async function getDashboardCrewId(req, res) {
+  console.log(req);
+  
   try {
       const crewId = req.params.id;
+      
 
+<<<<<<< HEAD
       // Find the crew member by ID 
       const crewMember = await AssignedDB.findById(crewId);
+=======
+      // Find the crew member by ID and populate the AssignedDB field
+      const crewMember = await AssignedDB.find({userId:crewId});;
+>>>>>>> 76da1f08ddd9aeb96c1b9afad83ef4f533b6a1b0
       
       if (!crewMember) {
           return res.status(404).json({ message: 'Crew member not found' });
@@ -128,6 +147,7 @@ async function getDashboardCrewId(req, res) {
   }
 }
 
+<<<<<<< HEAD
 //Adding the new crew details
 async function addCrewToDashBoard(req, res) {
   try {
@@ -240,4 +260,39 @@ module.exports = {
   addCrewToDashBoard,
   deleteCrewToDashBoard,
   addNewBus  
+=======
+async function getDashboardManagerDetails(req, res) {
+  try {
+    // Fetch all records from the AssignedDB collection
+    const assignments = await AssignedDB.find({});
+
+    // If no records are found, return a message
+    if (assignments.length === 0) {
+      console.log("No data");
+      
+      return res.status(404).json({ message: 'No assignments found' });
+    }
+
+    // Return the assignments as a JSON response
+    console.log("data is here");
+    console.log(assignments);
+    
+    return res.status(200).json(assignments);
+  } catch (error) {
+    // Handle any errors that occur during the database query
+    console.error('Error fetching manager dashboard details:', error);
+    return res.status(500).json({ message: 'Server Error', error });
+
+  }
+}
+
+module.exports = {
+  handleRegisterUser,
+  handleLoginUser,
+
+  getDashboardCrewId,  
+
+  getDashboardManagerDetails ,
+
+>>>>>>> 76da1f08ddd9aeb96c1b9afad83ef4f533b6a1b0
 };

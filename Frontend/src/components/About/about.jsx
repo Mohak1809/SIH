@@ -22,7 +22,7 @@ const AboutPage = () => {
   return (
     <>
       <section className="bg-[#d1f3c9]">
-        <div className="container mx-auto py-16 px-4 sm:px-6 lg:px-8 ">
+        <div className="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
             <div className="max-w-xl ml-10">
               <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl text-center">About Us</h2>

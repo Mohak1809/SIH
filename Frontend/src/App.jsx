@@ -9,22 +9,24 @@ import Contact from './components/Contact/Contact';
 import AboutPage from './components/About/about';
 import SimpleOutlet from './components/SimpleOutlet';
 import BusInfo from './components/Bus Info/BusInfo';
+import AddBus from './components/AddBus/AddBus';
 
 function App() {
   return (
     <Router>
       <Routes>
-         {/* Layout with Header and Footer */}
-         <Route element={<Layout />}>
+        {/* Layout with Header and Footer */}
+        <Route element={<Layout />}>
           <Route path="/dashboard-manager" element={<DashboardManager />} />
-          <Route path="/dashboard-crew" element={<DashboardCrew />} />
+          <Route path="/add-bus" element={<AddBus />} />
+          <Route path="/dashboard-crew/:id" element={<DashboardCrew />} /> {/* Corrected Route */}
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/BusInfo" element={<BusInfo />} />
         </Route>
 
         {/* Layout without Header and Footer */}
-        <Route path='/' element={<SimpleOutlet />}>
+        <Route element={<SimpleOutlet />}>
           <Route path="/" element={<LoginPage />} />
           <Route path="/register" element={<RegisterPage />} />
         </Route>
