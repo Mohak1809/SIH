@@ -25,14 +25,15 @@ function DashboardCrew() {
         setLoading(false);
       });
   }, [id]);
-
+  
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error: {error.message}</p>;
-
+  
   // Flatten the data into an array of entries
   const entries = Object.entries(data[0] || {}); 
   const filteredEntries = entries.filter(([key]) => !excludedKeys.includes(key));
-
+  console.log(data[0].endPoint);
+  
   return (
     <>
       <h1 className='text-center text-4xl font-medium mt-4 text-green-500'>
@@ -58,7 +59,7 @@ function DashboardCrew() {
           );
         })}
       </div>
-      < BusRouteVisualization />
+      < BusRouteVisualization start={data[0].startPoint} end={data[0].endPoint}/>
     </>
   );
 }
