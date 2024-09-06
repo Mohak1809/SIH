@@ -52,6 +52,14 @@ const routeSchema = new mongoose.Schema({
     type: Number,
     required: true,
   },
+  startLatitude:{
+    type:Number,
+    required: true,
+  },
+  startLongitude:{
+    type:Number,
+    required: true,
+  },
   expectedTime: { // New field added here
     type: Number,
     required: true,

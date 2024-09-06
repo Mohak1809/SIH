@@ -19,6 +19,12 @@ const userSchema = new mongoose.Schema({
     enum: ['Urban', 'Busy routes', 'Suburban', 'Rural', 'Highway'],
     required: function() { return this.role === 'Crew'; }
   },
+  latitude:{
+    type:Number,
+  },
+  longitude:{
+    type:Number,
+  },
   timingPreferences: { type: String, required: function() { return this.role === 'Crew'; } },
 });
 
