@@ -8,7 +8,7 @@ function DashboardCrew() {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const excludedKeys = ["name", "_id", "__v", "routeShortName"];
+  const excludedKeys = ["name", "_id", "__v", "routeShortName1","routeId2", "endPoint2","startPoint2","routeShortName2","distance2"];
 
   // Get the `id` from the route parameters
   const { id } = useParams();
@@ -32,7 +32,29 @@ function DashboardCrew() {
   // Flatten the data into an array of entries
   const entries = Object.entries(data[0] || {}); 
   const filteredEntries = entries.filter(([key]) => !excludedKeys.includes(key));
-  console.log(data[0].endPoint);
+  console.log(data);
+  console.log(entries)
+  console.log(filteredEntries);
+const getkey = (key) => {
+  switch(key) {
+    case "userId" : return "User Id";
+    case "crewRole" : return "Crew Role";
+    case "busNumber1" : return "Bus Number 1";
+    case "busNumber2" : return "Bus Number 2";
+    case "routeId1" : return "Route Id";
+    case "startPoint1" : return "Start Point";
+    case "endPoint1" : return "End Point";
+    case "distance1" : return "Distance (in km)";
+    case "startTime1" : return "Starting Time";
+    case "startTime2" : return "Starting Time";
+    case "expectedTime1" : return "Expected Time(in Minutes)"
+    case "expectedTime2" : return "Expected Time(in Minutes)"
+    case "shift1" : return "Shift 1";
+    case "shift2" : return "Shift 2";
+  }
+}
+
+
   
   return (
     <>
@@ -42,8 +64,7 @@ function DashboardCrew() {
       <div className="p-6 text-lg font-serif grid grid-cols-2 gap-4">
         {filteredEntries.map(([key, value], index) => {
           // Format value for 'ExpectedTime
-          const displayKey = key === "expectedTime" ? `${key.charAt(0).toUpperCase() + key.slice(1)} (In Minutes)` : key.charAt(0).toUpperCase() + key.slice(1);
-
+          const displayKey = getkey(key);
           return (
             <div
               key={index}
@@ -59,7 +80,7 @@ function DashboardCrew() {
           );
         })}
       </div>
-      < BusRouteVisualization start={data[0].startPoint} end={data[0].endPoint}/>
+      < BusRouteVisualization start={data[0].startPoint1} end={data[0].endPoint1}/>
     </>
   );
 }

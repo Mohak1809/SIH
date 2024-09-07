@@ -9,6 +9,7 @@ const DashboardManager = () => {
   const [error, setError] = useState(null);
   const [currentPage, setCurrentPage] = useState(1);
   const [searchQuery, setSearchQuery] = useState('');
+  
   const entries1 = ["routeId1", "shift1", "startPoint1", "startTime1", "endPoint1", "distance1", "expectedTime1", "name", "crewRole", "userId", "busNumber1"];
   const entries2 = ["routeId2", "shift2", "startPoint2", "startTime2", "endPoint2", "distance2", "expectedTime2", "busNumber2"];
   const entriesPerPage = 15;
@@ -51,30 +52,72 @@ const DashboardManager = () => {
   if (error) return <p>Error loading data: {error.message}</p>;
 
   const handleSearchChange = (event) => {
-    setSearchQuery(event.target.value);
-    setCurrentPage(1);
-  };
+    const query = event.target.value.toLowerCase();
+    setSearchQuery(query);
+    setCurrentPage(1);  // Reset pagination to the first page
 
-  // Filter search results
-  const filteredData = filterData.filter(row =>
-    Object.values(row).find(value =>
-      value.toString().toLowerCase().includes(searchQuery.toLowerCase())
-    )
-  );
+    // Filter both filterData and filterData1 based on the search query
+    const filteredResults = data.filter((item) => {
+      // Check if any value in either filterData or filterData1 contains the search query
+      const matchesFirstFragment = Object.values(item).find(value => 
+        value && value.toString().toLowerCase().includes(query)
+      );
+
+      return matchesFirstFragment;
+    });
+
+    // Update both filteredData and filterData1 based on the filtered results
+    setFilterData(filteredResults.map(item => {
+      const filteredItem = {};
+      for (let key in item) {
+        if (entries1.includes(key)) {
+          filteredItem[key] = item[key];
+        }
+      }
+      return filteredItem;
+    }));
+
+    setFilterData1(filteredResults.map(item => {
+      const filteredItem = {};
+      for (let key in item) {
+        if (entries2.includes(key)) {
+          filteredItem[key] = item[key];
+        }
+      }
+      return filteredItem;
+    }));
+  };
 
   const indexOfLastEntry = currentPage * entriesPerPage;
   const indexOfFirstEntry = indexOfLastEntry - entriesPerPage;
 
-  const currentEntries = filteredData.slice(indexOfFirstEntry, indexOfLastEntry);
+  const currentEntries = filterData.slice(indexOfFirstEntry, indexOfLastEntry);
   const currentEntries1 = filterData1.slice(indexOfFirstEntry, indexOfLastEntry); // Paginated filterData1
 
-  const totalPages = Math.ceil(filteredData.length / entriesPerPage);
+  const totalPages = Math.ceil(filterData.length / entriesPerPage);
 
   const handlePageChange = (pageNumber) => {
     if (pageNumber > 0 && pageNumber <= totalPages) {
       setCurrentPage(pageNumber);
     }
   };
+
+  const getkey = (key) => {
+    switch(key) {
+      case "name" : return "Name";
+      case "userId" : return "User Id";
+      case "crewRole" : return "Crew Role";
+      case "busNumber1" : return "Bus Number";
+      case "routeId1" : return "Route Id";
+      case "startPoint1" : return "Start Point";
+      case "endPoint1" : return "End Point";
+      case "distance1" : return "Distance";
+      case "startTime1" : return "Starting Time";
+      case "expectedTime1" : return "Expected Time";
+      case "shift1" : return "Shift";
+      default: return key;
+    }
+  }
 
   return (
     <>
@@ -105,13 +148,14 @@ const DashboardManager = () => {
         <table className="w-[90%] table-auto">
           <thead>
             <tr className="bg-[#F1F8E8]">
-              {Object.keys(filteredData[0] || {}).map((header) => (
-                <th key={header} className="py-4 px-6 text-gray-600 font-bold uppercase whitespace-nowrap text-center">
-                  {!isNaN(header.charAt(header.length - 1)) ?
-                    header.charAt(0).toUpperCase() + header.slice(1, header.length - 1) :
-                    header.charAt(0).toUpperCase() + header.slice(1)}
-                </th>
-              ))}
+              {Object.keys(filterData[0] || {}).map((header) => {
+                const displayKeys = getkey(header);
+                return (
+                  <th key={header} className="py-4 px-6 text-gray-600 font-bold uppercase whitespace-nowrap text-center">
+                    {displayKeys}
+                  </th>
+                )
+              })}
             </tr>
           </thead>
           <tbody className="bg-white">

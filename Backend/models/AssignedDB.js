@@ -14,10 +14,6 @@ const assigneddbSchema = new mongoose.Schema({
     required: true,
   },
   // First bus details
-  busNumber1: {
-    type: String,
-    required: true,
-  },
   routeId1: {
     type: Number,
     required: true,
@@ -36,6 +32,10 @@ const assigneddbSchema = new mongoose.Schema({
   },
   distance1: {
     type: Number,
+    required: true,
+  },
+  busNumber1: {
+    type: String,
     required: true,
   },
   shift1: {
