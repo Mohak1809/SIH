@@ -62,7 +62,6 @@ const DashboardManager = () => {
       const matchesFirstFragment = Object.values(item).find(value => 
         value && value.toString().toLowerCase().includes(query)
       );
-
       return matchesFirstFragment;
     });
 
@@ -76,7 +75,7 @@ const DashboardManager = () => {
       }
       return filteredItem;
     }));
-
+    
     setFilterData1(filteredResults.map(item => {
       const filteredItem = {};
       for (let key in item) {

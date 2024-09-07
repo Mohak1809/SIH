@@ -55,6 +55,17 @@ function Header() {
                             </li>
                             <li>
                                 <Link
+                                    to="/route-map"
+                                    target="_blank"
+                                    className={
+                                        `block py-2 pr-4 pl-3 duration-200 border-b border-gray-100 hover:bg-[#D8EFD3] lg:hover:bg-transparent lg:border-0 hover:text-[#55AD9B] lg:p-0`
+                                    }
+                                >
+                                    View Route Map
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
                                     to="/about"
                                     className={
                                         `block py-2 pr-4 pl-3 duration-200 border-b border-gray-100 hover:bg-[#D8EFD3] lg:hover:bg-transparent lg:border-0 hover:text-[#55AD9B] lg:p-0`

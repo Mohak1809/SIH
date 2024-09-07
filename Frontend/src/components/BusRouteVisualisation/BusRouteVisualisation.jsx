@@ -27,7 +27,8 @@ const BusRouteVisualization = ({ start, end }) => {
         createMarker: () => null, // Hide default markers
         lineOptions: {
           styles: [{ color, weight: 5 }]
-        }
+        },
+        show: false,
       }).addTo(mapRef.current);
 
       routingControlsRef.current.push(control);
