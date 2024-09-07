@@ -18,9 +18,12 @@ const DashboardManager = () => {
     axios.get('http://localhost:5000/api/auth/dashboard-manager')
       .then(response => {
         setData(response.data);
-
+        // console.log(response);
+        // console.log(`response data  is ${response.data}`);
+        // console.log(`response data   me assignments is ${response.data.assignments}`);
+        
         // Filter for first set of data
-        const filtereddata = response.data.map(item => {
+        const filtereddata = response.data.assignments.map(item => {
           const filteredItem = {};
           for (let key in item) {
             if (entries1.includes(key)) {
@@ -32,7 +35,7 @@ const DashboardManager = () => {
         setFilterData(filtereddata);
 
         // Filter for second set of data (filterData1)
-        const filtereddata1 = response.data.map(item => {
+        const filtereddata1 = response.data.assignments.map(item => {
           const filteredItem = {};
           for (let key in item) {
             if (entries2.includes(key)) {
