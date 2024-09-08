@@ -254,8 +254,17 @@ async function getDashboardManagerDetails(req, res) {
     // Return the assignments as a JSON response
     console.log("data is here");
     console.log(assignments);
-    
-    return res.status(200).json(assignments);
+
+    const buses=await BusRoute.find({});
+    if(buses.length==0)
+    {
+      console.log("No bus data found");
+      return res.status(404).json({ message: 'No busess found' });
+      
+    }
+    console.log("buses data  is here");
+    console.log(buses);
+    return res.status(200).json({"assignments":assignments,"buses":buses});
   } catch (error) {
     // Handle any errors that occur during the database query
     console.error('Error fetching manager dashboard details:', error);
