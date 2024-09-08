@@ -32,9 +32,6 @@ function DashboardCrew() {
   // Flatten the data into an array of entries
   const entries = Object.entries(data[0] || {}); 
   const filteredEntries = entries.filter(([key]) => !excludedKeys.includes(key));
-  console.log(data);
-  console.log(entries)
-  console.log(filteredEntries);
 const getkey = (key) => {
   switch(key) {
     case "userId" : return "User Id";

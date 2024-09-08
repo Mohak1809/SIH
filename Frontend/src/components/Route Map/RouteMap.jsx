@@ -10,15 +10,14 @@ import "leaflet-control-geocoder/dist/Control.Geocoder.js";
 function RouteMap() {
   const [data, setData] = useState([]);
   const [error, setError] = useState(null);
-  const required = ["startPoint1", "endPoint1"];
+  const required = ["startPoint", "endPoint"];
   const mapRef = useRef(null);
   const routingControlsRef = useRef([]);
 
   useEffect(() => {
     axios.get("http://localhost:5000/api/auth/dashboard-manager")
       .then((res) => {
-        const seenRoutes = new Set(); // Use Set to track added routes
-        const filterData = res.data
+        const filterData = res.data.buses
           .map((item) => {
             const filteredItem = {};
             for (let key in item) {
@@ -29,16 +28,7 @@ function RouteMap() {
             return filteredItem;
         });
 
-        const route = filterData.filter((item) => {
-          const routeIdentifier = `${item.startPoint1}-${item.endPoint1}`;
-          if (seenRoutes.has(routeIdentifier)) {
-            return false; // Skip if duplicate
-          }
-          seenRoutes.add(routeIdentifier);
-          return true;
-        });
-
-        setData(route);
+        setData(filterData);
       })
       .catch((error) => {
         console.error("Error fetching JSON data:", error);
@@ -49,7 +39,7 @@ function RouteMap() {
   useEffect(() => {
     if (data.length > 0) {
       // Initialize the map centered on New Delhi
-      mapRef.current = L.map("map").setView([28.6139, 77.209], 13);
+      mapRef.current = L.map("map").setView([28.6139, 77.209], 12);
 
       // Add OSM tile layer
       L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -63,11 +53,11 @@ function RouteMap() {
       const addRoute = (startLatLng, endLatLng, startLabel, endLabel, color) => {
         // Add markers with popups for start and end points
         L.marker([startLatLng.lat, startLatLng.lng])
-          .bindPopup(`${startLabel}`)
+          .bindPopup(`<b>${startLabel}</b>`)
           .addTo(mapRef.current);
 
         L.marker([endLatLng.lat, endLatLng.lng])
-          .bindPopup(`${endLabel}`)
+          .bindPopup(`<b>${endLabel}</b>`)
           .addTo(mapRef.current);
 
         // Add routing control with the specified color
@@ -86,21 +76,22 @@ function RouteMap() {
 
       // Iterate through data and add routes with unique colors and markers
       data.forEach((item, index) => {
-        const start = item.startPoint1;
-        const end = item.endPoint1;
+        const start = item.startPoint;
+        const end = item.endPoint;
 
         if (start && end) {
           // Geocode the start and end locations
+          
           L.Control.Geocoder.nominatim().geocode(start, (startResults) => {
             if (startResults.length > 0) {
               const startLatLng = startResults[0].center;
-
+              
               L.Control.Geocoder.nominatim().geocode(end, (endResults) => {
                 if (endResults.length > 0) {
                   const endLatLng = endResults[0].center;
 
                   // Use a color based on the index, cycling through the array
-                  const routeColor = colors[index % colors.length]; // Avoid overlapping
+                  const routeColor = colors[index % 8]; // Avoid overlapping
 
                   // Add the route with the start and end points labeled
                   addRoute(startLatLng, endLatLng, start, end, routeColor);
