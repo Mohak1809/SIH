@@ -1,21 +1,18 @@
 const express = require('express');
 const router = express.Router();
-const { handleRegisterUser,getDashboardManagerDetails, handleLoginUser, getDashboardCrewId, addCrewToDashBoard , deleteCrewToDashBoard, addNewBus} = require('../controllers/authController');
-const verifyToken = require('../middlewares/authMiddleware');
+const { handleRegisterUser, getDashboardManagerDetails, handleLoginUser, getDashboardCrewId, addCrewToDashBoard, deleteCrewToDashBoard, addNewBus } = require('../controllers/authController');
+const { authMiddleware, managerAuthMiddleware } = require('../middlewares/authMiddleware');
 
-// Registration endpoint
+// Public endpoints
 router.post('/register', handleRegisterUser);
-
-// Login endpoint
 router.post('/login', handleLoginUser);
 
+// Protected endpoints
+router.get('/dashboard-manager', authMiddleware, managerAuthMiddleware, getDashboardManagerDetails);
+router.get('/dashboard-crew/:id', authMiddleware, getDashboardCrewId);
+router.post('/add-bus', authMiddleware, addNewBus);
 
-router.get('/dashboard-manager', getDashboardManagerDetails );
-
-router.get('/dashboard-crew/:id', getDashboardCrewId);
-router.post('/add-bus', addNewBus);
-
-router.post('/dashboard-manager/add-crew', addCrewToDashBoard);
-router.delete('/dashboard-manager/delete-crew', deleteCrewToDashBoard);
+router.post('/dashboard-manager/add-crew', authMiddleware, managerAuthMiddleware, addCrewToDashBoard);
+router.delete('/dashboard-manager/delete-crew', authMiddleware, managerAuthMiddleware, deleteCrewToDashBoard);
 
 module.exports = router;
