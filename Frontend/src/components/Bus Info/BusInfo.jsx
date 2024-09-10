@@ -7,7 +7,7 @@ function BusInfo() {
     const [entriesPerPage] = useState(15); // Adjust the number of entries per page here
 
     useEffect(() => {
-        axios.get('http://localhost:5000/api/auth/dashboard-manager')
+        axios.get('http://localhost:5000/api/auth/bus-data')
             .then(res => {
                 const expandedData = res.data.buses.flatMap(bus => {
                     const requirement = [];  // Store the results in an array
