@@ -47,7 +47,7 @@ function RouteMap() {
       }).addTo(mapRef.current);
 
       // Predefined colors for routes
-      const colors = ["red", "blue", "green", "magenta", "orange", "purple", "aqua", "black"];
+      const colors = ["red", "blue", "green", "magenta", "orange", "purple", "aqua", "black", "yellow", "gray"];
 
       // Function to add route and markers to the map
       const addRoute = (startLatLng, endLatLng, startLabel, endLabel, color) => {
@@ -74,39 +74,55 @@ function RouteMap() {
         routingControlsRef.current.push(control);
       };
 
-      // Iterate through data and add routes with unique colors and markers
-      data.forEach((item, index) => {
-        const start = item.startPoint;
-        const end = item.endPoint;
+      // Function to handle rate limiting
+      const geocodeWithDelay = (item, index, delay) => {
+        return new Promise((resolve) => {
+          setTimeout(() => {
+            const start = item.startPoint;
+            const end = item.endPoint;
 
-        if (start && end) {
-          // Geocode the start and end locations
-          
-          L.Control.Geocoder.nominatim().geocode(start, (startResults) => {
-            if (startResults.length > 0) {
-              const startLatLng = startResults[0].center;
-              
-              L.Control.Geocoder.nominatim().geocode(end, (endResults) => {
-                if (endResults.length > 0) {
-                  const endLatLng = endResults[0].center;
+            if (start && end) {
+              // Geocode the start and end locations
+              L.Control.Geocoder.nominatim().geocode(start, (startResults) => {
+                if (startResults.length > 0) {
+                  const startLatLng = startResults[0].center;
+                  
+                  L.Control.Geocoder.nominatim().geocode(end, (endResults) => {
+                    if (endResults.length > 0) {
+                      const endLatLng = endResults[0].center;
 
-                  // Use a color based on the index, cycling through the array
-                  const routeColor = colors[index % 8]; // Avoid overlapping
+                      // Use a color based on the index, cycling through the array
+                      const routeColor = colors[index % colors.length]; // Avoid overlapping
 
-                  // Add the route with the start and end points labeled
-                  addRoute(startLatLng, endLatLng, start, end, routeColor);
+                      // Add the route with the start and end points labeled
+                      addRoute(startLatLng, endLatLng, start, end, routeColor);
+                      resolve();
+                    } else {
+                      console.error(`End location "${end}" not found.`);
+                      resolve();
+                    }
+                  });
                 } else {
-                  console.error(`End location "${end}" not found.`);
+                  console.error(`Start location "${start}" not found.`);
+                  resolve();
                 }
               });
             } else {
-              console.error(`Start location "${start}" not found.`);
+              console.error(`Invalid start or end point: Start: "${start}", End: "${end}"`);
+              resolve();
             }
-          });
-        } else {
-          console.error(`Invalid start or end point: Start: "${start}", End: "${end}"`);
+          }, delay);
+        });
+      };
+
+      // Process the geocoding requests sequentially with delay
+      const processGeocodingWithRateLimit = async () => {
+        for (let i = 0; i < data.length; i++) {
+          await geocodeWithDelay(data[i], i, i * 500); // 500ms delay between each request
         }
-      });
+      };
+
+      processGeocodingWithRateLimit();
 
       // Cleanup on unmount
       return () => {
