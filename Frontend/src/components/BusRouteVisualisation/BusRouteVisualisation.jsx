@@ -19,14 +19,24 @@ const BusRouteVisualization = ({ start, end }) => {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(mapRef.current);
 
-    // Function to add route to the map
+    // Function to add route and markers to the map
     const addRoute = (startLatLng, endLatLng, color) => {
+      // Add markers for start and end points
+      const startMarker = L.marker([startLatLng.lat, startLatLng.lng])
+        .bindPopup(`<b>Start: ${start}</b>`)
+        .addTo(mapRef.current);
+
+      const endMarker = L.marker([endLatLng.lat, endLatLng.lng])
+        .bindPopup(`<b>End: ${end}</b>`)
+        .addTo(mapRef.current);
+
+      // Add routing control with the specified color
       const control = L.Routing.control({
         waypoints: [L.latLng(startLatLng.lat, startLatLng.lng), L.latLng(endLatLng.lat, endLatLng.lng)],
         routeWhileDragging: true,
         createMarker: () => null, // Hide default markers
         lineOptions: {
-          styles: [{ color, weight: 5 }]
+          styles: [{ color, weight: 5 }],
         },
         show: false,
       }).addTo(mapRef.current);
@@ -49,7 +59,7 @@ const BusRouteVisualization = ({ start, end }) => {
             });
 
             // Add route between the start and end locations
-            addRoute(startLatLng, endLatLng, 'red'); // You can change the color if needed
+            addRoute(startLatLng, endLatLng, 'red');
 
             // Center the map to fit the route
             mapRef.current.fitBounds([
@@ -73,7 +83,9 @@ const BusRouteVisualization = ({ start, end }) => {
 
   return (
     <div>
-      <div id="map" style={{ height: '600px' }}></div>
+      <div id="map" style={{ height: '600px' }}
+        className="w-full h-[400px] z-0" // Set a lower z-index for the map
+      ></div>
     </div>
   );
 };

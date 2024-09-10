@@ -35,6 +35,7 @@ function RouteMap() {
         setError(error);
       });
   }, []);
+  console.log(data)
 
   useEffect(() => {
     if (data.length > 0) {
@@ -118,7 +119,7 @@ function RouteMap() {
       // Process the geocoding requests sequentially with delay
       const processGeocodingWithRateLimit = async () => {
         for (let i = 0; i < data.length; i++) {
-          await geocodeWithDelay(data[i], i, i * 500); // 500ms delay between each request
+          await geocodeWithDelay(data[i], i, i * 200); // 500ms delay between each request
         }
       };
 

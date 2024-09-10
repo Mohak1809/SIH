@@ -60,7 +60,7 @@ const DashboardManager = () => {
     setCurrentPage(1);  // Reset pagination to the first page
 
     // Filter both filterData and filterData1 based on the search query
-    const filteredResults = data.filter((item) => {
+    const filteredResults = data.assignments.filter((item) => {
       // Check if any value in either filterData or filterData1 contains the search query
       const matchesFirstFragment = Object.values(item).find(value => 
         value && value.toString().toLowerCase().includes(query)

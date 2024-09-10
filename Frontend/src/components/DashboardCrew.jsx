@@ -2,13 +2,18 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
 import BusRouteVisualization from './BusRouteVisualisation/BusRouteVisualisation';
-
+import TakeLeave from './LeaveBox/TakeLeave'; // Import the TakeLeave component
 
 function DashboardCrew() {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const excludedKeys = ["name", "_id", "__v", "routeShortName1","routeId2", "endPoint2","startPoint2","routeShortName2","distance2"];
+  const [isModalVisible, setModalVisible] = useState(false); // State to handle modal visibility
+
+  const excludedKeys = [
+    "name", "_id", "__v", "routeShortName1", "routeId2", 
+    "endPoint2", "startPoint2", "routeShortName2", "distance2"
+  ];
 
   // Get the `id` from the route parameters
   const { id } = useParams();
@@ -25,34 +30,35 @@ function DashboardCrew() {
         setLoading(false);
       });
   }, [id]);
-  
+
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error: {error.message}</p>;
-  
+
   // Flatten the data into an array of entries
-  const entries = Object.entries(data[0] || {}); 
+  const entries = Object.entries(data[0] || {});
   const filteredEntries = entries.filter(([key]) => !excludedKeys.includes(key));
-const getkey = (key) => {
-  switch(key) {
-    case "userId" : return "User Id";
-    case "crewRole" : return "Crew Role";
-    case "busNumber1" : return "Bus Number 1";
-    case "busNumber2" : return "Bus Number 2";
-    case "routeId1" : return "Route Id";
-    case "startPoint1" : return "Start Point";
-    case "endPoint1" : return "End Point";
-    case "distance1" : return "Distance (in km)";
-    case "startTime1" : return "Starting Time";
-    case "startTime2" : return "Starting Time";
-    case "expectedTime1" : return "Expected Time(in Minutes)"
-    case "expectedTime2" : return "Expected Time(in Minutes)"
-    case "shift1" : return "Shift 1";
-    case "shift2" : return "Shift 2";
-  }
-}
 
+  // Function to map keys to display labels
+  const getKeyLabel = (key) => {
+    switch (key) {
+      case "userId": return "User Id";
+      case "crewRole": return "Crew Role";
+      case "busNumber1": return "Bus Number 1";
+      case "busNumber2": return "Bus Number 2";
+      case "routeId1": return "Route Id";
+      case "startPoint1": return "Start Point";
+      case "endPoint1": return "End Point";
+      case "distance1": return "Distance (in km)";
+      case "startTime1": return "Starting Time";
+      case "startTime2": return "Starting Time";
+      case "expectedTime1": return "Expected Time (in Minutes)";
+      case "expectedTime2": return "Expected Time (in Minutes)";
+      case "shift1": return "Shift 1";
+      case "shift2": return "Shift 2";
+      default: return key;
+    }
+  };
 
-  
   return (
     <>
       <h1 className='text-center text-4xl font-medium mt-4 text-green-500'>
@@ -60,8 +66,7 @@ const getkey = (key) => {
       </h1>
       <div className="p-6 text-lg font-serif grid grid-cols-2 gap-4">
         {filteredEntries.map(([key, value], index) => {
-          // Format value for 'ExpectedTime
-          const displayKey = getkey(key);
+          const displayKey = getKeyLabel(key);
           return (
             <div
               key={index}
@@ -77,7 +82,21 @@ const getkey = (key) => {
           );
         })}
       </div>
-      < BusRouteVisualization start={data[0].startPoint1} end={data[0].endPoint1}/>
+      {/* Button to show the TakeLeave modal */}
+      <div className="text-center mb-6">
+        <button
+          onClick={() => setModalVisible(true)}
+          className="ml-4 w-32 px-4 py-2 bg-green-500 text-white rounded-lg"
+        >
+          Take a Leave
+        </button>
+      </div>
+
+      {/* Render TakeLeave modal */}
+
+      <BusRouteVisualization start={data[0].startPoint1} end={data[0].endPoint1} />
+      <TakeLeave show={isModalVisible} onClose={() => setModalVisible(false)} />
+
     </>
   );
 }
