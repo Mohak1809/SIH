@@ -10,6 +10,7 @@ router.post('/login', handleLoginUser);
 // Protected endpoints
 router.get('/dashboard-manager', authMiddleware, managerAuthMiddleware, getDashboardManagerDetails);
 router.get('/dashboard-crew/:id', authMiddleware, getDashboardCrewId);
+router.get('/bus-data/', getDashboardManagerDetails);
 router.post('/add-bus', authMiddleware, addNewBus);
 
 router.post('/dashboard-manager/add-crew', authMiddleware, managerAuthMiddleware, addCrewToDashBoard);
