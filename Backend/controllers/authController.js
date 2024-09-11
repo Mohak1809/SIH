@@ -340,6 +340,35 @@ async function getDashboardManagerDetails(req, res) {
 
   }
 }
+
+
+// Controller to update the assigned buses when a crew member's leave is approved
+const updateAssignedDb = async (req, res) => {
+  const { userId } = req.params; // Get the userId from the request parameters
+  console.log(userId);
+  
+  const { newUserId, newName } = req.body; // Get newUserId and newName from the request body
+
+  try {
+    // Find the assigned buses for the user on leave
+    const assignedData = await AssignedDB.findOne({ userId });
+
+    if (!assignedData) {
+      return res.status(404).json({ message: 'No assigned buses found for this user' });
+    }
+
+    // Update the assigned buses to a new crew member
+    assignedData.userId = newUserId; // Update with the new crew member's userId
+    assignedData.name = newName; // Update with the new crew member's name
+
+    await assignedData.save(); // Save the changes
+
+    res.status(200).json({ message: 'Assigned buses updated successfully', assignedData });
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+};
+
 module.exports = {
   handleRegisterUser,
   handleLoginUser,
@@ -347,5 +376,6 @@ module.exports = {
   getDashboardManagerDetails,
   addCrewToDashBoard,
   deleteCrewToDashBoard,
-  addNewBus  
+  addNewBus,
+  updateAssignedDb
 };

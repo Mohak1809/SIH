@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { handleRegisterUser, getDashboardManagerDetails, handleLoginUser, getDashboardCrewId, addCrewToDashBoard, deleteCrewToDashBoard, addNewBus } = require('../controllers/authController');
+const { handleRegisterUser, getDashboardManagerDetails, handleLoginUser, getDashboardCrewId, addCrewToDashBoard, deleteCrewToDashBoard, addNewBus ,updateAssignedDb} = require('../controllers/authController');
 const { authMiddleware, managerAuthMiddleware } = require('../middlewares/authMiddleware');
 
 // Public endpoints
@@ -16,4 +16,6 @@ router.post('/add-bus', authMiddleware, addNewBus);
 router.post('/dashboard-manager/add-crew', authMiddleware, managerAuthMiddleware, addCrewToDashBoard);
 router.delete('/dashboard-manager/delete-crew', authMiddleware, managerAuthMiddleware, deleteCrewToDashBoard);
 
+// PATCH route to update the assigned buses for a crew member
+router.patch('/assigneddb/:userId', authMiddleware, managerAuthMiddleware, updateAssignedDb);
 module.exports = router;
