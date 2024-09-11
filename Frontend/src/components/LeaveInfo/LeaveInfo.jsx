@@ -3,11 +3,13 @@ import axios from 'axios';
 
 const LeaveInfo = () => {
   const [leaveData, setLeaveData] = useState([]);
-  const [error, setError] = useState(null); // Add an error state
+  const [error, setError] = useState(null);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [entriesPerPage] = useState(15);
 
   useEffect(() => {
     const fetchLeaveData = async () => {
-      const token = localStorage.getItem('token'); // Get token from localStorage
+      const token = localStorage.getItem('token');
 
       if (!token) {
         setError('You must be logged in to view leave requests.');
@@ -17,7 +19,7 @@ const LeaveInfo = () => {
       try {
         const response = await axios.get('http://localhost:5000/api/leave/leave-requests', {
           headers: {
-            'Authorization': `Bearer ${token}`, // Include the token in the request header
+            'Authorization': `Bearer ${token}`,
             'Content-Type': 'application/json',
           },
         });
@@ -33,34 +35,38 @@ const LeaveInfo = () => {
 
     fetchLeaveData();
   }, []);
+
+  if (leaveData.length === 0 && !error) return <p>Loading...</p>;
+
   return (
-    <div className="overflow-x-auto">
-        <h1 className="text-center text-5xl p-8 font-semibold text-green-900">Leave Details</h1>
-      {error && <p className="text-red-500">{error}</p>} {/* Display error message */}
-      <table className="min-w-full bg-white border border-gray-200">
+    <div className=" px-4 sm:px-6 lg:px-8">
+      <h1 className="text-center text-5xl p-8 font-semibold text-green-900">Leave Details</h1>
+      {error && <p className="text-red-500">{error}</p>}
+
+      <table className="table-auto w-full mx-auto border-separate border-spacing-0 rounded-lg overflow-hidden">
         <thead>
-          <tr>
-            <th className="px-4 py-2 border text-center font-bold">User Name</th>
-            <th className="px-4 py-2 border text-center font-bold">User ID</th>
-            <th className="px-4 py-2 border text-center font-bold">Leave Type</th>
-            <th className="px-4 py-2 border text-center font-bold">From</th>
-            <th className="px-4 py-2 border text-center font-bold">To</th>
-            <th className="px-4 py-2 border text-center font-bold">Status</th>
+          <tr className="bg-[#F1F8E8]">
+            <th className="px-4 py-2 bg-[#55AD9B] text-white font-bold text-center">User Name</th>
+            <th className="px-4 py-2 bg-[#55AD9B] text-white font-bold text-center">User ID</th>
+            <th className="px-4 py-2 bg-[#55AD9B] text-white font-bold text-center">Leave Type</th>
+            <th className="px-4 py-2 bg-[#55AD9B] text-white font-bold text-center">From</th>
+            <th className="px-4 py-2 bg-[#55AD9B] text-white font-bold text-center">To</th>
+            <th className="px-4 py-2 bg-[#55AD9B] text-white font-bold text-center">Status</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody className="bg-white">
           {leaveData.map((leave) => (
-            <tr key={leave._id}>
-              <td className="px-4 py-2 border text-center">{leave.userId}</td>
-              <td className="px-4 py-2 border text-center">{leave.userId}</td>
-              <td className="px-4 py-2 border text-center">{leave.leaveType}</td>
-              <td className="px-4 py-2 border text-center">
+            <tr key={leave._id} className="even:bg-[#F1F8E8]">
+              <td className="border px-4 py-2 text-center border-gray-200">{leave.userName}</td>
+              <td className="border px-4 py-2 text-center border-gray-200">{leave.userId}</td>
+              <td className="border px-4 py-2 text-center border-gray-200">{leave.leaveType}</td>
+              <td className="border px-4 py-2 text-center border-gray-200">
                 {new Date(leave.leaveDates.from).toLocaleDateString()}
               </td>
-              <td className="px-4 py-2 border text-center">
+              <td className="border px-4 py-2 text-center border-gray-200">
                 {new Date(leave.leaveDates.to).toLocaleDateString()}
               </td>
-              <td className="px-4 py-2 border text-center">{leave.status}</td>
+              <td className="border px-4 py-2 text-center border-gray-200">{leave.status}</td>
             </tr>
           ))}
         </tbody>

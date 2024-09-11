@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Header() {
     return (
-        <header className="shadow sticky z-50 top-0">
+        <header className="shadow sticky z-50 top-0 w-screen">
             <nav className="bg-[#F1F8E8] border-gray-200 px-4 lg:px-6 py-2.5 w-full h-full"> {/* Updated background color */}
                 <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen">
                     <div className="flex items-center justify-between">
@@ -19,7 +19,7 @@ function Header() {
                             to="/"
                             className="text-gray-800 hover:bg-[#D8EFD3] focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
                         >
-                            Log in
+                            Log Out
                         </Link>
                         <Link
                             to="/register"
