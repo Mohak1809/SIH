@@ -11,6 +11,7 @@ import SimpleOutlet from './components/SimpleOutlet';
 import BusInfo from './components/Bus Info/BusInfo';
 import AddBus from './components/AddBus/AddBus';
 import RouteMap from './components/Route Map/RouteMap';
+import LeaveInfo from './components/LeaveInfo/LeaveInfo';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/BusInfo" element={<BusInfo />} />
           <Route path="/route-map" element={<RouteMap />} />
+          <Route path='/Leave-Data' element={<LeaveInfo />} />
         </Route>
 
         {/* Layout without Header and Footer */}

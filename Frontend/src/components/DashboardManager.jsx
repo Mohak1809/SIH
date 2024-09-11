@@ -125,7 +125,15 @@ const DashboardManager = () => {
     <>
       <div className="shadow-lg rounded-lg flex flex-col items-center justify-center">
         <img src="ScheduLine_Tagline_img.png" className="bg-cover bg-center" alt="Banner" />
+        <div className='w-screen'>
         <h1 className="text-center text-5xl p-8 font-semibold text-green-900">Crew Details</h1>
+        <Link
+            to={"/Leave-Data"}
+            className=" absolute left-[82%] bottom-44 px-4 py-2 bg-[#55AD9B] text-white rounded-lg hover:bg-[#95D2B3]"
+          >
+            Leave Info
+          </Link>
+          </div>
         <div className="flex items-center w-[90%] mb-4">
           <input
             type="text"
