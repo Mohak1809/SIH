@@ -39,7 +39,7 @@ const TakeLeave = ({ show, onClose }) => {
 
   return (
     <div className="fixed inset-0 flex justify-center items-center bg-gray-900 bg-opacity-50 z-50">
-      <div className="bg-white p-8 rounded-lg shadow-lg w-[90%] max-w-md">
+      <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
         <h2 className="text-xl font-semibold mb-4">Take a Leave</h2>
         {successMessage && (
           <p className="text-green-500 mb-4">{successMessage}</p>
