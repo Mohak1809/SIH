@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
-const User = require('./models/User'); // Path to your User model
-const BusRoute = require('./models/BusRoute'); // Path to your BusRoute model
-const AssignedDB = require('./models/AssignedDB'); // Path to your AssignedDB model
+const User = require('../../Backend/models/User'); // Path to your User model
+const BusRoute = require('../../Backend/models/BusRoute'); // Path to your BusRoute model
+const AssignedDB = require('../../Backend/models/AssignedDB'); // Path to your AssignedDB model
 
 async function assignBusesToConductorsAndDrivers() {
   try {

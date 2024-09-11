@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const User = require('./models/User'); // Adjust the path to where your User model is located
+const User = require('../../Backend/models/User'); // Adjust the path to where your User model is located
 
 // MongoDB connection URL
 const MONGO_URI = 'mongodb+srv://vanshaggrawal1:icWByhsiMxhAifYV@cluster0.rho0q.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
