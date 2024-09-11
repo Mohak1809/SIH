@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useParams } from 'react-router-dom';
 import BusRouteVisualization from './BusRouteVisualisation/BusRouteVisualisation';
 import TakeLeave from './LeaveBox/TakeLeave'; // Import the TakeLeave component
-
+import LeaveStatus from "./LeaveStatus/LeaveStatus"
 function DashboardCrew() {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -62,6 +62,7 @@ function DashboardCrew() {
 
         {/* Render TakeLeave modal */}
         <TakeLeave show={isModalVisible} onClose={() => setModalVisible(false)} />
+          <LeaveStatus/>
       </div>
     );
   }
@@ -129,6 +130,8 @@ function DashboardCrew() {
 
       <BusRouteVisualization start={data[0]?.startPoint1} end={data[0]?.endPoint1} />
       <TakeLeave show={isModalVisible} onClose={() => setModalVisible(false)} />
+      <LeaveStatus/>
+
     </>
   );
 }

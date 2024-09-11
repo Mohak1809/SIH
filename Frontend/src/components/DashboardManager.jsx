@@ -148,6 +148,7 @@ const DashboardManager = () => {
             </button>
             <Link
               to={"/Leave-Data"}
+              target = "_blank"
               className="ml-4 w-auto px-4 py-2 bg-[#55AD9B] text-white rounded-lg hover:bg-[#95D2B3]"
             >
               Leave Info
