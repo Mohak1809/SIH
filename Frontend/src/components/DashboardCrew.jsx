@@ -10,9 +10,16 @@ function DashboardCrew() {
   const [error, setError] = useState(null);
   const [isModalVisible, setModalVisible] = useState(false); // State to handle modal visibility
 
+  // Define your desired key order here
+  const customOrder = [
+    "userId", "crewRole", "shift1", "startTime1", "busNumber1", "routeId1", "startPoint1", "endPoint1",
+    "distance1", "expectedTime1", "shift2", "startTime2", "busNumber2", "routeId2",
+     "endPoint2", "startPoint2"
+  ];
+
   const excludedKeys = [
-    "name", "_id", "__v", "routeShortName1", "routeId2", 
-    "endPoint2", "startPoint2", "routeShortName2", "distance2"
+    "name", "_id", "__v", "routeShortName1",
+    "routeShortName2", "distance2",  "expectedTime2"
   ];
 
   // Get the `id` from the route parameters
@@ -36,7 +43,9 @@ function DashboardCrew() {
 
   // Flatten the data into an array of entries
   const entries = Object.entries(data[0] || {});
-  const filteredEntries = entries.filter(([key]) => !excludedKeys.includes(key));
+  const filteredEntries = entries
+    .filter(([key]) => !excludedKeys.includes(key))
+    .sort(([a], [b]) => customOrder.indexOf(a) - customOrder.indexOf(b)); // Sort based on custom order
 
   // Function to map keys to display labels
   const getKeyLabel = (key) => {
@@ -46,13 +55,16 @@ function DashboardCrew() {
       case "busNumber1": return "Bus Number 1";
       case "busNumber2": return "Bus Number 2";
       case "routeId1": return "Route Id";
-      case "startPoint1": return "Start Point";
-      case "endPoint1": return "End Point";
+      case "routeId2": return "Route Id";
+      case "startPoint1": return "Start Point 1";
+      case "startPoint2": return "End Point 2";
+      case "endPoint1": return "End Point 1";
+      case "endPoint2": return "Start Point 2";
       case "distance1": return "Distance (in km)";
       case "startTime1": return "Starting Time";
       case "startTime2": return "Starting Time";
-      case "expectedTime1": return "Expected Time (in Minutes)";
-      case "expectedTime2": return "Expected Time (in Minutes)";
+      case "expectedTime1": return "Expected Time (in Minutes) 1";
+      case "expectedTime2": return "Expected Time (in Minutes) 2";
       case "shift1": return "Shift 1";
       case "shift2": return "Shift 2";
       default: return key;
@@ -93,7 +105,6 @@ function DashboardCrew() {
       </div>
 
       {/* Render TakeLeave modal */}
-
       <BusRouteVisualization start={data[0].startPoint1} end={data[0].endPoint1} />
       <TakeLeave show={isModalVisible} onClose={() => setModalVisible(false)} />
 
