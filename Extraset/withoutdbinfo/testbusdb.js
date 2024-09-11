@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const BusRoute = require('./models/BusRoute'); // Adjust the path to where your BusRoute model is located
+const BusRoute = require('../../Backend/models/BusRoute'); // Adjust the path to where your BusRoute model is located
 
 // MongoDB connection URL
 const MONGO_URI = 'mongodb+srv://vanshaggrawal1:icWByhsiMxhAifYV@cluster0.rho0q.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';

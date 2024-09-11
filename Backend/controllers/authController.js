@@ -2,8 +2,15 @@ const bcrypt = require('bcrypt');
 const User = require('../models/User');
 const jwt = require('jsonwebtoken');
 const secretKey = 'schedule_line_crew&manager:999';
+require('dotenv').config({ path: "\Backend\.env" });
+// const secretKey = process.env.JWT_SECRET;
 const AssignedDB=require("../models/AssignedDB")
 const BusRoute=require("../models/BusRoute")
+
+// Make sure the secret key is being logged for verification
+// console.log('JWT_SECRET:', process.env.PORT);
+// console.log('JWT_SECRET:', secretKey);
+
 
 // Handle user registration
 async function handleRegisterUser(req, res) {
@@ -49,7 +56,7 @@ async function handleRegisterUser(req, res) {
     };
 
     // Add crew-specific fields if the role is 'Crew'
-    if (role === 'Crew') {
+    if (role === 'crew') {
       newUser.crewRole = crewRole;
       newUser.experience = experience;
       newUser.skillLevel = skillLevel;
@@ -59,7 +66,28 @@ async function handleRegisterUser(req, res) {
     // Save the new user to the database
     await new User(newUser).save();
 
-    res.status(201).json({ message: 'User registered successfully' });
+
+     // Generate a JWT token
+     const token = jwt.sign(
+      { id: newUser.id, role: newUser.crewRole }, // Payload data
+      secretKey, // JWT Secret Key
+      { expiresIn: '2h' } // Token expiry time
+  );
+
+    // res.status(201).json({ message: 'User registered successfully' });
+
+
+       // Return success response along with token
+       res.status(201).json({
+        message: 'User registered successfully',
+        token, // Send JWT token to the client
+        user: {
+            id: newUser.id,
+            name: newUser.name,
+            role: newUser.crewRole
+        }
+    });
+
   } catch (error) {
     console.error('Registration error:', error);
     res.status(500).json({ message: 'Server error' });
@@ -67,47 +95,87 @@ async function handleRegisterUser(req, res) {
 }
 
 // Handle user login
+// async function handleLoginUser(req, res) {
+//   try {
+//     console.log(req.body);
+    
+//     const { id, password } = req.body;
+//     console.log('Received data:', req.body);
+
+//     // Find the user by ID
+//     const user = await User.findOne({ id });
+//     console.log(user);
+    
+//     if (!user) {
+//       console.log('User not found:', id);
+//       return res.status(400).json({ message: 'Invalid credentials' });
+//     }
+
+//     // Check if the password is correct
+//     const isMatch = await bcrypt.compare(password, user.password);
+//     if (!isMatch) {
+//       console.log('Password mismatch for user:', id);
+//       return res.status(400).json({ message: 'Invalid credentials' });
+//     }
+
+//     const token = jwt.sign(
+//       { id: user.id, role: user.role }, 
+//       secretKey, 
+//       { expiresIn: '2h' } // Token expires in 2 hour
+//     );
+
+  
+//     // Respond with the token and user role
+//     return res.status(200).json({ 
+//       'message': 'Login successful', 
+//       token, 
+//       'role': user.role ,
+//       'id':user.id,
+//     });
+//       //return res.status(200).json({ token,role: user.role });
+    
+//   } catch (error) {
+//     console.error('Login error:', error); 
+//     res.status(500).json({ message: 'Server error' });
+//   }
+// }
+
+
 async function handleLoginUser(req, res) {
   try {
-    console.log(req.body);
+    const { id, password, } = req.body;
+    console.log(secretKey);
     
-    const { id, password } = req.body;
-    console.log('Received data:', req.body);
-
     // Find the user by ID
     const user = await User.findOne({ id });
-    console.log(user);
     
     if (!user) {
-      console.log('User not found:', id);
       return res.status(400).json({ message: 'Invalid credentials' });
     }
 
     // Check if the password is correct
     const isMatch = await bcrypt.compare(password, user.password);
     if (!isMatch) {
-      console.log('Password mismatch for user:', id);
       return res.status(400).json({ message: 'Invalid credentials' });
     }
 
+    // Create a JWT token
     const token = jwt.sign(
-      { id: user.id, role: user.role }, 
-      secretKey, 
-      { expiresIn: '2h' } // Token expires in 2 hour
+      { id: user.id, role: user.role },
+      secretKey,  // Use the secret key from the environment variables
+      { expiresIn: '2h' }
     );
 
-  
     // Respond with the token and user role
-    return res.status(200).json({ 
-      'message': 'Login successful', 
-      token, 
-      'role': user.role ,
-      'id':user.id,
+    return res.status(200).json({
+      message: 'Login successful',
+      token,
+      role: user.role,
+      id: user.id,
     });
-      //return res.status(200).json({ token,role: user.role });
-    
+
   } catch (error) {
-    console.error('Login error:', error); 
+    console.error('Login error:', error);
     res.status(500).json({ message: 'Server error' });
   }
 }
@@ -252,8 +320,8 @@ async function getDashboardManagerDetails(req, res) {
     }
 
     // Return the assignments as a JSON response
-    console.log("data is here");
-    console.log(assignments);
+    // console.log("data is here");
+    // console.log(assignments);
 
     const buses=await BusRoute.find({});
     if(buses.length==0)
@@ -262,8 +330,8 @@ async function getDashboardManagerDetails(req, res) {
       return res.status(404).json({ message: 'No busess found' });
       
     }
-    console.log("buses data  is here");
-    console.log(buses);
+    // console.log("buses data  is here");
+    // console.log(buses);
     return res.status(200).json({"assignments":assignments,"buses":buses});
   } catch (error) {
     // Handle any errors that occur during the database query
@@ -272,6 +340,35 @@ async function getDashboardManagerDetails(req, res) {
 
   }
 }
+
+
+// Controller to update the assigned buses when a crew member's leave is approved
+const updateAssignedDb = async (req, res) => {
+  const { userId } = req.params; // Get the userId from the request parameters
+  console.log(userId);
+  
+  const { newUserId, newName } = req.body; // Get newUserId and newName from the request body
+
+  try {
+    // Find the assigned buses for the user on leave
+    const assignedData = await AssignedDB.findOne({ userId });
+
+    if (!assignedData) {
+      return res.status(404).json({ message: 'No assigned buses found for this user' });
+    }
+
+    // Update the assigned buses to a new crew member
+    assignedData.userId = newUserId; // Update with the new crew member's userId
+    assignedData.name = newName; // Update with the new crew member's name
+
+    await assignedData.save(); // Save the changes
+
+    res.status(200).json({ message: 'Assigned buses updated successfully', assignedData });
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+};
+
 module.exports = {
   handleRegisterUser,
   handleLoginUser,
@@ -279,5 +376,6 @@ module.exports = {
   getDashboardManagerDetails,
   addCrewToDashBoard,
   deleteCrewToDashBoard,
-  addNewBus  
+  addNewBus,
+  updateAssignedDb
 };

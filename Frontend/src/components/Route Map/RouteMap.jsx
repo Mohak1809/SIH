@@ -15,7 +15,7 @@ function RouteMap() {
   const routingControlsRef = useRef([]);
 
   useEffect(() => {
-    axios.get("http://localhost:5000/api/auth/dashboard-manager")
+    axios.get("http://localhost:5000/api/auth/bus-data")
       .then((res) => {
         const filterData = res.data.buses
           .map((item) => {
