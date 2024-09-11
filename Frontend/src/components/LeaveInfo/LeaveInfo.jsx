@@ -19,7 +19,7 @@ const LeaveInfo = () => {
       try {
         const response = await axios.get('http://localhost:5000/api/leave/leave-requests', {
           headers: {
-            'Authorization': `Bearer ${token}`,
+            Authorization: `Bearer ${token}`,
             'Content-Type': 'application/json',
           },
         });
@@ -38,8 +38,21 @@ const LeaveInfo = () => {
 
   if (leaveData.length === 0 && !error) return <p>Loading...</p>;
 
+  const getStatusClass = (status) => {
+    switch (status) {
+      case 'Approved':
+        return 'text-green-600 font-semibold';
+      case 'Pending':
+        return 'text-orange-500 font-semibold';
+      case 'Rejected':
+        return 'text-red-600 font-semibold';
+      default:
+        return '';
+    }
+  };
+
   return (
-    <div className=" px-4 sm:px-6 lg:px-8">
+    <div className="px-4 sm:px-6 lg:px-8">
       <h1 className="text-center text-5xl p-8 font-semibold text-green-900">Leave Details</h1>
       {error && <p className="text-red-500">{error}</p>}
 
@@ -66,7 +79,9 @@ const LeaveInfo = () => {
               <td className="border px-4 py-2 text-center border-gray-200">
                 {new Date(leave.leaveDates.to).toLocaleDateString()}
               </td>
-              <td className="border px-4 py-2 text-center border-gray-200">{leave.status}</td>
+              <td className={`border px-4 py-2 text-center border-gray-200 ${getStatusClass(leave.status)}`}>
+                {leave.status}
+              </td>
             </tr>
           ))}
         </tbody>

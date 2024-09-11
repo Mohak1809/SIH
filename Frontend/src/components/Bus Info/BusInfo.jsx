@@ -10,7 +10,7 @@ function BusInfo() {
         axios.get('http://localhost:5000/api/auth/bus-data')
             .then(res => {
                 const expandedData = res.data.buses.flatMap(bus => {
-                    const requirement = [];  // Store the results in an array
+                    const requirement = [];
                     bus.busNumbers.map(busNumber => {
                         const busData = {
                             routeID: bus.routeID,
@@ -25,14 +25,43 @@ function BusInfo() {
 
                     return requirement;  // Return the array with bus details
                 });
-                setData(expandedData);
+
+                // Sort by routeID first, and if routeIDs are the same, sort by time (AM/PM considered)
+                expandedData.sort((a, b) => {
+                    if (a.routeID === b.routeID) {
+                        // Convert time to a comparable format
+                        const timeA = new Date(`1970-01-01T${convertTo24Hour(a.time)}`);
+                        const timeB = new Date(`1970-01-01T${convertTo24Hour(b.time)}`);
+                        return timeA - timeB; // Sort by time
+                    }
+                    return a.routeID - b.routeID; // Sort by routeID
+                });
+
+                setData(expandedData);  // Set sorted data
             })
             .catch(error => {
                 console.error('Error fetching JSON data:', error);
             });
     }, []);
     
-
+    // Convert 12-hour time to 24-hour time for comparison
+    const convertTo24Hour = (time12h) => {
+        const [time, modifier] = time12h.split(' ');  // Split the time and AM/PM
+        let [hours, minutes] = time.split(':');       // Split into hours and minutes
+    
+        hours = String(hours);  // Ensure hours is treated as a string
+    
+        if (hours === '12') {
+            hours = '00';  // Special case for 12 AM
+        }
+    
+        if (modifier === 'PM' && hours !== '12') {
+            hours = String(parseInt(hours, 10) + 12);  // Convert PM times, but ignore 12 PM case
+        }
+    
+        return `${hours.padStart(2, '0')}:${minutes}`;
+    };
+    
     const totalPages = Math.ceil(data.length / entriesPerPage);
     const currentEntries = data.slice(
         (currentPage - 1) * entriesPerPage,
