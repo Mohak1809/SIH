@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Header() {
     return (
-        <header className="shadow sticky z-50 top-0">
+        <header className="shadow sticky z-50 top-0 w-screen">
             <nav className="bg-[#F1F8E8] border-gray-200 px-4 lg:px-6 py-2.5 w-full h-full"> {/* Updated background color */}
                 <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen">
                     <div className="flex items-center justify-between">

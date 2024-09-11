@@ -18,9 +18,6 @@ const DashboardManager = () => {
     axios.get('http://localhost:5000/api/auth/dashboard-manager')
       .then(response => {
         setData(response.data);
-        // console.log(response);
-        // console.log(`response data  is ${response.data}`);
-        // console.log(`response data   me assignments is ${response.data.assignments}`);
         
         // Filter for first set of data
         const filtereddata = response.data.assignments.map(item => {
@@ -153,13 +150,13 @@ const DashboardManager = () => {
             Add Buses
           </Link>
         </div>
-        <table className="w-[90%] table-auto">
+        <table className="w-[90%] table-auto border-collapse">
           <thead>
             <tr className="bg-[#F1F8E8]">
               {Object.keys(filterData[0] || {}).map((header) => {
                 const displayKeys = getkey(header);
                 return (
-                  <th key={header} className="py-4 px-6 text-gray-600 font-bold uppercase whitespace-nowrap text-center">
+                  <th key={header} className="py-4 px-6 text-gray-600 font-bold uppercase whitespace-nowrap text-center border border-gray-300">
                     {displayKeys}
                   </th>
                 )
@@ -172,7 +169,7 @@ const DashboardManager = () => {
                 {/* First Row: Display the first set of values */}
                 <tr>
                   {Object.values(row).map((value, i) => (
-                    <td key={i} className="py-4 px-6 border-b border-gray-200 break-words text-center">
+                    <td key={i} className="py-4 px-6 border border-gray-300 break-words text-center">
                       {value}
                     </td>
                   ))}
@@ -180,7 +177,7 @@ const DashboardManager = () => {
                 {/* Second Row: Display the corresponding values from currentEntries1 */}
                 <tr>
                   {Object.keys(row).map((key, i) => (
-                    <td key={i} className="py-4 px-6 border-b border-gray-200 break-words text-center">
+                    <td key={i} className="py-4 px-6 border border-gray-300 break-words text-center">
                       {currentEntries1[index][key.slice(0, key.length - 1) + "2"]}
                     </td>
                   ))}
