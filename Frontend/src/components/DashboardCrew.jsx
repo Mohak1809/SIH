@@ -10,11 +10,10 @@ function DashboardCrew() {
   const [error, setError] = useState(null);
   const [isModalVisible, setModalVisible] = useState(false); // State to handle modal visibility
 
-  // Define your desired key order here
   const customOrder = [
     "userId", "crewRole", "shift1", "startTime1", "busNumber1", "routeId1", "startPoint1", "endPoint1",
     "distance1", "expectedTime1", "shift2", "startTime2", "busNumber2", "routeId2",
-     "endPoint2", "startPoint2"
+    "endPoint2", "startPoint2"
   ];
 
   const excludedKeys = [
@@ -22,18 +21,19 @@ function DashboardCrew() {
     "routeShortName2", "distance2",  "expectedTime2"
   ];
 
-  // Get the `id` from the route parameters
   const { id } = useParams();
 
   useEffect(() => {
-    // Fetch data from the backend using the `id`
     axios.get(`http://localhost:5000/api/auth/dashboard-crew/${id}`)
       .then(response => {
         setData(response.data);
         setLoading(false);
       })
       .catch(error => {
-        setError(error);
+        if (error.response && error.response.status === 404) {
+        } else {
+          setError(error);
+        }
         setLoading(false);
       });
   }, [id]);
@@ -41,13 +41,37 @@ function DashboardCrew() {
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error: {error.message}</p>;
 
-  // Flatten the data into an array of entries
+
+
+  // Ensure that data[0] exists before attempting to access its properties
+  if (data.length === 0 || !data[0]) {
+    return (
+      <div className="text-center mt-10">
+        <h1 className="text-2xl font-semibold text-red-500">
+          No route assigned today
+        </h1>
+        <div className="text-center mt-4">
+          {/* Leave button for unassigned users */}
+          <button
+            onClick={() => setModalVisible(true)}
+            className="ml-4 w-32 px-4 py-2 bg-green-500 text-white rounded-lg"
+          >
+            Take a Leave
+          </button>
+        </div>
+
+        {/* Render TakeLeave modal */}
+        <TakeLeave show={isModalVisible} onClose={() => setModalVisible(false)} />
+      </div>
+    );
+  }
+
+
   const entries = Object.entries(data[0] || {});
   const filteredEntries = entries
     .filter(([key]) => !excludedKeys.includes(key))
-    .sort(([a], [b]) => customOrder.indexOf(a) - customOrder.indexOf(b)); // Sort based on custom order
+    .sort(([a], [b]) => customOrder.indexOf(a) - customOrder.indexOf(b));
 
-  // Function to map keys to display labels
   const getKeyLabel = (key) => {
     switch (key) {
       case "userId": return "User Id";
@@ -74,7 +98,7 @@ function DashboardCrew() {
   return (
     <>
       <h1 className='text-center text-4xl font-medium mt-4 text-green-500'>
-        {data[0].name}
+        {data[0]?.name} {/* Safely access name */}
       </h1>
       <div className="p-6 text-lg font-serif grid grid-cols-2 gap-4">
         {filteredEntries.map(([key, value], index) => {
@@ -94,7 +118,6 @@ function DashboardCrew() {
           );
         })}
       </div>
-      {/* Button to show the TakeLeave modal */}
       <div className="text-center mb-6">
         <button
           onClick={() => setModalVisible(true)}
@@ -104,10 +127,8 @@ function DashboardCrew() {
         </button>
       </div>
 
-      {/* Render TakeLeave modal */}
-      <BusRouteVisualization start={data[0].startPoint1} end={data[0].endPoint1} />
+      <BusRouteVisualization start={data[0]?.startPoint1} end={data[0]?.endPoint1} />
       <TakeLeave show={isModalVisible} onClose={() => setModalVisible(false)} />
-
     </>
   );
 }

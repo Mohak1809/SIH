@@ -187,7 +187,8 @@ async function getDashboardCrewId(req, res) {
   try {
       const crewId = req.params.id;
       
-
+      // console.log(`crew id is ${crewId}`);
+      
       // Find the crew member by ID and populate the AssignedDB field
       const crewMember = await AssignedDB.find({userId:crewId});;
       
