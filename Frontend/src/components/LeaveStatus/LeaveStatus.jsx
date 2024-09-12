@@ -47,7 +47,7 @@ const LeaveStatus = () => {
   }
 
   return (
-    <div className="px-4 sm:px-6 lg:px-8">
+    <div className="px-4 sm:px-6 lg:px-8 mb-5">
       <h1 className="text-center text-5xl p-8 font-semibold text-green-900">Your Leave Status</h1>
       
       {leaveRequests.length === 0 ? (

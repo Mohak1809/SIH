@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import config from '../config';
-import GIS from './About/GIS/gis';
 
 const LoginForm = () => {
   const [id, setid] = useState('');
