@@ -3,9 +3,9 @@ import axios from 'axios';
 
 const LeaveInfo = () => {
   const [leaveData, setLeaveData] = useState([]);
+  const [unallotted, setUnallotted] = useState([]); // State for unallotted employees
   const [error, setError] = useState(null);
-  const [currentPage, setCurrentPage] = useState(1);
-  const [entriesPerPage] = useState(15);
+  const [selectedReplacements, setSelectedReplacements] = useState({}); // State to track selected replacements for each leave request
 
   useEffect(() => {
     const fetchLeaveData = async () => {
@@ -19,7 +19,7 @@ const LeaveInfo = () => {
       try {
         const response = await axios.get('http://localhost:5000/api/leave/leave-requests', {
           headers: {
-            'Authorization': `Bearer ${token}`,
+            Authorization: `Bearer ${token}`,
             'Content-Type': 'application/json',
           },
         });
@@ -33,13 +33,68 @@ const LeaveInfo = () => {
       }
     };
 
+    const fetchUnallotted = async () => {
+      try {
+        const response = await axios.get('/unallotted.json');
+        if (response.headers['content-type'].includes('application/json')) {
+          setUnallotted(response.data);
+        } else {
+          setError('Invalid content type. Expected JSON.');
+        }
+      } catch (error) {
+        setError('Failed to fetch unallotted employees.');
+      }
+    };
+
     fetchLeaveData();
+    fetchUnallotted(); // Fetch unallotted employees
   }, []);
 
-  if (leaveData.length === 0 && !error) return <p>Loading...</p>;
+  // Function to get the CSS class for leave status
+  const getStatusClass = (status) => {
+    switch (status) {
+      case 'Approved':
+        return 'text-green-600 font-semibold';
+      case 'Pending':
+        return 'text-orange-500 font-semibold';
+      case 'Rejected':
+        return 'text-red-600 font-semibold';
+      default:
+        return '';
+    }
+  };
+
+  // Handle action (approve/reject) for leave requests
+  const handleAction = async (leaveId, action) => {
+    try {
+      const token = localStorage.getItem('token');
+      const replacement = selectedReplacements[leaveId]; // Get selected replacement for the specific leave request
+
+      const response = await axios.post(`http://localhost:5000/api/leave/${leaveId}/${action}`, {
+        replacement,
+      }, {
+        headers: {
+          Authorization: `Bearer ${token}`,
+          'Content-Type': 'application/json',
+        },
+      });
+
+      // Update the leave status in the state after action
+      setLeaveData(prevState => prevState.map(leave =>
+        leave._id === leaveId ? { ...leave, status: action === 'approve' ? 'Approved' : 'Rejected' } : leave
+      ));
+    } catch (error) {
+      setError(`Failed to ${action} the request.`);
+    }
+  };
+
+  // Handle the change of selected replacement for a specific leave request
+  const handleReplacementChange = (leaveId, value) => {
+    setSelectedReplacements(prevState => ({ ...prevState, [leaveId]: value }));
+  };
 
   return (
-    <div className=" px-4 sm:px-6 lg:px-8">
+    <div className="px-4 sm:px-6 lg:px-8">
       <h1 className="text-center text-5xl p-8 font-semibold text-green-900">Leave Details</h1>
       {error && <p className="text-red-500">{error}</p>}
 
@@ -52,6 +107,7 @@ const LeaveInfo = () => {
             <th className="px-4 py-2 bg-[#55AD9B] text-white font-bold text-center">From</th>
             <th className="px-4 py-2 bg-[#55AD9B] text-white font-bold text-center">To</th>
             <th className="px-4 py-2 bg-[#55AD9B] text-white font-bold text-center">Status</th>
+            <th className="px-4 py-2 bg-[#55AD9B] text-white font-bold text-center">Action</th>
           </tr>
         </thead>
         <tbody className="bg-white">
@@ -66,7 +122,33 @@ const LeaveInfo = () => {
               <td className="border px-4 py-2 text-center border-gray-200">
                 {new Date(leave.leaveDates.to).toLocaleDateString()}
               </td>
-              <td className="border px-4 py-2 text-center border-gray-200">{leave.status}</td>
+              <td className={`border px-4 py-2 text-center border-gray-200 ${getStatusClass(leave.status)}`}>
+                {leave.status}
+              </td>
+              <td className="border px-4 py-2 text-center border-gray-200">
+                {leave.status === 'Pending' ? (
+                  <div className="flex items-center justify-center gap-2">
+                    <select className="border rounded px-2 py-1" defaultValue="">
+                      <option value="" disabled>Select Replacement</option>
+                      {unallotted.map((emp) => (
+                        <option key={emp.id} value={emp.name}>{emp.name}</option>
+                      ))}
+                    </select>
+                    <button
+                      className="bg-green-500 text-white px-2 py-1 rounded hover:bg-green-700"
+                      onClick={() => handleAction(leave._id, 'approve', document.querySelector('select').value)}
+                    >
+                      Approve
+                    </button>
+                    <button
+                      className="bg-red-500 text-white px-2 py-1 rounded hover:bg-red-700"
+                      onClick={() => handleAction(leave._id, 'reject')}
+                    >
+                      Reject
+                    </button>
+                  </div>
+                ) : leave.status}
+              </td>
             </tr>
           ))}
         </tbody>

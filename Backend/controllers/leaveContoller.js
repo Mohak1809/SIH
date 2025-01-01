@@ -4,7 +4,7 @@ const User = require('../models/User');
 // Fetch all leave requests for managers to view
 const getAllLeaveRequests = async (req, res) => {
   try {
-    const leaveRequests = await LeaveRequest.find({ status: 'Pending' });
+    const leaveRequests = await LeaveRequest.find({});
     // You might need to manually populate user data based on userId
     const users = await User.find({ id: { $in: leaveRequests.map(req => req.userId) } });
     const userMap = new Map(users.map(user => [user.id, user.name]));
