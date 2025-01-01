@@ -10,9 +10,11 @@ const connectMongodb=require("./db/connection")
 const app = express();
 
 // Middleware
-app.use(cors({ origin: 'http://localhost:5173', // Update this to match your frontend URL
-    credentials: true, // If you're sending cookies
-    }));
+// app.use(cors({ origin: 'http://localhost:5173', // Update this to match your frontend URL
+//     credentials: true, // If you're sending cookies
+//     }));
+
+app.use(cors());
 app.use(express.json()); // Middleware to parse JSON bodies
 
 // Routes
